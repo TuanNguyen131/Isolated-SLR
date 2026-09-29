@@ -1,0 +1,122 @@
+# ==============================================================================
+# Byte-compiled / Optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Environment variables & secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Model Weights, Checkpoints & Serialization
+# ==============================================================================
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+checkpoints/
+weights/
+saved_models/
+
+# ==============================================================================
+# Large Data Files & Datasets (Matrices, Videos, Archives)
+# ==============================================================================
+# Numpy & Matrix data
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Video formats
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Archives / Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Raw/Processed dataset directories
+data/raw_videos/*
+!data/raw_videos/.gitkeep
+data/landmarks/*
+!data/landmarks/.gitkeep
+
+# ==============================================================================
+# Jupyter Notebooks & Caches
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# Logs & Experiment Tracking
+# ==============================================================================
+*.log
+logs/
+wandb/
+runs/
+lightning_logs/
+tensorboard/
+
+# ==============================================================================
+# IDE & System Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
