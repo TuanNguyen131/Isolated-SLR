@@ -19,7 +19,9 @@ class WLASLDataset(Dataset):
         self.split = split
         self.transform = transform
         self.samples = []
-        # TODO: Load annotations and filter by split
+        if os.path.exists(annotations_path):
+            from .utils.filter_wlasl import load_wlasl_split
+            self.samples = load_wlasl_split(self.annotations_path, split=self.split)
 
     def __len__(self):
         return len(self.samples)

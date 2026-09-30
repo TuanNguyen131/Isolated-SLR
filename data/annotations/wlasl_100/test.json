@@ -1,0 +1,5162 @@
+[
+  {
+    "video_id": "07092",
+    "gloss": "book",
+    "label": 0,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      31,
+      4,
+      220,
+      240
+    ],
+    "signer_id": 49,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/b/book_medicine.swf",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07093",
+    "gloss": "book",
+    "label": 0,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      25,
+      0,
+      220,
+      240
+    ],
+    "signer_id": 18,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/b/book_music.swf",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07095",
+    "gloss": "book",
+    "label": 0,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      3,
+      2,
+      260,
+      240
+    ],
+    "signer_id": 18,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/b/book_science.swf",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07072",
+    "gloss": "book",
+    "label": 0,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      75,
+      0,
+      270,
+      240
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/b/book.mp4",
+    "instance_id": 26,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17730",
+    "gloss": "drink",
+    "label": 1,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      334,
+      0,
+      997,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=k6cNmM9WgUs",
+    "instance_id": 13,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17713",
+    "gloss": "drink",
+    "label": 1,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      28,
+      0,
+      542,
+      480
+    ],
+    "signer_id": 21,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1467773819.9825.mp4",
+    "instance_id": 21,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17716",
+    "gloss": "drink",
+    "label": 1,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      113,
+      0,
+      493,
+      360
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/d/drink-british.mp4",
+    "instance_id": 24,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17718",
+    "gloss": "drink",
+    "label": 1,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      84,
+      0,
+      506,
+      360
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/d/drink-mug.mp4",
+    "instance_id": 26,
+    "variation_id": 0
+  },
+  {
+    "video_id": "12306",
+    "gloss": "computer",
+    "label": 2,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 5122,
+    "frame_end": 5181,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "12332",
+    "gloss": "computer",
+    "label": 2,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      331,
+      67,
+      869,
+      720
+    ],
+    "signer_id": 65,
+    "source": "nabboud",
+    "url": "https://www.youtube.com/watch?v=lVo6MByRMHY",
+    "instance_id": 8,
+    "variation_id": 2
+  },
+  {
+    "video_id": "12336",
+    "gloss": "computer",
+    "label": 2,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      386,
+      67,
+      872,
+      720
+    ],
+    "signer_id": 65,
+    "source": "nabboud",
+    "url": "https://www.youtube.com/watch?v=-wmqgdmwySo",
+    "instance_id": 12,
+    "variation_id": 0
+  },
+  {
+    "video_id": "12320",
+    "gloss": "computer",
+    "label": 2,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      74,
+      19,
+      565,
+      480
+    ],
+    "signer_id": 59,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1466901185.5915.mp4",
+    "instance_id": 23,
+    "variation_id": 1
+  },
+  {
+    "video_id": "67519",
+    "gloss": "computer",
+    "label": 2,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      96,
+      17,
+      417,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/u1xoXux2NaE",
+    "instance_id": 24,
+    "variation_id": 1
+  },
+  {
+    "video_id": "05735",
+    "gloss": "before",
+    "label": 3,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      30,
+      4,
+      550,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/b/before-long.mp4",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "05727",
+    "gloss": "before",
+    "label": 3,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      386,
+      45,
+      810,
+      720
+    ],
+    "signer_id": 38,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/before.mp4",
+    "instance_id": 20,
+    "variation_id": 1
+  },
+  {
+    "video_id": "05739",
+    "gloss": "before",
+    "label": 3,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      74,
+      23,
+      209,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/22/22829.mp4",
+    "instance_id": 23,
+    "variation_id": 1
+  },
+  {
+    "video_id": "05741",
+    "gloss": "before",
+    "label": 3,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      65,
+      9,
+      219,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/5/5971.mp4",
+    "instance_id": 25,
+    "variation_id": 0
+  },
+  {
+    "video_id": "09847",
+    "gloss": "chair",
+    "label": 4,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1830,
+    "frame_end": 1889,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "09867",
+    "gloss": "chair",
+    "label": 4,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      5,
+      9,
+      250,
+      240
+    ],
+    "signer_id": 72,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com//main/c/chair_wood.swf",
+    "instance_id": 9,
+    "variation_id": 0
+  },
+  {
+    "video_id": "09855",
+    "gloss": "chair",
+    "label": 4,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      288,
+      29,
+      1001,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=8vc2vD9N4tk",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "24857",
+    "gloss": "go",
+    "label": 5,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 887,
+    "frame_end": 926,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=YdHKN_wHZqo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "24960",
+    "gloss": "go",
+    "label": 5,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      78,
+      25,
+      214,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23517.mp4",
+    "instance_id": 9,
+    "variation_id": 1
+  },
+  {
+    "video_id": "67715",
+    "gloss": "go",
+    "label": 5,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      106,
+      19,
+      343,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/QfVrSA3yrSc",
+    "instance_id": 34,
+    "variation_id": 0
+  },
+  {
+    "video_id": "11305",
+    "gloss": "clothes",
+    "label": 6,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3938,
+    "frame_end": 3997,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "11311",
+    "gloss": "clothes",
+    "label": 6,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      70,
+      21,
+      614,
+      480
+    ],
+    "signer_id": 59,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1466899298.7370.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "11318",
+    "gloss": "clothes",
+    "label": 6,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      0,
+      6,
+      224,
+      240
+    ],
+    "signer_id": 72,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com//main/c/clothes_designer.swf",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63219",
+    "gloss": "who",
+    "label": 7,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2159,
+    "frame_end": 2235,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63226",
+    "gloss": "who",
+    "label": 7,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      235,
+      15,
+      526,
+      414
+    ],
+    "signer_id": 36,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/who.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63233",
+    "gloss": "who",
+    "label": 7,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      121,
+      12,
+      533,
+      480
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/w/who.mp4",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "65300",
+    "gloss": "candy",
+    "label": 8,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      195,
+      16,
+      467,
+      370
+    ],
+    "signer_id": 89,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CA/CANDY_2-1014.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "08915",
+    "gloss": "candy",
+    "label": 8,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      23,
+      0,
+      286,
+      240
+    ],
+    "signer_id": 56,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/51294.mp4",
+    "instance_id": 18,
+    "variation_id": 1
+  },
+  {
+    "video_id": "08925",
+    "gloss": "candy",
+    "label": 8,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      78,
+      15,
+      233,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/7/7906.mp4",
+    "instance_id": 21,
+    "variation_id": 1
+  },
+  {
+    "video_id": "65415",
+    "gloss": "cousin",
+    "label": 9,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      134,
+      17,
+      491,
+      370
+    ],
+    "signer_id": 102,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/CO/COUSIN-1171.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13635",
+    "gloss": "cousin",
+    "label": 9,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      59,
+      25,
+      528,
+      480
+    ],
+    "signer_id": 59,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1466904400.1624.mp4",
+    "instance_id": 9,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67535",
+    "gloss": "cousin",
+    "label": 9,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      86,
+      20,
+      382,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/mBNbzPNTVqk",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14855",
+    "gloss": "deaf",
+    "label": 10,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 497,
+    "frame_end": 543,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14883",
+    "gloss": "deaf",
+    "label": 10,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      738,
+      111,
+      1463,
+      1080
+    ],
+    "signer_id": 45,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Deaf%202-1tMYCoZB0lE.mp4",
+    "instance_id": 10,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14888",
+    "gloss": "deaf",
+    "label": 10,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      95,
+      28,
+      530,
+      480
+    ],
+    "signer_id": 15,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1522766619.2346.mp4",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "65717",
+    "gloss": "fine",
+    "label": 11,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      160,
+      15,
+      471,
+      370
+    ],
+    "signer_id": 94,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FI/FINE-455.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70234",
+    "gloss": "fine",
+    "label": 11,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4638,
+    "frame_end": 4746,
+    "bbox": [
+      163,
+      42,
+      390,
+      360
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=4Nh1iFv2BMc",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "21890",
+    "gloss": "fine",
+    "label": 11,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      166,
+      54,
+      515,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/cost.mp4",
+    "instance_id": 9,
+    "variation_id": 1
+  },
+  {
+    "video_id": "27194",
+    "gloss": "help",
+    "label": 12,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1387,
+    "frame_end": 1433,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "27209",
+    "gloss": "help",
+    "label": 12,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      66,
+      20,
+      607,
+      480
+    ],
+    "signer_id": 17,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1471136062.8464.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "27213",
+    "gloss": "help",
+    "label": 12,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      92,
+      24,
+      202,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23431.mp4",
+    "instance_id": 13,
+    "variation_id": 0
+  },
+  {
+    "video_id": "38482",
+    "gloss": "no",
+    "label": 13,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1318,
+    "frame_end": 1397,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "38525",
+    "gloss": "no",
+    "label": 13,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      223,
+      12,
+      525,
+      414
+    ],
+    "signer_id": 36,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/no.mp4",
+    "instance_id": 9,
+    "variation_id": 0
+  },
+  {
+    "video_id": "38531",
+    "gloss": "no",
+    "label": 13,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      121,
+      0,
+      545,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/n/no.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57941",
+    "gloss": "thin",
+    "label": 14,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      823,
+      73,
+      1592,
+      1080
+    ],
+    "signer_id": 32,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Thin-fTYMARYgieE.mp4",
+    "instance_id": 15,
+    "variation_id": 1
+  },
+  {
+    "video_id": "57943",
+    "gloss": "thin",
+    "label": 14,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      129,
+      21,
+      550,
+      480
+    ],
+    "signer_id": 34,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1546575308.9841.mp4",
+    "instance_id": 20,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57944",
+    "gloss": "thin",
+    "label": 14,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      56,
+      0,
+      581,
+      480
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/t/thin2.mp4",
+    "instance_id": 21,
+    "variation_id": 1
+  },
+  {
+    "video_id": "62152",
+    "gloss": "walk",
+    "label": 15,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 187,
+    "frame_end": 249,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62160",
+    "gloss": "walk",
+    "label": 15,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      513,
+      128,
+      1847,
+      1080
+    ],
+    "signer_id": 39,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Walk%202-lSM2XoWrTUY.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62166",
+    "gloss": "walk",
+    "label": 15,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      59,
+      1,
+      564,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/w/walk.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64201",
+    "gloss": "year",
+    "label": 16,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 77,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=BRO-oYGV224",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64210",
+    "gloss": "year",
+    "label": 16,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      229,
+      13,
+      548,
+      414
+    ],
+    "signer_id": 36,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/year.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64209",
+    "gloss": "year",
+    "label": 16,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      52,
+      0,
+      274,
+      240
+    ],
+    "signer_id": 42,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/51103.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64275",
+    "gloss": "yes",
+    "label": 17,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 105,
+    "frame_end": 174,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=BRO-oYGV224",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64293",
+    "gloss": "yes",
+    "label": 17,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      70,
+      20,
+      212,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23546.mp4",
+    "instance_id": 9,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64297",
+    "gloss": "yes",
+    "label": 17,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      155,
+      14,
+      481,
+      360
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=JLNxO35tB-U",
+    "instance_id": 14,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68720",
+    "gloss": "all",
+    "label": 18,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 69,
+    "bbox": [
+      100,
+      15,
+      526,
+      359
+    ],
+    "signer_id": 113,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=My4w56H6qwk",
+    "instance_id": 3,
+    "variation_id": 1
+  },
+  {
+    "video_id": "01986",
+    "gloss": "all",
+    "label": 18,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      43,
+      0,
+      269,
+      240
+    ],
+    "signer_id": 2,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/244016.mp4",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "01996",
+    "gloss": "all",
+    "label": 18,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      115,
+      8,
+      500,
+      360
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=BEfH2a6OfRA",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06455",
+    "gloss": "black",
+    "label": 19,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3109,
+    "frame_end": 3158,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06481",
+    "gloss": "black",
+    "label": 19,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      233,
+      3,
+      946,
+      720
+    ],
+    "signer_id": 47,
+    "source": "scott",
+    "url": "https://www.youtube.com/watch?v=HoDXS3W8lEM",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06483",
+    "gloss": "black",
+    "label": 19,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      144,
+      6,
+      487,
+      360
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=O5_4x8p5t4U",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70271",
+    "gloss": "cool",
+    "label": 20,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4948,
+    "frame_end": 5095,
+    "bbox": [
+      148,
+      46,
+      404,
+      360
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=WGfiiDgrq1I",
+    "instance_id": 2,
+    "variation_id": 1
+  },
+  {
+    "video_id": "13198",
+    "gloss": "cool",
+    "label": 20,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      822,
+      84,
+      1608,
+      1052
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Cool%20cool-wonohTR_Bv4.mp4",
+    "instance_id": 9,
+    "variation_id": 2
+  },
+  {
+    "video_id": "13196",
+    "gloss": "cool",
+    "label": 20,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      608,
+      85,
+      1596,
+      1077
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Cool%202-qCqdPZVJTYY.mp4",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "21933",
+    "gloss": "finish",
+    "label": 21,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1429,
+    "frame_end": 1481,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70361",
+    "gloss": "finish",
+    "label": 21,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 7669,
+    "frame_end": 7786,
+    "bbox": [
+      181,
+      56,
+      437,
+      360
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=bq-HmgjGzmw",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "21944",
+    "gloss": "finish",
+    "label": 21,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      734,
+      126,
+      1442,
+      1080
+    ],
+    "signer_id": 45,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Finish%2C%20That%27s%20Enough-UODQssr2FSc.mp4",
+    "instance_id": 8,
+    "variation_id": 1
+  },
+  {
+    "video_id": "28074",
+    "gloss": "hot",
+    "label": 22,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2249,
+    "frame_end": 2285,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "28119",
+    "gloss": "hot",
+    "label": 22,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      142,
+      37,
+      410,
+      339
+    ],
+    "signer_id": 64,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=Eya_OdUAevw",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "28121",
+    "gloss": "hot",
+    "label": 22,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      328,
+      34,
+      937,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=F84dU7A7jI0",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69389",
+    "gloss": "like",
+    "label": 23,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      344,
+      36,
+      876,
+      720
+    ],
+    "signer_id": 118,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/like.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68093",
+    "gloss": "like",
+    "label": 23,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      403,
+      14,
+      1068,
+      720
+    ],
+    "signer_id": 109,
+    "source": "valencia-asl",
+    "url": "https://www.youtube.com/watch?v=0qeMFifNqC4",
+    "instance_id": 2,
+    "variation_id": 0
+  },
+  {
+    "video_id": "33286",
+    "gloss": "like",
+    "label": 23,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      184,
+      61,
+      541,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/like.mp4",
+    "instance_id": 6,
+    "variation_id": 1
+  },
+  {
+    "video_id": "34822",
+    "gloss": "many",
+    "label": 24,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 461,
+    "frame_end": 517,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "34834",
+    "gloss": "many",
+    "label": 24,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      328,
+      41,
+      963,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=7O2mS0Kz4CA",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "34836",
+    "gloss": "many",
+    "label": 24,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      330,
+      28,
+      966,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=Ku9SWR4uSUI",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "36927",
+    "gloss": "mother",
+    "label": 25,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2187,
+    "frame_end": 2239,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67908",
+    "gloss": "mother",
+    "label": 25,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      105,
+      14,
+      372,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/MEhxsAx_n6A",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "36940",
+    "gloss": "mother",
+    "label": 25,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      383,
+      38,
+      973,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=CMElqMGZrHc",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "38982",
+    "gloss": "now",
+    "label": 26,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1842,
+    "frame_end": 1871,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "39005",
+    "gloss": "now",
+    "label": 26,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      0,
+      10,
+      230,
+      240
+    ],
+    "signer_id": 30,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/n/now.swf",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "38991",
+    "gloss": "now",
+    "label": 26,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      46,
+      1,
+      273,
+      240
+    ],
+    "signer_id": 56,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/49006.mp4",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "40114",
+    "gloss": "orange",
+    "label": 27,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1181,
+    "frame_end": 1240,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=K1VPkuTMpP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67949",
+    "gloss": "orange",
+    "label": 27,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      134,
+      17,
+      377,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/F4cpgfDA0ds",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "40126",
+    "gloss": "orange",
+    "label": 27,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      350,
+      8,
+      932,
+      720
+    ],
+    "signer_id": 47,
+    "source": "scott",
+    "url": "https://www.youtube.com/watch?v=V3hT7-PIJz4",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "56552",
+    "gloss": "table",
+    "label": 28,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 24,
+    "frame_end": 80,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67275",
+    "gloss": "table",
+    "label": 28,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      111,
+      20,
+      408,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/XtP6_KGsQwE",
+    "instance_id": 20,
+    "variation_id": 0
+  },
+  {
+    "video_id": "56567",
+    "gloss": "table",
+    "label": 28,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      187,
+      22,
+      1025,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=UJINxF1cSUA",
+    "instance_id": 22,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57646",
+    "gloss": "thanksgiving",
+    "label": 29,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      5,
+      14,
+      238,
+      240
+    ],
+    "signer_id": 24,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/t/thanksgiving.swf",
+    "instance_id": 3,
+    "variation_id": 1
+  },
+  {
+    "video_id": "57637",
+    "gloss": "thanksgiving",
+    "label": 29,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      82,
+      0,
+      547,
+      480
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/t/thanksgiving-us.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57640",
+    "gloss": "thanksgiving",
+    "label": 29,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      65,
+      16,
+      209,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23653.mp4",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62967",
+    "gloss": "what",
+    "label": 30,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      766,
+      98,
+      1727,
+      1080
+    ],
+    "signer_id": 39,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20What%202-xFO06HB3kFs.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62987",
+    "gloss": "what",
+    "label": 30,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      159,
+      58,
+      577,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/what2.mp4",
+    "instance_id": 20,
+    "variation_id": 1
+  },
+  {
+    "video_id": "62975",
+    "gloss": "what",
+    "label": 30,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      52,
+      24,
+      246,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23463.mp4",
+    "instance_id": 25,
+    "variation_id": 1
+  },
+  {
+    "video_id": "63662",
+    "gloss": "woman",
+    "label": 31,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3191,
+    "frame_end": 3250,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63664",
+    "gloss": "woman",
+    "label": 31,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      33,
+      0,
+      294,
+      240
+    ],
+    "signer_id": 42,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/51081.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63675",
+    "gloss": "woman",
+    "label": 31,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      375,
+      38,
+      972,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=GobeSyJHyLk",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "05628",
+    "gloss": "bed",
+    "label": 32,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1456,
+    "frame_end": 1505,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "05639",
+    "gloss": "bed",
+    "label": 32,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      330,
+      31,
+      923,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=6lQwfs5E7lM",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06822",
+    "gloss": "blue",
+    "label": 33,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3453,
+    "frame_end": 3512,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06845",
+    "gloss": "blue",
+    "label": 33,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      232,
+      39,
+      483,
+      400
+    ],
+    "signer_id": 41,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/blue.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07383",
+    "gloss": "bowling",
+    "label": 34,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4053,
+    "frame_end": 4099,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07400",
+    "gloss": "bowling",
+    "label": 34,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      89,
+      9,
+      213,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/6/6345.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69257",
+    "gloss": "can",
+    "label": 35,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      285,
+      31,
+      964,
+      720
+    ],
+    "signer_id": 118,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/can.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "08947",
+    "gloss": "can",
+    "label": 35,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      234,
+      49,
+      961,
+      720
+    ],
+    "signer_id": 65,
+    "source": "nabboud",
+    "url": "https://www.youtube.com/watch?v=AkAg7GO240c",
+    "instance_id": 23,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17097",
+    "gloss": "dog",
+    "label": 36,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      133,
+      62,
+      585,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/dog.mp4",
+    "instance_id": 4,
+    "variation_id": 1
+  },
+  {
+    "video_id": "65506",
+    "gloss": "dog",
+    "label": 36,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      175,
+      16,
+      496,
+      370
+    ],
+    "signer_id": 102,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/DO/DOG-376.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67578",
+    "gloss": "dog",
+    "label": 36,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      133,
+      14,
+      375,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/-9AsKTaXwH8",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "20976",
+    "gloss": "family",
+    "label": 37,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 334,
+    "frame_end": 373,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "20991",
+    "gloss": "family",
+    "label": 37,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      4,
+      5,
+      220,
+      240
+    ],
+    "signer_id": 44,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/f/family.swf",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "22109",
+    "gloss": "fish",
+    "label": 38,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1525,
+    "frame_end": 1574,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=lWaQxL25Aew",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "22117",
+    "gloss": "fish",
+    "label": 38,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      36,
+      9,
+      540,
+      480
+    ],
+    "signer_id": 21,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468494686.303.mp4",
+    "instance_id": 9,
+    "variation_id": 0
+  },
+  {
+    "video_id": "22126",
+    "gloss": "fish",
+    "label": 38,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      359,
+      69,
+      965,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=IJyUcYJMpmU",
+    "instance_id": 21,
+    "variation_id": 1
+  },
+  {
+    "video_id": "25318",
+    "gloss": "graduate",
+    "label": 39,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1520,
+    "frame_end": 1549,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=YdHKN_wHZqo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67722",
+    "gloss": "graduate",
+    "label": 39,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      95,
+      7,
+      388,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/aciHfU1IrCc",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "26688",
+    "gloss": "hat",
+    "label": 40,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 628,
+    "frame_end": 684,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "26723",
+    "gloss": "hat",
+    "label": 40,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      284,
+      0,
+      952,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=7byMTWfeQxQ",
+    "instance_id": 30,
+    "variation_id": 0
+  },
+  {
+    "video_id": "65884",
+    "gloss": "hearing",
+    "label": 41,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      159,
+      36,
+      488,
+      370
+    ],
+    "signer_id": 106,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/HE/HEARING-1773.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "26984",
+    "gloss": "hearing",
+    "label": 41,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      217,
+      43,
+      945,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=o8jWmf65mTQ",
+    "instance_id": 20,
+    "variation_id": 0
+  },
+  {
+    "video_id": "31750",
+    "gloss": "kiss",
+    "label": 42,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      745,
+      128,
+      1540,
+      1069
+    ],
+    "signer_id": 31,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Cheek%20Kissing-igoSeqb5kF8.mp4",
+    "instance_id": 4,
+    "variation_id": 0
+  },
+  {
+    "video_id": "31758",
+    "gloss": "kiss",
+    "label": 42,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      350,
+      24,
+      989,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=bbunI-2KVKo",
+    "instance_id": 13,
+    "variation_id": 1
+  },
+  {
+    "video_id": "31749",
+    "gloss": "kiss",
+    "label": 42,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      444,
+      60,
+      822,
+      720
+    ],
+    "signer_id": 38,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/kiss.mp4",
+    "instance_id": 14,
+    "variation_id": 1
+  },
+  {
+    "video_id": "32157",
+    "gloss": "language",
+    "label": 43,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      223,
+      89,
+      1635,
+      1080
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Language%204-a0lbU50n0wI.mp4",
+    "instance_id": 5,
+    "variation_id": 1
+  },
+  {
+    "video_id": "32166",
+    "gloss": "language",
+    "label": 43,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      4,
+      5,
+      257,
+      240
+    ],
+    "signer_id": 25,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/l/language.swf",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "32167",
+    "gloss": "language",
+    "label": 43,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      174,
+      53,
+      532,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/language.mp4",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67829",
+    "gloss": "later",
+    "label": 44,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      76,
+      17,
+      375,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/s3wDKw4Y4w0",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "32329",
+    "gloss": "later",
+    "label": 44,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      64,
+      0,
+      507,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/l/later.mp4",
+    "instance_id": 17,
+    "variation_id": 1
+  },
+  {
+    "video_id": "34685",
+    "gloss": "man",
+    "label": 45,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 298,
+    "frame_end": 340,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "34743",
+    "gloss": "man",
+    "label": 45,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      293,
+      30,
+      948,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=lyAWyqDxUqg",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "51077",
+    "gloss": "shirt",
+    "label": 46,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      19,
+      3,
+      245,
+      240
+    ],
+    "signer_id": 72,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/s/shirt.swf",
+    "instance_id": 7,
+    "variation_id": 1
+  },
+  {
+    "video_id": "51066",
+    "gloss": "shirt",
+    "label": 46,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      65,
+      17,
+      213,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23618.mp4",
+    "instance_id": 22,
+    "variation_id": 0
+  },
+  {
+    "video_id": "51068",
+    "gloss": "shirt",
+    "label": 46,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      71,
+      14,
+      224,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/7/7169.mp4",
+    "instance_id": 24,
+    "variation_id": 0
+  },
+  {
+    "video_id": "55356",
+    "gloss": "study",
+    "label": 47,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 9873,
+    "frame_end": 9919,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "55375",
+    "gloss": "study",
+    "label": 47,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      190,
+      52,
+      574,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/study.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "56835",
+    "gloss": "tall",
+    "label": 48,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 258,
+    "frame_end": 310,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "56843",
+    "gloss": "tall",
+    "label": 48,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      73,
+      0,
+      557,
+      480
+    ],
+    "signer_id": 13,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468943060.7425.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67278",
+    "gloss": "tall",
+    "label": 48,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      98,
+      10,
+      387,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/qk-or6jz0Hk",
+    "instance_id": 15,
+    "variation_id": 1
+  },
+  {
+    "video_id": "63191",
+    "gloss": "white",
+    "label": 49,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2112,
+    "frame_end": 2158,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63201",
+    "gloss": "white",
+    "label": 49,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      237,
+      13,
+      537,
+      414
+    ],
+    "signer_id": 36,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/white.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64082",
+    "gloss": "wrong",
+    "label": 50,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4173,
+    "frame_end": 4232,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "64097",
+    "gloss": "wrong",
+    "label": 50,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      207,
+      53,
+      561,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/wrong.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "00625",
+    "gloss": "accident",
+    "label": 51,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      675,
+      50,
+      1461,
+      1080
+    ],
+    "signer_id": 6,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Accident%2C%20Accidentally-0F9FseAyJb4.mp4",
+    "instance_id": 3,
+    "variation_id": 1
+  },
+  {
+    "video_id": "00634",
+    "gloss": "accident",
+    "label": 51,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      61,
+      12,
+      227,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/7/7493.mp4",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "00635",
+    "gloss": "accident",
+    "label": 51,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      256,
+      44,
+      977,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=SvF0j4h-3uE",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "02997",
+    "gloss": "apple",
+    "label": 52,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3181,
+    "frame_end": 3233,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=jPn0FQxkdBc",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "03004",
+    "gloss": "apple",
+    "label": 52,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      87,
+      0,
+      459,
+      360
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/a/apple.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06326",
+    "gloss": "bird",
+    "label": 53,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2852,
+    "frame_end": 2921,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06335",
+    "gloss": "bird",
+    "label": 53,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      86,
+      18,
+      509,
+      480
+    ],
+    "signer_id": 59,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1466682238.9870.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "09945",
+    "gloss": "change",
+    "label": 54,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2026,
+    "frame_end": 2065,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "09950",
+    "gloss": "change",
+    "label": 54,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      64,
+      4,
+      266,
+      240
+    ],
+    "signer_id": 2,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/125921.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "11752",
+    "gloss": "color",
+    "label": 55,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4298,
+    "frame_end": 4360,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "11772",
+    "gloss": "color",
+    "label": 55,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      54,
+      9,
+      215,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/14/14075.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13325",
+    "gloss": "corn",
+    "label": 56,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      61,
+      15,
+      292,
+      240
+    ],
+    "signer_id": 0,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/69483.mp4",
+    "instance_id": 4,
+    "variation_id": 1
+  },
+  {
+    "video_id": "67530",
+    "gloss": "corn",
+    "label": 56,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      106,
+      18,
+      381,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/lPM0S5NBl_0",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13334",
+    "gloss": "corn",
+    "label": 56,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      67,
+      9,
+      218,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/8/8825.mp4",
+    "instance_id": 18,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13681",
+    "gloss": "cow",
+    "label": 57,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 6767,
+    "frame_end": 6803,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13708",
+    "gloss": "cow",
+    "label": 57,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      229,
+      95,
+      941,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=sdr-c7NRai8",
+    "instance_id": 15,
+    "variation_id": 1
+  },
+  {
+    "video_id": "13710",
+    "gloss": "cow",
+    "label": 57,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      193,
+      43,
+      481,
+      400
+    ],
+    "signer_id": 41,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/cow.mp4",
+    "instance_id": 17,
+    "variation_id": 1
+  },
+  {
+    "video_id": "14621",
+    "gloss": "dance",
+    "label": 58,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 67,
+    "frame_end": 126,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14626",
+    "gloss": "dance",
+    "label": 58,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      28,
+      0,
+      541,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/d/dance.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14673",
+    "gloss": "dark",
+    "label": 59,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      520,
+      34,
+      1709,
+      1080
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Dark%203-5soiYfTU5hI.mp4",
+    "instance_id": 2,
+    "variation_id": 1
+  },
+  {
+    "video_id": "14682",
+    "gloss": "dark",
+    "label": 59,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      172,
+      7,
+      1065,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=CGLQEeEzo1s",
+    "instance_id": 14,
+    "variation_id": 0
+  },
+  {
+    "video_id": "14685",
+    "gloss": "dark",
+    "label": 59,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      169,
+      52,
+      568,
+      400
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/dark.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "17020",
+    "gloss": "doctor",
+    "label": 60,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      91,
+      21,
+      201,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/22/22644.mp4",
+    "instance_id": 8,
+    "variation_id": 0
+  },
+  {
+    "video_id": "67579",
+    "gloss": "doctor",
+    "label": 60,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      110,
+      20,
+      382,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/sSpld6bXlM0",
+    "instance_id": 14,
+    "variation_id": 1
+  },
+  {
+    "video_id": "17024",
+    "gloss": "doctor",
+    "label": 60,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      18,
+      7,
+      216,
+      240
+    ],
+    "signer_id": 72,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/d/doctor_1.swf",
+    "instance_id": 16,
+    "variation_id": 1
+  },
+  {
+    "video_id": "18316",
+    "gloss": "eat",
+    "label": 61,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 672,
+    "frame_end": 728,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=2oaCeSdHG-A",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "18326",
+    "gloss": "eat",
+    "label": 61,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      113,
+      0,
+      474,
+      360
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/e/eat-iclpop.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "19255",
+    "gloss": "enjoy",
+    "label": 62,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1822,
+    "frame_end": 1898,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=2oaCeSdHG-A",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "19262",
+    "gloss": "enjoy",
+    "label": 62,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      62,
+      0,
+      552,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/e/enjoy2.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "65761",
+    "gloss": "forget",
+    "label": 63,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      143,
+      12,
+      461,
+      370
+    ],
+    "signer_id": 94,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/FO/FORGET-565.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "22954",
+    "gloss": "forget",
+    "label": 63,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      571,
+      73,
+      1567,
+      1080
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Forget-5pgZiT-vz60.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "24636",
+    "gloss": "give",
+    "label": 64,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      31,
+      0,
+      272,
+      240
+    ],
+    "signer_id": 35,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/51920.mp4",
+    "instance_id": 20,
+    "variation_id": 0
+  },
+  {
+    "video_id": "24649",
+    "gloss": "give",
+    "label": 64,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      89,
+      19,
+      219,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23273.mp4",
+    "instance_id": 24,
+    "variation_id": 1
+  },
+  {
+    "video_id": "32253",
+    "gloss": "last",
+    "label": 65,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      65,
+      9,
+      219,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/5/5971.mp4",
+    "instance_id": 10,
+    "variation_id": 1
+  },
+  {
+    "video_id": "32246",
+    "gloss": "last",
+    "label": 65,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      36,
+      33,
+      247,
+      240
+    ],
+    "signer_id": 2,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/91452.mp4",
+    "instance_id": 13,
+    "variation_id": 0
+  },
+  {
+    "video_id": "32258",
+    "gloss": "last",
+    "label": 65,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      298,
+      23,
+      924,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=f8MfjdWKh24",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "35506",
+    "gloss": "meet",
+    "label": 66,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 865,
+    "frame_end": 894,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=IxO7unGawfk",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "35513",
+    "gloss": "meet",
+    "label": 66,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      150,
+      0,
+      551,
+      480
+    ],
+    "signer_id": 13,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468714718.3075.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68132",
+    "gloss": "pink",
+    "label": 67,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      255,
+      0,
+      648,
+      480
+    ],
+    "signer_id": 110,
+    "source": "valencia-asl",
+    "url": "https://www.youtube.com/watch?v=2igUp9Fvq-E",
+    "instance_id": 2,
+    "variation_id": 0
+  },
+  {
+    "video_id": "42840",
+    "gloss": "pink",
+    "label": 67,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      342,
+      17,
+      922,
+      720
+    ],
+    "signer_id": 47,
+    "source": "scott",
+    "url": "https://www.youtube.com/watch?v=S8k8gjRdYXw",
+    "instance_id": 17,
+    "variation_id": 1
+  },
+  {
+    "video_id": "42842",
+    "gloss": "pink",
+    "label": 67,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      31,
+      8,
+      219,
+      240
+    ],
+    "signer_id": 54,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/p/pink.swf",
+    "instance_id": 19,
+    "variation_id": 1
+  },
+  {
+    "video_id": "42953",
+    "gloss": "pizza",
+    "label": 68,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2674,
+    "frame_end": 2723,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69431",
+    "gloss": "pizza",
+    "label": 68,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      339,
+      35,
+      924,
+      720
+    ],
+    "signer_id": 117,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/pizza.mp4",
+    "instance_id": 1,
+    "variation_id": 1
+  },
+  {
+    "video_id": "42960",
+    "gloss": "pizza",
+    "label": 68,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      799,
+      68,
+      1614,
+      1062
+    ],
+    "signer_id": 32,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Pizza%202-Gm8PTVKHF1s.mp4",
+    "instance_id": 10,
+    "variation_id": 2
+  },
+  {
+    "video_id": "69433",
+    "gloss": "play",
+    "label": 69,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      295,
+      40,
+      962,
+      720
+    ],
+    "signer_id": 118,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/play.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "43171",
+    "gloss": "play",
+    "label": 69,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      147,
+      0,
+      593,
+      480
+    ],
+    "signer_id": 13,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468726677.3753.mp4",
+    "instance_id": 6,
+    "variation_id": 0
+  },
+  {
+    "video_id": "49577",
+    "gloss": "school",
+    "label": 70,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 901,
+    "frame_end": 953,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68145",
+    "gloss": "school",
+    "label": 70,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      265,
+      0,
+      1052,
+      720
+    ],
+    "signer_id": 109,
+    "source": "valencia-asl",
+    "url": "https://www.youtube.com/watch?v=ig7SKr3tvWc",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "50041",
+    "gloss": "secretary",
+    "label": 71,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      103,
+      0,
+      582,
+      480
+    ],
+    "signer_id": 13,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468764756.5155.mp4",
+    "instance_id": 5,
+    "variation_id": 1
+  },
+  {
+    "video_id": "67177",
+    "gloss": "secretary",
+    "label": 71,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      98,
+      14,
+      397,
+      360
+    ],
+    "signer_id": 109,
+    "source": "asllex",
+    "url": "https://youtu.be/rhpYRl3kHQU",
+    "instance_id": 11,
+    "variation_id": 0
+  },
+  {
+    "video_id": "50050",
+    "gloss": "secretary",
+    "label": 71,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      355,
+      23,
+      943,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=U3lM2jSLNno",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "51233",
+    "gloss": "short",
+    "label": 72,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      47,
+      13,
+      217,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/9/9192.mp4",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "51234",
+    "gloss": "short",
+    "label": 72,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      2,
+      16,
+      235,
+      240
+    ],
+    "signer_id": 83,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/s/short.swf",
+    "instance_id": 17,
+    "variation_id": 1
+  },
+  {
+    "video_id": "58488",
+    "gloss": "time",
+    "label": 73,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2828,
+    "frame_end": 2890,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "58502",
+    "gloss": "time",
+    "label": 73,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      77,
+      13,
+      230,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23948.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62241",
+    "gloss": "want",
+    "label": 74,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 297,
+    "frame_end": 346,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "62247",
+    "gloss": "want",
+    "label": 74,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      387,
+      30,
+      1043,
+      720
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/SignSchool%20Want%20copy.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63769",
+    "gloss": "work",
+    "label": 75,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3525,
+    "frame_end": 3574,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=A5dihMAjeTE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "63789",
+    "gloss": "work",
+    "label": 75,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      57,
+      6,
+      262,
+      240
+    ],
+    "signer_id": 2,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/244773.mp4",
+    "instance_id": 5,
+    "variation_id": 0
+  },
+  {
+    "video_id": "01386",
+    "gloss": "africa",
+    "label": 76,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      717,
+      44,
+      1540,
+      1080
+    ],
+    "signer_id": 6,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Africa%203-Jn6HQbdJE48.mp4",
+    "instance_id": 4,
+    "variation_id": 1
+  },
+  {
+    "video_id": "01394",
+    "gloss": "africa",
+    "label": 76,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      351,
+      45,
+      945,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=YnK5IFMrc6Q",
+    "instance_id": 13,
+    "variation_id": 0
+  },
+  {
+    "video_id": "01397",
+    "gloss": "africa",
+    "label": 76,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      8,
+      19,
+      201,
+      240
+    ],
+    "signer_id": 16,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/a/africa_2.swf",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "05227",
+    "gloss": "basketball",
+    "label": 77,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1032,
+    "frame_end": 1084,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69225",
+    "gloss": "basketball",
+    "label": 77,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      478,
+      33,
+      1478,
+      1080
+    ],
+    "signer_id": 120,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/basketball.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06366",
+    "gloss": "birthday",
+    "label": 78,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      273,
+      49,
+      936,
+      720
+    ],
+    "signer_id": 5,
+    "source": "aslu",
+    "url": "https://www.youtube.com/watch?v=1n3eN9v8VV0",
+    "instance_id": 8,
+    "variation_id": 1
+  },
+  {
+    "video_id": "06370",
+    "gloss": "birthday",
+    "label": 78,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      25,
+      5,
+      241,
+      240
+    ],
+    "signer_id": 54,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/b/birthday.swf",
+    "instance_id": 14,
+    "variation_id": 0
+  },
+  {
+    "video_id": "06360",
+    "gloss": "birthday",
+    "label": 78,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      75,
+      24,
+      510,
+      480
+    ],
+    "signer_id": 59,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1466682386.9294.mp4",
+    "instance_id": 16,
+    "variation_id": 0
+  },
+  {
+    "video_id": "07957",
+    "gloss": "brown",
+    "label": 79,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4926,
+    "frame_end": 4972,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=pDqITge_TGs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69252",
+    "gloss": "brown",
+    "label": 79,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      335,
+      37,
+      874,
+      720
+    ],
+    "signer_id": 118,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/brown.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "08429",
+    "gloss": "but",
+    "label": 80,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      82,
+      25,
+      220,
+      192
+    ],
+    "signer_id": 10,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/23/23503.mp4",
+    "instance_id": 5,
+    "variation_id": 1
+  },
+  {
+    "video_id": "08436",
+    "gloss": "but",
+    "label": 80,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      5,
+      15,
+      253,
+      240
+    ],
+    "signer_id": 25,
+    "source": "aslpro",
+    "url": "http://www.aslpro.com/main/b/but.swf",
+    "instance_id": 15,
+    "variation_id": 0
+  },
+  {
+    "video_id": "08425",
+    "gloss": "but",
+    "label": 80,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      386,
+      61,
+      1797,
+      1080
+    ],
+    "signer_id": 4,
+    "source": "signschool",
+    "url": "https://signstock.blob.core.windows.net/signschool/videos/db_uploads/SignSchool%20Different-JM7Z5mfnrSk.mp4",
+    "instance_id": 17,
+    "variation_id": 0
+  },
+  {
+    "video_id": "10156",
+    "gloss": "cheat",
+    "label": 81,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      73,
+      0,
+      522,
+      480
+    ],
+    "signer_id": 20,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/c/cheat-us.mp4",
+    "instance_id": 19,
+    "variation_id": 0
+  },
+  {
+    "video_id": "10159",
+    "gloss": "cheat",
+    "label": 81,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      56,
+      11,
+      207,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/14/14047.mp4",
+    "instance_id": 22,
+    "variation_id": 1
+  },
+  {
+    "video_id": "10888",
+    "gloss": "city",
+    "label": 82,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3489,
+    "frame_end": 3538,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69269",
+    "gloss": "city",
+    "label": 82,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      490,
+      71,
+      1375,
+      1080
+    ],
+    "signer_id": 115,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/city.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "13154",
+    "gloss": "cook",
+    "label": 83,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 5932,
+    "frame_end": 5984,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=PPmQd2zWdP0",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70030",
+    "gloss": "cook",
+    "label": 83,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3522,
+    "frame_end": 3613,
+    "bbox": [
+      55,
+      22,
+      512,
+      480
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=sErq0TJMKEo",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "15031",
+    "gloss": "decide",
+    "label": 84,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 678,
+    "frame_end": 737,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=ChIupJBcxjs",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70119",
+    "gloss": "decide",
+    "label": 84,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 4053,
+    "frame_end": 4158,
+    "bbox": [
+      166,
+      12,
+      502,
+      480
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=lvqGMGFmuV4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70029",
+    "gloss": "full",
+    "label": 85,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 3367,
+    "frame_end": 3478,
+    "bbox": [
+      91,
+      23,
+      485,
+      480
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=sErq0TJMKEo",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "23767",
+    "gloss": "full",
+    "label": 85,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      242,
+      46,
+      836,
+      720
+    ],
+    "signer_id": 38,
+    "source": "startasl",
+    "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/full.mp4",
+    "instance_id": 15,
+    "variation_id": 1
+  },
+  {
+    "video_id": "28187",
+    "gloss": "how",
+    "label": 86,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2382,
+    "frame_end": 2418,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=SiBub8VD5wo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69370",
+    "gloss": "how",
+    "label": 86,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      378,
+      49,
+      894,
+      720
+    ],
+    "signer_id": 115,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/how.mp4",
+    "instance_id": 1,
+    "variation_id": 1
+  },
+  {
+    "video_id": "28201",
+    "gloss": "how",
+    "label": 86,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      51,
+      0,
+      255,
+      240
+    ],
+    "signer_id": 8,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/456602.mp4",
+    "instance_id": 10,
+    "variation_id": 0
+  },
+  {
+    "video_id": "30830",
+    "gloss": "jacket",
+    "label": 87,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 34,
+    "frame_end": 73,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=8kWVajLqBL4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68320",
+    "gloss": "jacket",
+    "label": 87,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 49,
+    "bbox": [
+      283,
+      0,
+      1019,
+      720
+    ],
+    "signer_id": 115,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=9YdNdSUawfc",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68636",
+    "gloss": "letter",
+    "label": 88,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 46,
+    "bbox": [
+      347,
+      16,
+      930,
+      720
+    ],
+    "signer_id": 115,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=Kw9nFq7HD4Y",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70325",
+    "gloss": "letter",
+    "label": 88,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 5137,
+    "frame_end": 5241,
+    "bbox": [
+      130,
+      31,
+      288,
+      240
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=pc0-gVEETVg",
+    "instance_id": 2,
+    "variation_id": 1
+  },
+  {
+    "video_id": "32950",
+    "gloss": "letter",
+    "label": 88,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      127,
+      26,
+      515,
+      480
+    ],
+    "signer_id": 15,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1553868352.971.mp4",
+    "instance_id": 6,
+    "variation_id": 2
+  },
+  {
+    "video_id": "66111",
+    "gloss": "medicine",
+    "label": 89,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      181,
+      28,
+      456,
+      370
+    ],
+    "signer_id": 97,
+    "source": "aslsignbank",
+    "url": "https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/ASL/ME/MEDICINE-1621.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68810",
+    "gloss": "medicine",
+    "label": 89,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 102,
+    "bbox": [
+      221,
+      33,
+      1044,
+      720
+    ],
+    "signer_id": 113,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=pupBwmtznhI",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "37879",
+    "gloss": "need",
+    "label": 90,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 507,
+    "frame_end": 546,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=1_jXxjd0lKE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70237",
+    "gloss": "need",
+    "label": 90,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 5549,
+    "frame_end": 5666,
+    "bbox": [
+      154,
+      44,
+      399,
+      360
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=4Nh1iFv2BMc",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "40816",
+    "gloss": "paint",
+    "label": 91,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 101,
+    "frame_end": 173,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68364",
+    "gloss": "paint",
+    "label": 91,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 91,
+    "bbox": [
+      117,
+      11,
+      546,
+      358
+    ],
+    "signer_id": 115,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=bzeoojCEbX0",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "41008",
+    "gloss": "paper",
+    "label": 92,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 247,
+    "frame_end": 296,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68446",
+    "gloss": "paper",
+    "label": 92,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 56,
+    "bbox": [
+      326,
+      0,
+      915,
+      720
+    ],
+    "signer_id": 115,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=f85vUmJJP8I",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "45252",
+    "gloss": "pull",
+    "label": 93,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 6706,
+    "frame_end": 6755,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69439",
+    "gloss": "pull",
+    "label": 93,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      71,
+      38,
+      1022,
+      720
+    ],
+    "signer_id": 115,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/pull.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "45432",
+    "gloss": "purple",
+    "label": 94,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 6859,
+    "frame_end": 6898,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=zHd4YEFzpwE",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "69440",
+    "gloss": "purple",
+    "label": 94,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      169,
+      38,
+      878,
+      720
+    ],
+    "signer_id": 118,
+    "source": "aslbrick",
+    "url": "http://aslbricks.org/New/ASL-Videos/purple.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "48126",
+    "gloss": "right",
+    "label": 95,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      147,
+      49,
+      540,
+      398
+    ],
+    "signer_id": 12,
+    "source": "aslsearch",
+    "url": "http://www.aslsearch.com/signs/videos/right.mp4",
+    "instance_id": 8,
+    "variation_id": 1
+  },
+  {
+    "video_id": "48115",
+    "gloss": "right",
+    "label": 95,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      86,
+      15,
+      214,
+      192
+    ],
+    "signer_id": 11,
+    "source": "signingsavvy",
+    "url": "https://www.signingsavvy.com/signs/mp4/6/6234.mp4",
+    "instance_id": 20,
+    "variation_id": 0
+  },
+  {
+    "video_id": "49173",
+    "gloss": "same",
+    "label": 96,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      61,
+      0,
+      257,
+      240
+    ],
+    "signer_id": 63,
+    "source": "spreadthesign",
+    "url": "https://media.spreadthesign.com/video/mp4/13/50775.mp4",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "49179",
+    "gloss": "same",
+    "label": 96,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      14,
+      0,
+      320,
+      240
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/s/same-also.mp4",
+    "instance_id": 6,
+    "variation_id": 0
+  },
+  {
+    "video_id": "49180",
+    "gloss": "same",
+    "label": 96,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      140,
+      0,
+      540,
+      480
+    ],
+    "signer_id": 14,
+    "source": "handspeak",
+    "url": "https://www.handspeak.com/word/s/same-as.mp4",
+    "instance_id": 7,
+    "variation_id": 1
+  },
+  {
+    "video_id": "53258",
+    "gloss": "son",
+    "label": 97,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 6645,
+    "frame_end": 6694,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=XB3Q6IX6CBo",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "68336",
+    "gloss": "son",
+    "label": 97,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": 57,
+    "bbox": [
+      225,
+      12,
+      987,
+      720
+    ],
+    "signer_id": 112,
+    "source": "lillybauer",
+    "url": "https://www.youtube.com/watch?v=Aq6l7fEWRVM",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57273",
+    "gloss": "tell",
+    "label": 98,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 840,
+    "frame_end": 876,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "57278",
+    "gloss": "tell",
+    "label": 98,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1,
+    "frame_end": -1,
+    "bbox": [
+      134,
+      0,
+      506,
+      480
+    ],
+    "signer_id": 13,
+    "source": "asldeafined",
+    "url": "https://media.asldeafined.com/vocabulary/1468943705.2416.mp4",
+    "instance_id": 1,
+    "variation_id": 0
+  },
+  {
+    "video_id": "58359",
+    "gloss": "thursday",
+    "label": 99,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 2655,
+    "frame_end": 2707,
+    "bbox": [
+      0,
+      0,
+      360,
+      240
+    ],
+    "signer_id": 9,
+    "source": "asl5200",
+    "url": "https://www.youtube.com/watch?v=x6CehcknaH8",
+    "instance_id": 0,
+    "variation_id": 0
+  },
+  {
+    "video_id": "70026",
+    "gloss": "thursday",
+    "label": 99,
+    "split": "test",
+    "fps": 25,
+    "frame_start": 1402,
+    "frame_end": 1493,
+    "bbox": [
+      166,
+      19,
+      472,
+      480
+    ],
+    "signer_id": 121,
+    "source": "northtexas",
+    "url": "https://www.youtube.com/watch?v=sErq0TJMKEo",
+    "instance_id": 1,
+    "variation_id": 0
+  }
+]
