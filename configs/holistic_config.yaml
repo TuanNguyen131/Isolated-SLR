@@ -1,0 +1,48 @@
+# Cấu hình MediaPipe Holistic cho bài toán Isolated Sign Language Recognition (WLASL-100)
+
+mediapipe:
+  # Chế độ chạy: False cho video (bật optical tracking giữa các frame liên tiếp), True cho ảnh tĩnh
+  static_image_mode: false
+
+  # Độ phức tạp của mô hình: 0 (nhẹ nhất), 1 (cân bằng - khuyến nghị), 2 (chính xác cao nhất nhưng nặng)
+  model_complexity: 1
+
+  # Làm mượt chuyển động landmark giữa các frame liên tiếp
+  smooth_landmarks: true
+
+  # Ngưỡng tin cậy phát hiện ban đầu (min detection confidence)
+  min_detection_confidence: 0.5
+
+  # Ngưỡng tin cậy bám vết khung hình (min tracking confidence)
+  min_tracking_confidence: 0.5
+
+  # Tinh chỉnh landmark khuôn mặt (false: 468 mesh points chuẩn; true: 478 points có thêm mắt)
+  refine_face_landmarks: false
+
+  # Bật phân đoạn nền (không cần thiết cho SLR -> false để tăng tốc độ xử lý)
+  enable_segmentation: false
+
+extraction:
+  # Chế độ chọn tập điểm landmark:
+  # - "full": 543 điểm (33 pose + 468 face + 21 left_hand + 21 right_hand) - chuẩn benchmark Google/WLASL
+  # - "hands_pose": 75 điểm (33 pose + 21 left_hand + 21 right_hand) - tối ưu cho mô hình gọn nhẹ, tập trung cử chỉ
+  # - "hands_pose_lips": 115 điểm (33 pose + 21 left_hand + 21 right_hand + 40 lips) - bổ sung khẩu hình miệng
+  keypoint_mode: "full"
+
+  # Tọa độ không gian: true = (x, y, z), false = (x, y)
+  include_z: true
+
+  # Thêm chỉ số hiển thị (visibility) cho pose landmarks (thành x, y, z, v)
+  include_visibility: false
+
+  # Chuẩn hóa tọa độ (centering vào điểm giữa 2 vai, scale theo khoảng cách vai)
+  normalize: true
+
+  # Giá trị thay thế khi một bộ phận không xuất hiện trong khung hình: "zeros" hoặc "nan"
+  fill_missing: "zeros"
+
+  # Tần suất lấy mẫu khung hình: 1 = lấy tất cả các frame, 2 = lấy xen kẽ mỗi 2 frame
+  frame_stride: 1
+
+  # Giới hạn số khung hình tối đa mỗi video (0 = giữ nguyên độ dài thực tế)
+  max_frames: 0
