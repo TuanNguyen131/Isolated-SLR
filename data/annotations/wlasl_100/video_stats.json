@@ -1,0 +1,276 @@
+{
+    "total_expected": 2038,
+    "valid_count": 932,
+    "missing_count": 1106,
+    "corrupted_count": 0,
+    "integrity_rate_pct": 45.73,
+    "duration_stats": {
+        "min": 0.77,
+        "max": 8.12,
+        "mean": 2.54,
+        "median": 2.5,
+        "std": 0.89,
+        "q25": 1.96,
+        "q75": 3.04
+    },
+    "frame_stats": {
+        "min": 19.0,
+        "max": 212.0,
+        "mean": 71.61,
+        "median": 70.0,
+        "std": 28.03,
+        "q25": 53.0,
+        "q75": 88.0
+    },
+    "size_stats_mb": {
+        "min": 0.03,
+        "max": 7.34,
+        "mean": 0.48,
+        "median": 0.33,
+        "std": 0.74,
+        "q25": 0.14,
+        "q75": 0.54
+    },
+    "duration_bins": {
+        "< 1.0s (Rất ngắn)": 10,
+        "1.0s - 2.0s (Ngắn)": 233,
+        "2.0s - 3.5s (Trung bình)": 579,
+        "3.5s - 5.0s (Dài)": 101,
+        ">= 5.0s (Rất dài)": 9
+    },
+    "frame_bins": {
+        "< 30 frames": 31,
+        "30 - 60 frames": 283,
+        "60 - 90 frames": 399,
+        "90 - 150 frames": 210,
+        ">= 150 frames": 9
+    },
+    "resolutions": {
+        "1920x1080": 266,
+        "640x480": 135,
+        "1280x720": 119,
+        "656x370": 105,
+        "320x240": 91,
+        "480x320": 72,
+        "736x414": 54,
+        "626x360": 33,
+        "854x480": 13,
+        "852x480": 11,
+        "720x480": 10,
+        "848x480": 8
+    },
+    "aspect_ratios": {
+        "16:9": 622,
+        "4:3": 228,
+        "3:2": 82
+    },
+    "fps_distribution": {
+        "30": 571,
+        "24": 216,
+        "25": 129,
+        "20": 6,
+        "29": 5,
+        "60": 4
+    },
+    "splits_summary": {
+        "train": {
+            "total_expected": 1442,
+            "valid_count": 633,
+            "missing_count": 809,
+            "corrupted_count": 0,
+            "coverage_pct": 43.9,
+            "duration": {
+                "min": 0.79,
+                "max": 8.12,
+                "mean": 2.53,
+                "median": 2.5,
+                "std": 0.87,
+                "q25": 1.94,
+                "q75": 3.0
+            },
+            "frames": {
+                "min": 19.0,
+                "max": 212.0,
+                "mean": 72.11,
+                "median": 71.0,
+                "std": 28.6,
+                "q25": 53.0,
+                "q75": 88.0
+            }
+        },
+        "val": {
+            "total_expected": 338,
+            "valid_count": 155,
+            "missing_count": 183,
+            "corrupted_count": 0,
+            "coverage_pct": 45.9,
+            "duration": {
+                "min": 0.77,
+                "max": 8.12,
+                "mean": 2.66,
+                "median": 2.57,
+                "std": 1.0,
+                "q25": 2.0,
+                "q75": 3.15
+            },
+            "frames": {
+                "min": 23.0,
+                "max": 195.0,
+                "mean": 73.47,
+                "median": 72.0,
+                "std": 27.45,
+                "q25": 54.0,
+                "q75": 89.0
+            }
+        },
+        "test": {
+            "total_expected": 258,
+            "valid_count": 144,
+            "missing_count": 114,
+            "corrupted_count": 0,
+            "coverage_pct": 55.8,
+            "duration": {
+                "min": 0.8,
+                "max": 4.94,
+                "mean": 2.44,
+                "median": 2.4,
+                "std": 0.8,
+                "q25": 1.88,
+                "q75": 3.01
+            },
+            "frames": {
+                "min": 23.0,
+                "max": 148.0,
+                "mean": 67.44,
+                "median": 63.5,
+                "std": 25.56,
+                "q25": 49.5,
+                "q75": 84.25
+            }
+        }
+    },
+    "class_stats": {
+        "total_classes": 100,
+        "classes_with_at_least_1_video": 100,
+        "classes_with_at_least_5_videos": 99,
+        "min_samples_per_class": 4,
+        "max_samples_per_class": 17,
+        "mean_samples_per_class": 9.32
+    },
+    "source_stats": {
+        "aslbrick": {
+            "total": 45,
+            "valid": 44,
+            "missing": 1,
+            "corrupted": 0
+        },
+        "aslsignbank": {
+            "total": 108,
+            "valid": 106,
+            "missing": 2,
+            "corrupted": 0
+        },
+        "valencia-asl": {
+            "total": 53,
+            "valid": 26,
+            "missing": 27,
+            "corrupted": 0
+        },
+        "lillybauer": {
+            "total": 72,
+            "valid": 0,
+            "missing": 72,
+            "corrupted": 0
+        },
+        "northtexas": {
+            "total": 51,
+            "valid": 35,
+            "missing": 16,
+            "corrupted": 0
+        },
+        "aslpro": {
+            "total": 162,
+            "valid": 0,
+            "missing": 162,
+            "corrupted": 0
+        },
+        "signschool": {
+            "total": 196,
+            "valid": 196,
+            "missing": 0,
+            "corrupted": 0
+        },
+        "startasl": {
+            "total": 99,
+            "valid": 99,
+            "missing": 0,
+            "corrupted": 0
+        },
+        "asldeafined": {
+            "total": 131,
+            "valid": 131,
+            "missing": 0,
+            "corrupted": 0
+        },
+        "aslsearch": {
+            "total": 114,
+            "valid": 0,
+            "missing": 114,
+            "corrupted": 0
+        },
+        "handspeak": {
+            "total": 174,
+            "valid": 0,
+            "missing": 174,
+            "corrupted": 0
+        },
+        "asllex": {
+            "total": 96,
+            "valid": 0,
+            "missing": 96,
+            "corrupted": 0
+        },
+        "signingsavvy": {
+            "total": 225,
+            "valid": 0,
+            "missing": 225,
+            "corrupted": 0
+        },
+        "aslu": {
+            "total": 255,
+            "valid": 117,
+            "missing": 138,
+            "corrupted": 0
+        },
+        "nabboud": {
+            "total": 62,
+            "valid": 0,
+            "missing": 62,
+            "corrupted": 0
+        },
+        "spreadthesign": {
+            "total": 91,
+            "valid": 91,
+            "missing": 0,
+            "corrupted": 0
+        },
+        "asl5200": {
+            "total": 82,
+            "valid": 72,
+            "missing": 10,
+            "corrupted": 0
+        },
+        "scott": {
+            "total": 14,
+            "valid": 7,
+            "missing": 7,
+            "corrupted": 0
+        },
+        "elementalasl": {
+            "total": 8,
+            "valid": 8,
+            "missing": 0,
+            "corrupted": 0
+        }
+    }
+}

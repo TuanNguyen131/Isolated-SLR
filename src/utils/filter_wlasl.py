@@ -79,41 +79,70 @@ def load_wlasl_split(
     annotation_source: Union[str, Path],
     split: str = "train",
     num_classes: int = 100,
+    only_available: bool = False,
+    videos_dir: Optional[Union[str, Path]] = "data/raw_videos",
 ) -> List[dict]:
     """
     Tải danh sách các mẫu thuộc một split cụ thể ('train', 'val', 'test').
     Hỗ trợ cả việc truyền vào:
     - File split riêng (e.g. data/annotations/wlasl_100/train.json)
-    - File splits tổng hợp (e.g. data/annotations/wlasl_100/splits.json)
+    - File splits tổng hợp (e.g. data/annotations/wlasl_100/splits.json hoặc splits_available.json)
     - File WLASL gốc (e.g. data/annotations/WLASL_v0.3.json) kết hợp num_classes
+    - Lọc chỉ các video thực sự tồn tại nếu only_available=True
     """
     source_path = Path(annotation_source)
 
     if not source_path.exists():
         raise FileNotFoundError(f"Đường dẫn không tồn tại: {source_path}")
 
+    records = []
+
     # Nếu truyền vào thư mục chứa splits
     if source_path.is_dir():
-        split_file = source_path / f"{split}.json"
-        if split_file.is_file():
-            with open(split_file, "r", encoding="utf-8") as f:
-                return json.load(f)
+        # Kiểm tra ưu tiên splits_available.json nếu only_available=True
+        if only_available:
+            avail_file = source_path / "splits_available.json"
+            if avail_file.is_file():
+                with open(avail_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    records = data.get(split, [])
+        if not records:
+            split_file = source_path / f"{split}.json"
+            if split_file.is_file():
+                with open(split_file, "r", encoding="utf-8") as f:
+                    records = json.load(f)
 
     # Nếu truyền vào file JSON
-    if source_path.is_file():
+    elif source_path.is_file():
         with open(source_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         # Trường hợp 1: file train.json / val.json / test.json trực tiếp (danh sách bản ghi)
         if isinstance(data, list) and len(data) > 0 and "split" in data[0] and "video_id" in data[0]:
-            return [item for item in data if item.get("split") == split]
+            records = [item for item in data if item.get("split") == split]
 
         # Trường hợp 2: file splits.json có keys 'train', 'val', 'test'
-        if isinstance(data, dict) and split in data:
-            return data[split]
+        elif isinstance(data, dict) and split in data:
+            records = data[split]
 
         # Trường hợp 3: file WLASL_v0.3.json hoặc WLASL_100.json cấu trúc gốc
-        subset = extract_wlasl_subset(source_path, num_classes=num_classes)
-        return subset["splits_data"].get(split, [])
+        else:
+            subset = extract_wlasl_subset(source_path, num_classes=num_classes)
+            records = subset["splits_data"].get(split, [])
+    else:
+        raise ValueError(f"Không nhận diện được định dạng annotation tại: {source_path}")
 
-    raise ValueError(f"Không nhận diện được định dạng annotation tại: {source_path}")
+    # Lọc chỉ giữ lại video thực tế có sẵn trên đĩa nếu được yêu cầu
+    if only_available and videos_dir:
+        v_dir = Path(videos_dir)
+        filtered = []
+        for r in records:
+            vid_id = r.get("video_id")
+            if vid_id:
+                v_path = v_dir / f"{vid_id}.mp4"
+                if v_path.is_file() and v_path.stat().st_size > 1024:
+                    filtered.append(r)
+        return filtered
+
+    return records
+

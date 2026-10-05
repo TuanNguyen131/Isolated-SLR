@@ -1,0 +1,1107 @@
+video_id,gloss,split,source,url,reason
+07093,book,test,aslpro,http://www.aslpro.com/main/b/book_music.swf,HTTP_STATUS_404
+07091,book,train,aslpro,http://www.aslpro.com/main/b/book_math.swf,HTTP_STATUS_404
+07085,book,train,aslpro,http://www.aslpro.com/main/b/book_english_grammar.swf,HTTP_STATUS_404
+07088,book,train,aslpro,http://www.aslpro.com/main/b/book_history.swf,HTTP_STATUS_404
+07087,book,train,aslpro,http://www.aslpro.com/main/b/book_geometry.swf,HTTP_STATUS_404
+07090,book,train,aslpro,http://www.aslpro.com/main/b/book_literature.swf,HTTP_STATUS_404
+07086,book,train,aslpro,http://www.aslpro.com/main/b/book_geography.swf,HTTP_STATUS_404
+07094,book,val,aslpro,http://www.aslpro.com/main/b/book_photography.swf,HTTP_STATUS_404
+07095,book,test,aslpro,http://www.aslpro.com/main/b/book_science.swf,HTTP_STATUS_404
+07089,book,train,aslpro,http://www.aslpro.com/main/b/book_law.swf,HTTP_STATUS_404
+07099,book,val,aslsearch,http://www.aslsearch.com/signs/videos/book.mp4,INVALID_CONTENT_TYPE_HTML
+07096,book,val,aslpro,http://www.aslpro.com/main/b/book_spelling.swf,HTTP_STATUS_404
+07077,book,train,aslpro,http://www.aslpro.com/main/b/book_accounting.swf,HTTP_STATUS_404
+07098,book,val,aslpro,http://www.aslpro.com/main/b/book_trigonometry.swf,HTTP_STATUS_404
+07078,book,train,aslpro,http://www.aslpro.com/main/b/book_algebra.swf,HTTP_STATUS_404
+07072,book,test,handspeak,https://www.handspeak.com/word/b/book.mp4,HTTP_STATUS_404
+07073,book,train,handspeak,https://www.handspeak.com/word/b/books-pile.mp4,HTTP_STATUS_404
+07081,book,train,aslpro,http://www.aslpro.com/main/b/book_art.swf,HTTP_STATUS_404
+07082,book,train,aslpro,http://www.aslpro.com/main/b/book_business.swf,HTTP_STATUS_404
+07084,book,train,aslpro,http://www.aslpro.com/main/b/book_coloring.swf,HTTP_STATUS_404
+07083,book,val,aslpro,http://www.aslpro.com/main/b/book_chemistry.swf,HTTP_STATUS_404
+07071,book,train,handspeak,https://www.handspeak.com/word/b/book2.mp4,HTTP_STATUS_404
+07097,book,train,aslpro,http://www.aslpro.com/main/b/book.swf,HTTP_STATUS_404
+07074,book,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14326.mp4,HTTP_STATUS_403
+17733,drink,train,aslsearch,http://www.aslsearch.com/signs/videos/drink-alcohol.mp4,INVALID_CONTENT_TYPE_HTML
+17732,drink,train,aslpro,http://www.aslpro.com/main/d/drink.swf,HTTP_STATUS_404
+17734,drink,val,aslsearch,http://www.aslsearch.com/signs/videos/drink.mp4,INVALID_CONTENT_TYPE_HTML
+07080,book,train,aslpro,http://www.aslpro.com/main/b/book_art_history.swf,HTTP_STATUS_404
+07092,book,test,aslpro,http://www.aslpro.com/main/b/book_medicine.swf,HTTP_STATUS_404
+17714,drink,train,handspeak,https://www.handspeak.com/word/d/drink2.mp4,HTTP_STATUS_404
+17716,drink,test,handspeak,https://www.handspeak.com/word/d/drink-british.mp4,HTTP_STATUS_404
+17717,drink,train,handspeak,https://www.handspeak.com/word/d/drink.mp4,HTTP_STATUS_404
+17718,drink,test,handspeak,https://www.handspeak.com/word/d/drink-mug.mp4,HTTP_STATUS_404
+17721,drink,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23388.mp4,HTTP_STATUS_403
+17722,drink,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23388.mp4,HTTP_STATUS_403
+12328,computer,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6326.mp4,HTTP_STATUS_403
+07079,book,train,aslpro,http://www.aslpro.com/main/b/book_anatomy.swf,HTTP_STATUS_404
+12338,computer,train,aslsearch,http://www.aslsearch.com/signs/videos/computer.mp4,INVALID_CONTENT_TYPE_HTML
+17715,drink,train,handspeak,https://www.handspeak.com/word/d/drink-alcohol.mp4,HTTP_STATUS_404
+17720,drink,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14885.mp4,HTTP_STATUS_403
+17719,drink,train,handspeak,https://www.handspeak.com/word/d/drink-plu.mp4,HTTP_STATUS_404
+17724,drink,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7796.mp4,HTTP_STATUS_403
+12337,computer,train,aslpro,http://www.aslpro.com/main/c/computer.swf,HTTP_STATUS_404
+17723,drink,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23389.mp4,HTTP_STATUS_403
+12321,computer,train,handspeak,https://www.handspeak.com/word/c/computer-arm2.mp4,HTTP_STATUS_404
+12324,computer,train,handspeak,https://www.handspeak.com/word/c/computer-old2.mp4,HTTP_STATUS_404
+12322,computer,train,handspeak,https://www.handspeak.com/word/c/computer-arm.mp4,HTTP_STATUS_404
+05748,before,train,aslpro,http://www.aslpro.com/main/b/before.swf,HTTP_STATUS_404
+05749,before,train,aslsearch,http://www.aslsearch.com/signs/videos/before3.mp4,INVALID_CONTENT_TYPE_HTML
+05750,before,val,aslsearch,http://www.aslsearch.com/signs/videos/before.mp4,INVALID_CONTENT_TYPE_HTML
+12323,computer,train,handspeak,https://www.handspeak.com/word/c/computer-head.mp4,HTTP_STATUS_404
+12327,computer,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6012.mp4,HTTP_STATUS_403
+05735,before,test,handspeak,https://www.handspeak.com/word/b/before-long.mp4,HTTP_STATUS_404
+05736,before,val,handspeak,https://www.handspeak.com/word/b/before.mp4,HTTP_STATUS_404
+05737,before,val,handspeak,https://www.handspeak.com/word/b/before-past.mp4,HTTP_STATUS_404
+09865,chair,train,aslpro,http://www.aslpro.com//main/c/chair_stacking.swf,HTTP_STATUS_404
+05742,before,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6164.mp4,HTTP_STATUS_403
+09866,chair,train,aslpro,http://www.aslpro.com/main/c/chair.swf,HTTP_STATUS_404
+09869,chair,train,aslsearch,http://www.aslsearch.com/signs/videos/chair.mp4,INVALID_CONTENT_TYPE_HTML
+09867,chair,test,aslpro,http://www.aslpro.com//main/c/chair_wood.swf,HTTP_STATUS_404
+12326,computer,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6011.mp4,CONNECTION_TIMEOUT
+05743,before,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9194.mp4,HTTP_STATUS_403
+09857,chair,train,aslpro,http://www.aslpro.com//main/c/chair_director.swf,HTTP_STATUS_404
+09858,chair,train,aslpro,http://www.aslpro.com//main/c/chair_folding.swf,HTTP_STATUS_404
+09859,chair,train,aslpro,http://www.aslpro.com//main/c/chair_lawn_folding.swf,HTTP_STATUS_404
+09860,chair,train,aslpro,http://www.aslpro.com//main/c/chair_lawn.swf,HTTP_STATUS_404
+09861,chair,train,aslpro,http://www.aslpro.com//main/c/chair_loveseat.swf,HTTP_STATUS_404
+09862,chair,val,aslpro,http://www.aslpro.com//main/c/chair_recliner.swf,HTTP_STATUS_404
+09853,chair,train,handspeak,https://www.handspeak.com/word/c/chair.mp4,HTTP_STATUS_404
+05739,before,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22829.mp4,CONNECTION_TIMEOUT
+05741,before,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5971.mp4,CONNECTION_TIMEOUT
+05740,before,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22831.mp4,HTTP_STATUS_403
+09863,chair,train,aslpro,http://www.aslpro.com//main/c/chair_rocking_1.swf,HTTP_STATUS_404
+24972,go,train,aslpro,http://www.aslpro.com/main/g/go.swf,HTTP_STATUS_404
+24960,go,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23517.mp4,HTTP_STATUS_403
+24973,go,train,aslsearch,http://www.aslsearch.com/signs/videos/go.mp4,INVALID_CONTENT_TYPE_HTML
+24956,go,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23401.mp4,HTTP_STATUS_403
+24948,go,val,handspeak,https://www.handspeak.com/word/g/go.mp4,HTTP_STATUS_404
+09854,chair,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7821.mp4,CONNECTION_TIMEOUT
+11327,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes.swf,HTTP_STATUS_404
+24950,go,train,handspeak,https://www.handspeak.com/word/g/go-to2.mp4,HTTP_STATUS_404
+11328,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_winter.swf,HTTP_STATUS_404
+11329,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_womens.swf,HTTP_STATUS_404
+11330,clothes,train,aslsearch,http://www.aslsearch.com/signs/videos/clothes.mp4,INVALID_CONTENT_TYPE_HTML
+24955,go,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23400.mp4,CONNECTION_TIMEOUT
+24951,go,train,handspeak,https://www.handspeak.com/word/g/go-to.mp4,HTTP_STATUS_404
+11312,clothes,train,handspeak,https://www.handspeak.com/word/c/clothes.mp4,HTTP_STATUS_404
+11317,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_boys.swf,HTTP_STATUS_404
+24961,go,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23517.mp4,CONNECTION_TIMEOUT
+11318,clothes,test,aslpro,http://www.aslpro.com//main/c/clothes_designer.swf,HTTP_STATUS_404
+11319,clothes,val,aslpro,http://www.aslpro.com//main/c/clothes_fall.swf,HTTP_STATUS_404
+11321,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_irregular.swf,HTTP_STATUS_404
+11324,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_plus_size.swf,HTTP_STATUS_404
+24962,go,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23519.mp4,CONNECTION_TIMEOUT
+11325,clothes,val,aslpro,http://www.aslpro.com//main/c/clothes_spring.swf,HTTP_STATUS_404
+63242,who,train,aslsearch,http://www.aslsearch.com/signs/videos/who.mp4,INVALID_CONTENT_TYPE_HTML
+63241,who,train,aslpro,http://www.aslpro.com/main/w/who.swf,HTTP_STATUS_404
+11323,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_petite.swf,HTTP_STATUS_404
+24954,go,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23400.mp4,HTTP_STATUS_403
+24952,go,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22235.mp4,CONNECTION_TIMEOUT
+11320,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_girls.swf,CONNECTION_TIMEOUT
+11313,clothes,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6566.mp4,CONNECTION_TIMEOUT
+11322,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_mens.swf,HTTP_STATUS_404
+63233,who,test,handspeak,https://www.handspeak.com/word/w/who.mp4,HTTP_STATUS_404
+63234,who,val,handspeak,https://www.handspeak.com/word/w/who-old.mp4,HTTP_STATUS_404
+08929,candy,val,aslsearch,http://www.aslsearch.com/signs/videos/candy.mp4,INVALID_CONTENT_TYPE_HTML
+08928,candy,train,aslpro,http://www.aslpro.com/main/c/candy.swf,HTTP_STATUS_404
+11326,clothes,train,aslpro,http://www.aslpro.com//main/c/clothes_summer.swf,HTTP_STATUS_404
+66780,who,train,aslsignbank,https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/WH/WHO-2283.mp4,HTTP_STATUS_404
+08922,candy,val,handspeak,https://www.handspeak.com/word/c/candy-sweet.mp4,HTTP_STATUS_404
+08923,candy,train,handspeak,https://www.handspeak.com/word/c/candy-usa.mp4,HTTP_STATUS_404
+63237,who,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9020.mp4,CONNECTION_TIMEOUT
+63236,who,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9019.mp4,CONNECTION_TIMEOUT
+13647,cousin,train,aslsearch,http://www.aslsearch.com/signs/videos/cousin3.mp4,INVALID_CONTENT_TYPE_HTML
+13648,cousin,train,aslsearch,http://www.aslsearch.com/signs/videos/cousin.mp4,INVALID_CONTENT_TYPE_HTML
+08924,candy,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6123.mp4,CONNECTION_TIMEOUT
+13637,cousin,train,handspeak,https://www.handspeak.com/word/c/cousin-female.mp4,HTTP_STATUS_404
+13638,cousin,train,handspeak,https://www.handspeak.com/word/c/cousin-male.mp4,HTTP_STATUS_404
+13639,cousin,val,handspeak,https://www.handspeak.com/word/c/cousin.mp4,HTTP_STATUS_404
+13644,cousin,train,aslpro,http://www.aslpro.com/main/c/cousin_female.swf,HTTP_STATUS_404
+13645,cousin,train,aslpro,http://www.aslpro.com/main/c/cousin_male.swf,HTTP_STATUS_404
+13646,cousin,train,aslsearch,http://www.aslsearch.com/signs/videos/cousin2.mp4,INVALID_CONTENT_TYPE_HTML
+14903,deaf,val,aslsearch,http://www.aslsearch.com/signs/videos/deaf.mp4,INVALID_CONTENT_TYPE_HTML
+08925,candy,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7906.mp4,CONNECTION_TIMEOUT
+14889,deaf,train,handspeak,https://www.handspeak.com/word/d/deaf2.mp4,HTTP_STATUS_404
+14891,deaf,val,handspeak,https://www.handspeak.com/word/d/deaf.mp4,HTTP_STATUS_404
+21888,fine,train,aslpro,http://www.aslpro.com/main/f/fine.swf,HTTP_STATUS_404
+21889,fine,train,aslpro,http://www.aslpro.com//main/f/fine_ticket.swf,HTTP_STATUS_404
+14901,deaf,val,aslpro,http://www.aslpro.com/main/d/deaf_1.swf,CONNECTION_TIMEOUT
+21890,fine,test,aslsearch,http://www.aslsearch.com/signs/videos/cost.mp4,INVALID_CONTENT_TYPE_HTML
+21891,fine,train,aslsearch,http://www.aslsearch.com/signs/videos/fine.mp4,INVALID_CONTENT_TYPE_HTML
+13642,cousin,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6568.mp4,CONNECTION_TIMEOUT
+21875,fine,train,handspeak,https://www.handspeak.com/word/f/fine-charge.mp4,HTTP_STATUS_404
+21876,fine,train,handspeak,https://www.handspeak.com/word/f/fine-good2.mp4,HTTP_STATUS_404
+13640,cousin,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6148.mp4,CONNECTION_TIMEOUT
+27220,help,val,aslpro,http://www.aslpro.com/main/h/help.swf,HTTP_STATUS_404
+27221,help,train,aslsearch,http://www.aslsearch.com/signs/videos/help.mp4,INVALID_CONTENT_TYPE_HTML
+13641,cousin,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6150.mp4,CONNECTION_TIMEOUT
+27210,help,train,handspeak,https://www.handspeak.com/word/h/help2.mp4,HTTP_STATUS_404
+14893,deaf,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23016.mp4,CONNECTION_TIMEOUT
+14894,deaf,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23017.mp4,CONNECTION_TIMEOUT
+27211,help,train,handspeak,https://www.handspeak.com/word/h/help-me.mp4,HTTP_STATUS_404
+27213,help,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23431.mp4,HTTP_STATUS_403
+27212,help,train,handspeak,https://www.handspeak.com/word/h/help.mp4,HTTP_STATUS_404
+38542,no,train,aslpro,http://www.aslpro.com/main/n/no.swf,HTTP_STATUS_404
+21883,fine,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6355.mp4,CONNECTION_TIMEOUT
+38544,no,train,aslsearch,http://www.aslsearch.com/signs/videos/no.mp4,INVALID_CONTENT_TYPE_HTML
+38531,no,test,handspeak,https://www.handspeak.com/word/n/no.mp4,HTTP_STATUS_404
+27214,help,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5871.mp4,CONNECTION_TIMEOUT
+21878,fine,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14347.mp4,CONNECTION_TIMEOUT
+27217,help,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9936.mp4,CONNECTION_TIMEOUT
+57952,thin,train,aslpro,http://www.aslpro.com/main/t/thin.swf,HTTP_STATUS_404
+57953,thin,train,aslsearch,http://www.aslsearch.com/signs/videos/skinny.mp4,INVALID_CONTENT_TYPE_HTML
+27215,help,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6389.mp4,CONNECTION_TIMEOUT
+27216,help,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9918.mp4,CONNECTION_TIMEOUT
+38532,no,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23547.mp4,CONNECTION_TIMEOUT
+38533,no,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23949.mp4,CONNECTION_TIMEOUT
+57944,thin,test,handspeak,https://www.handspeak.com/word/t/thin2.mp4,HTTP_STATUS_404
+62174,walk,train,aslpro,http://www.aslpro.com/main/w/walk.swf,HTTP_STATUS_404
+62175,walk,train,aslsearch,http://www.aslsearch.com/signs/videos/walk.mp4,INVALID_CONTENT_TYPE_HTML
+57945,thin,val,handspeak,https://www.handspeak.com/word/t/thin.mp4,HTTP_STATUS_404
+38534,no,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6400.mp4,CONNECTION_TIMEOUT
+62165,walk,train,handspeak,https://www.handspeak.com/word/w/walk2.mp4,HTTP_STATUS_404
+62166,walk,test,handspeak,https://www.handspeak.com/word/w/walk.mp4,HTTP_STATUS_404
+57949,thin,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22387.mp4,CONNECTION_TIMEOUT
+57948,thin,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22387.mp4,CONNECTION_TIMEOUT
+64224,year,train,aslsearch,http://www.aslsearch.com/signs/videos/year.mp4,INVALID_CONTENT_TYPE_HTML
+64223,year,train,aslpro,http://www.aslpro.com/main/y/year.swf,HTTP_STATUS_404
+64215,year,train,handspeak,https://www.handspeak.com/word/y/year-inf.mp4,HTTP_STATUS_404
+64216,year,val,handspeak,https://www.handspeak.com/word/y/year.mp4,HTTP_STATUS_404
+57947,thin,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22386.mp4,CONNECTION_TIMEOUT
+64290,yes,train,handspeak,https://www.handspeak.com/word/y/yes.mp4,HTTP_STATUS_404
+62169,walk,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23054.mp4,CONNECTION_TIMEOUT
+64291,yes,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23544.mp4,HTTP_STATUS_403
+64292,yes,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23545.mp4,HTTP_STATUS_403
+64217,year,train,handspeak,https://www.handspeak.com/word/y/years.mp4,HTTP_STATUS_404
+62168,walk,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23053.mp4,CONNECTION_TIMEOUT
+62170,walk,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9209.mp4,HTTP_STATUS_403
+64293,yes,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23546.mp4,HTTP_STATUS_403
+64299,yes,train,aslpro,http://www.aslpro.com/main/y/yes.swf,HTTP_STATUS_404
+64300,yes,train,aslsearch,http://www.aslsearch.com/signs/videos/yes.mp4,INVALID_CONTENT_TYPE_HTML
+64218,year,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7228.mp4,HTTP_STATUS_403
+02003,all,train,aslsearch,http://www.aslsearch.com/signs/videos/all.mp4,INVALID_CONTENT_TYPE_HTML
+02002,all,train,aslpro,http://www.aslpro.com/main/a/all.swf,HTTP_STATUS_404
+64289,yes,train,handspeak,https://www.handspeak.com/word/y/yes-fs.mp4,HTTP_STATUS_404
+01990,all,train,handspeak,https://www.handspeak.com/word/a/all-you.mp4,HTTP_STATUS_404
+64219,year,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7723.mp4,HTTP_STATUS_403
+01989,all,train,handspeak,https://www.handspeak.com/word/a/all.mp4,HTTP_STATUS_404
+01992,all,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22937.mp4,HTTP_STATUS_403
+06475,black,train,handspeak,https://www.handspeak.com/word/b/black.mp4,HTTP_STATUS_404
+01991,all,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22936.mp4,HTTP_STATUS_403
+06476,black,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6787.mp4,HTTP_STATUS_403
+06486,black,train,aslsearch,http://www.aslsearch.com/signs/videos/black.mp4,INVALID_CONTENT_TYPE_HTML
+06485,black,train,aslpro,http://www.aslpro.com/main/b/black.swf,HTTP_STATUS_404
+06478,black,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8384.mp4,HTTP_STATUS_403
+06477,black,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7145.mp4,HTTP_STATUS_403
+13216,cool,train,aslsearch,http://www.aslsearch.com/signs/videos/cool2.mp4,INVALID_CONTENT_TYPE_HTML
+13217,cool,train,aslsearch,http://www.aslsearch.com/signs/videos/cool.mp4,INVALID_CONTENT_TYPE_HTML
+13213,cool,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/24/24134.mp4,HTTP_STATUS_403
+13205,cool,train,handspeak,https://www.handspeak.com/word/c/cool-neat2.mp4,HTTP_STATUS_404
+13207,cool,val,handspeak,https://www.handspeak.com/word/c/cool-weather.mp4,HTTP_STATUS_404
+13206,cool,train,handspeak,https://www.handspeak.com/word/c/cool-neat.mp4,HTTP_STATUS_404
+13208,cool,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22660.mp4,HTTP_STATUS_403
+13209,cool,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23043.mp4,HTTP_STATUS_403
+21946,finish,val,handspeak,https://www.handspeak.com/word/f/finish2.mp4,HTTP_STATUS_404
+21949,finish,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23269.mp4,HTTP_STATUS_403
+21956,finish,train,aslpro,http://www.aslpro.com/main/f/finish.swf,HTTP_STATUS_404
+21950,finish,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7267.mp4,HTTP_STATUS_403
+28125,hot,train,aslsearch,http://www.aslsearch.com/signs/videos/heat2.mp4,INVALID_CONTENT_TYPE_HTML
+21951,finish,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8336.mp4,HTTP_STATUS_403
+28113,hot,train,handspeak,https://www.handspeak.com/word/h/hot2.mp4,HTTP_STATUS_404
+28114,hot,train,handspeak,https://www.handspeak.com/word/h/hot.mp4,HTTP_STATUS_404
+28115,hot,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14232.mp4,HTTP_STATUS_403
+33285,like,train,aslsearch,http://www.aslsearch.com/signs/videos/like4.mp4,INVALID_CONTENT_TYPE_HTML
+33286,like,test,aslsearch,http://www.aslsearch.com/signs/videos/like.mp4,INVALID_CONTENT_TYPE_HTML
+28116,hot,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6109.mp4,HTTP_STATUS_403
+33271,like,val,handspeak,https://www.handspeak.com/word/l/like.mp4,HTTP_STATUS_404
+33273,like,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14298.mp4,HTTP_STATUS_403
+33274,like,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6394.mp4,HTTP_STATUS_403
+33284,like,train,aslpro,http://www.aslpro.com/main/l/like.swf,HTTP_STATUS_404
+28124,hot,train,aslpro,http://www.aslpro.com/main/h/hot.swf,HTTP_STATUS_404
+34828,many,val,handspeak,https://www.handspeak.com/word/m/many2.mp4,HTTP_STATUS_404
+34829,many,train,handspeak,https://www.handspeak.com/word/m/many.mp4,HTTP_STATUS_404
+34830,many,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6570.mp4,HTTP_STATUS_403
+34831,many,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8040.mp4,HTTP_STATUS_403
+34838,many,train,aslpro,http://www.aslpro.com/main/m/many.swf,HTTP_STATUS_404
+34839,many,train,aslsearch,http://www.aslsearch.com/signs/videos/many.mp4,INVALID_CONTENT_TYPE_HTML
+34832,many,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8041.mp4,HTTP_STATUS_403
+36946,mother,train,aslsearch,http://www.aslsearch.com/signs/videos/mama.mp4,INVALID_CONTENT_TYPE_HTML
+36945,mother,val,aslpro,http://www.aslpro.com/main/m/mother.swf,HTTP_STATUS_404
+36934,mother,val,handspeak,https://www.handspeak.com/word/m/mother2.mp4,HTTP_STATUS_404
+36937,mother,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6509.mp4,HTTP_STATUS_403
+39000,now,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9785.mp4,HTTP_STATUS_403
+39005,now,test,aslpro,http://www.aslpro.com/main/n/now.swf,HTTP_STATUS_404
+38999,now,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7774.mp4,HTTP_STATUS_403
+39006,now,train,aslsearch,http://www.aslsearch.com/signs/videos/now.mp4,INVALID_CONTENT_TYPE_HTML
+38996,now,train,handspeak,https://www.handspeak.com/word/n/now.mp4,HTTP_STATUS_404
+38997,now,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7687.mp4,HTTP_STATUS_403
+40120,orange,train,handspeak,https://www.handspeak.com/word/o/orange.mp4,HTTP_STATUS_404
+40129,orange,train,aslsearch,http://www.aslsearch.com/signs/videos/orange.mp4,INVALID_CONTENT_TYPE_HTML
+40121,orange,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14519.mp4,HTTP_STATUS_403
+40130,orange,train,aslsearch,http://www.aslsearch.com/signs/videos/orange.mp4,INVALID_CONTENT_TYPE_HTML
+56573,table,train,aslpro,http://www.aslpro.com//main/t/table_place_setting.swf,HTTP_STATUS_404
+56576,table,train,aslpro,http://www.aslpro.com//main/t/table_umbrella_and_chairs.swf,HTTP_STATUS_404
+56577,table,train,aslpro,http://www.aslpro.com//main/t/table_umbrella.swf,HTTP_STATUS_404
+56578,table,val,aslpro,http://www.aslpro.com//main/t/table_vanity.swf,HTTP_STATUS_404
+56579,table,train,aslsearch,http://www.aslsearch.com/signs/videos/counter2.mp4,INVALID_CONTENT_TYPE_HTML
+36936,mother,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6508.mp4,CONNECTION_TIMEOUT
+40128,orange,train,aslpro,http://www.aslpro.com/main/o/orange.swf,HTTP_STATUS_404
+56574,table,train,aslpro,http://www.aslpro.com//main/t/table_stacking.swf,HTTP_STATUS_404
+56568,table,train,aslpro,http://www.aslpro.com//main/t/table_coffee.swf,HTTP_STATUS_404
+56560,table,train,handspeak,https://www.handspeak.com/word/t/table.mp4,HTTP_STATUS_404
+56569,table,train,aslpro,http://www.aslpro.com//main/t/table_decorative.swf,HTTP_STATUS_404
+56563,table,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9252.mp4,HTTP_STATUS_403
+56571,table,train,aslpro,http://www.aslpro.com//main/t/table_folding.swf,HTTP_STATUS_404
+57646,thanksgiving,test,aslpro,http://www.aslpro.com/main/t/thanksgiving.swf,HTTP_STATUS_404
+57647,thanksgiving,train,aslsearch,http://www.aslsearch.com/signs/videos/thanksgiving.mp4,INVALID_CONTENT_TYPE_HTML
+57636,thanksgiving,train,handspeak,https://www.handspeak.com/word/t/thanksgiving-ca.mp4,HTTP_STATUS_404
+57637,thanksgiving,test,handspeak,https://www.handspeak.com/word/t/thanksgiving-us.mp4,HTTP_STATUS_404
+57638,thanksgiving,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23272.mp4,HTTP_STATUS_403
+57639,thanksgiving,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23652.mp4,HTTP_STATUS_403
+57640,thanksgiving,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23653.mp4,HTTP_STATUS_403
+57641,thanksgiving,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9026.mp4,HTTP_STATUS_403
+62971,what,train,handspeak,https://www.handspeak.com/word/w/what2.mp4,HTTP_STATUS_404
+62986,what,train,aslpro,http://www.aslpro.com/main/w/what.swf,HTTP_STATUS_404
+62987,what,test,aslsearch,http://www.aslsearch.com/signs/videos/what2.mp4,INVALID_CONTENT_TYPE_HTML
+62988,what,val,aslsearch,http://www.aslsearch.com/signs/videos/what.mp4,INVALID_CONTENT_TYPE_HTML
+62973,what,train,handspeak,https://www.handspeak.com/word/w/what.mp4,HTTP_STATUS_404
+62979,what,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5985.mp4,HTTP_STATUS_403
+63679,woman,train,aslsearch,http://www.aslsearch.com/signs/videos/woman.mp4,INVALID_CONTENT_TYPE_HTML
+62975,what,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23463.mp4,HTTP_STATUS_403
+63670,woman,train,handspeak,https://www.handspeak.com/word/w/woman2.mp4,HTTP_STATUS_404
+63671,woman,train,handspeak,https://www.handspeak.com/word/w/woman.mp4,HTTP_STATUS_404
+63672,woman,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6188.mp4,HTTP_STATUS_403
+63673,woman,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8401.mp4,HTTP_STATUS_403
+63678,woman,train,aslpro,http://www.aslpro.com/main/w/woman.swf,HTTP_STATUS_404
+05644,bed,train,aslsearch,http://www.aslsearch.com/signs/videos/bed.mp4,INVALID_CONTENT_TYPE_HTML
+05643,bed,val,aslpro,http://www.aslpro.com/main/b/bed.swf,HTTP_STATUS_404
+05635,bed,train,handspeak,https://www.handspeak.com/word/b/bed.mp4,HTTP_STATUS_404
+05636,bed,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23233.mp4,HTTP_STATUS_403
+05637,bed,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23908.mp4,HTTP_STATUS_403
+05638,bed,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6637.mp4,HTTP_STATUS_403
+06838,blue,train,handspeak,https://www.handspeak.com/word/b/blue.mp4,HTTP_STATUS_404
+06837,blue,train,handspeak,https://www.handspeak.com/word/b/blue-light.mp4,HTTP_STATUS_404
+06836,blue,train,handspeak,https://www.handspeak.com/word/b/blue-deep.mp4,HTTP_STATUS_404
+06845,blue,test,aslsearch,http://www.aslsearch.com/signs/videos/blue.mp4,INVALID_CONTENT_TYPE_HTML
+07403,bowling,val,aslpro,http://www.aslpro.com//main/b/bowling.swf,HTTP_STATUS_404
+06839,blue,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22144.mp4,HTTP_STATUS_403
+07395,bowling,train,handspeak,https://www.handspeak.com/word/b/bowling2.mp4,HTTP_STATUS_404
+07396,bowling,train,handspeak,https://www.handspeak.com/word/b/bowling-game.mp4,HTTP_STATUS_404
+07397,bowling,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14322.mp4,HTTP_STATUS_403
+07398,bowling,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14420.mp4,HTTP_STATUS_403
+07399,bowling,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14421.mp4,HTTP_STATUS_403
+08953,can,train,aslpro,http://www.aslpro.com/main/c/can.swf,HTTP_STATUS_404
+07400,bowling,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6345.mp4,HTTP_STATUS_403
+08955,can,train,aslsearch,http://www.aslsearch.com/signs/videos/can.mp4,INVALID_CONTENT_TYPE_HTML
+06844,blue,train,aslpro,http://www.aslpro.com/main/b/blue.swf,HTTP_STATUS_404
+08939,can,train,handspeak,https://www.handspeak.com/word/c/can.mp4,HTTP_STATUS_404
+17097,dog,test,aslsearch,http://www.aslsearch.com/signs/videos/dog.mp4,INVALID_CONTENT_TYPE_HTML
+08944,can,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9064.mp4,HTTP_STATUS_403
+17088,dog,train,handspeak,https://www.handspeak.com/word/d/dog-fs.mp4,HTTP_STATUS_404
+17090,dog,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/24/24220.mp4,HTTP_STATUS_403
+08942,can,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7817.mp4,HTTP_STATUS_403
+17096,dog,val,aslpro,http://www.aslpro.com/main/d/dog.swf,HTTP_STATUS_404
+17091,dog,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6597.mp4,HTTP_STATUS_403
+20984,family,train,handspeak,https://www.handspeak.com/word/f/family-isl.mp4,HTTP_STATUS_404
+20986,family,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14462.mp4,HTTP_STATUS_403
+20991,family,test,aslpro,http://www.aslpro.com/main/f/family.swf,HTTP_STATUS_404
+20992,family,train,aslsearch,http://www.aslsearch.com/signs/videos/family.mp4,INVALID_CONTENT_TYPE_HTML
+20987,family,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6375.mp4,HTTP_STATUS_403
+22129,fish,train,aslpro,http://www.aslpro.com/main/f/fish.swf,HTTP_STATUS_404
+22130,fish,train,aslsearch,http://www.aslsearch.com/signs/videos/fish.mp4,INVALID_CONTENT_TYPE_HTML
+20985,family,train,handspeak,https://www.handspeak.com/word/f/family.mp4,HTTP_STATUS_404
+22118,fish,train,handspeak,https://www.handspeak.com/word/f/fish2.mp4,HTTP_STATUS_404
+22119,fish,train,handspeak,https://www.handspeak.com/word/f/fish.mp4,HTTP_STATUS_404
+22120,fish,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6808.mp4,HTTP_STATUS_403
+25337,graduate,train,aslpro,http://www.aslpro.com/main/g/graduate_person.swf,HTTP_STATUS_404
+25339,graduate,train,aslsearch,http://www.aslsearch.com/signs/videos/graduate.mp4,INVALID_CONTENT_TYPE_HTML
+22121,fish,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6809.mp4,HTTP_STATUS_403
+25328,graduate,train,handspeak,https://www.handspeak.com/word/g/graduate-person.mp4,HTTP_STATUS_404
+25327,graduate,train,handspeak,https://www.handspeak.com/word/g/graduate.mp4,HTTP_STATUS_404
+25330,graduate,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8864.mp4,HTTP_STATUS_403
+25329,graduate,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6256.mp4,HTTP_STATUS_403
+26736,hat,train,aslpro,http://www.aslpro.com/main/h/hat.swf,HTTP_STATUS_404
+26739,hat,train,aslsearch,http://www.aslsearch.com/signs/videos/ballcap.mp4,INVALID_CONTENT_TYPE_HTML
+26741,hat,train,aslsearch,http://www.aslsearch.com/signs/videos/hat.mp4,INVALID_CONTENT_TYPE_HTML
+26716,hat,train,handspeak,https://www.handspeak.com/word/h/hat.mp4,HTTP_STATUS_404
+25338,graduate,train,aslpro,http://www.aslpro.com/main/g/graduate_verb.swf,HTTP_STATUS_404
+26717,hat,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23605.mp4,HTTP_STATUS_403
+26977,hearing,train,handspeak,https://www.handspeak.com/word/h/hearing-but.mp4,HTTP_STATUS_404
+31766,kiss,train,aslpro,http://www.aslpro.com/main/k/kiss.swf,HTTP_STATUS_404
+31767,kiss,train,aslsearch,http://www.aslsearch.com/signs/videos/kiss.mp4,INVALID_CONTENT_TYPE_HTML
+26980,hearing,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6412.mp4,HTTP_STATUS_403
+26978,hearing,train,handspeak,https://www.handspeak.com/word/h/hearing.mp4,HTTP_STATUS_404
+31754,kiss,train,handspeak,https://www.handspeak.com/word/k/kiss.mp4,HTTP_STATUS_404
+31755,kiss,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5947.mp4,HTTP_STATUS_403
+26719,hat,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6388.mp4,HTTP_STATUS_403
+32161,language,train,handspeak,https://www.handspeak.com/word/l/language2.mp4,HTTP_STATUS_404
+32162,language,train,handspeak,https://www.handspeak.com/word/l/language.mp4,HTTP_STATUS_404
+32163,language,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6380.mp4,HTTP_STATUS_403
+32166,language,test,aslpro,http://www.aslpro.com/main/l/language.swf,HTTP_STATUS_404
+32167,language,test,aslsearch,http://www.aslsearch.com/signs/videos/language.mp4,INVALID_CONTENT_TYPE_HTML
+32337,later,train,aslsearch,http://www.aslsearch.com/signs/videos/later.mp4,INVALID_CONTENT_TYPE_HTML
+32338,later,train,aslsearch,http://www.aslsearch.com/signs/videos/later.mp4,INVALID_CONTENT_TYPE_HTML
+32336,later,train,aslpro,http://www.aslpro.com/main/l/later.swf,HTTP_STATUS_404
+31756,kiss,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5948.mp4,HTTP_STATUS_403
+32327,later,train,handspeak,https://www.handspeak.com/word/l/later2.mp4,HTTP_STATUS_404
+34746,man,train,aslsearch,http://www.aslsearch.com/signs/videos/male.mp4,INVALID_CONTENT_TYPE_HTML
+32329,later,test,handspeak,https://www.handspeak.com/word/l/later.mp4,HTTP_STATUS_404
+32333,later,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7458.mp4,HTTP_STATUS_403
+34739,man,train,handspeak,https://www.handspeak.com/word/m/man2.mp4,HTTP_STATUS_404
+34741,man,train,handspeak,https://www.handspeak.com/word/m/man.mp4,HTTP_STATUS_404
+32328,later,train,handspeak,https://www.handspeak.com/word/l/later-inf.mp4,HTTP_STATUS_404
+34742,man,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7441.mp4,HTTP_STATUS_403
+51081,shirt,val,aslsearch,http://www.aslsearch.com/signs/videos/shirt.mp4,INVALID_CONTENT_TYPE_HTML
+51063,shirt,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23615.mp4,HTTP_STATUS_403
+51064,shirt,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23616.mp4,HTTP_STATUS_403
+51077,shirt,test,aslpro,http://www.aslpro.com/main/s/shirt.swf,HTTP_STATUS_404
+51066,shirt,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23618.mp4,HTTP_STATUS_403
+51067,shirt,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6249.mp4,HTTP_STATUS_403
+51068,shirt,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7169.mp4,HTTP_STATUS_403
+55367,study,train,handspeak,https://www.handspeak.com/word/s/study.mp4,HTTP_STATUS_404
+34745,man,train,aslpro,http://www.aslpro.com/main/m/man.swf,HTTP_STATUS_404
+55369,study,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23174.mp4,HTTP_STATUS_403
+55368,study,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22165.mp4,HTTP_STATUS_403
+55375,study,test,aslsearch,http://www.aslsearch.com/signs/videos/study.mp4,INVALID_CONTENT_TYPE_HTML
+55374,study,train,aslpro,http://www.aslpro.com/main/s/study.swf,HTTP_STATUS_404
+56852,tall,train,aslsearch,http://www.aslsearch.com/signs/videos/tall.mp4,INVALID_CONTENT_TYPE_HTML
+56845,tall,val,handspeak,https://www.handspeak.com/word/t/tall.mp4,HTTP_STATUS_404
+56851,tall,train,aslpro,http://www.aslpro.com/main/t/tall.swf,HTTP_STATUS_404
+56846,tall,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14373.mp4,HTTP_STATUS_403
+56848,tall,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8777.mp4,HTTP_STATUS_403
+63206,white,train,handspeak,https://www.handspeak.com/word/w/white.mp4,HTTP_STATUS_404
+63207,white,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7061.mp4,HTTP_STATUS_403
+63213,white,val,aslpro,http://www.aslpro.com/main/w/white.swf,HTTP_STATUS_404
+63208,white,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7064.mp4,HTTP_STATUS_403
+63214,white,train,aslsearch,http://www.aslsearch.com/signs/videos/white.mp4,INVALID_CONTENT_TYPE_HTML
+64089,wrong,train,handspeak,https://www.handspeak.com/word/w/wrong.mp4,HTTP_STATUS_404
+64090,wrong,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6969.mp4,HTTP_STATUS_403
+64096,wrong,train,aslpro,http://www.aslpro.com/main/w/wrong.swf,HTTP_STATUS_404
+64097,wrong,test,aslsearch,http://www.aslsearch.com/signs/videos/wrong.mp4,INVALID_CONTENT_TYPE_HTML
+00639,accident,train,aslsearch,http://www.aslsearch.com/signs/videos/accident.mp4,INVALID_CONTENT_TYPE_HTML
+64091,wrong,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9505.mp4,HTTP_STATUS_403
+00630,accident,train,handspeak,https://www.handspeak.com/word/a/accident.mp4,HTTP_STATUS_404
+00632,accident,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5277.mp4,HTTP_STATUS_403
+00636,accident,train,aslpro,http://www.aslpro.com//main/a/accident_1car.swf,HTTP_STATUS_404
+00638,accident,train,aslpro,http://www.aslpro.com/main/a/accident_3.swf,HTTP_STATUS_404
+00631,accident,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/24/24332.mp4,HTTP_STATUS_403
+00633,accident,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6969.mp4,HTTP_STATUS_403
+00634,accident,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7493.mp4,HTTP_STATUS_403
+03008,apple,train,aslsearch,http://www.aslsearch.com/signs/videos/apple.mp4,INVALID_CONTENT_TYPE_HTML
+03004,apple,test,handspeak,https://www.handspeak.com/word/a/apple.mp4,HTTP_STATUS_404
+03005,apple,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7981.mp4,HTTP_STATUS_403
+03007,apple,train,aslpro,http://www.aslpro.com/main/a/apple.swf,HTTP_STATUS_404
+06336,bird,train,handspeak,https://www.handspeak.com/word/b/bird.mp4,HTTP_STATUS_404
+06337,bird,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23779.mp4,HTTP_STATUS_403
+06343,bird,train,aslsearch,http://www.aslsearch.com/signs/videos/bird.mp4,INVALID_CONTENT_TYPE_HTML
+06342,bird,train,aslpro,http://www.aslpro.com/main/b/bird.swf,HTTP_STATUS_404
+09966,change,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5424.mp4,HTTP_STATUS_403
+09967,change,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5425.mp4,HTTP_STATUS_403
+09969,change,train,aslpro,http://www.aslpro.com/main/c/change.swf,HTTP_STATUS_404
+09970,change,train,aslsearch,http://www.aslsearch.com/signs/videos/change.mp4,INVALID_CONTENT_TYPE_HTML
+65332,change,train,aslsignbank,https://aslsignbank.haskins.yale.edu/dictionary/protected_media/glossvideo/CH/CHANGE-2371.mp4,HTTP_STATUS_404
+09961,change,train,handspeak,https://www.handspeak.com/word/c/change2.mp4,HTTP_STATUS_404
+09962,change,train,handspeak,https://www.handspeak.com/word/c/change.mp4,HTTP_STATUS_404
+09963,change,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14623.mp4,HTTP_STATUS_403
+11771,color,train,handspeak,https://www.handspeak.com/word/c/color.mp4,HTTP_STATUS_404
+11772,color,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14075.mp4,HTTP_STATUS_403
+11773,color,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5932.mp4,HTTP_STATUS_403
+11780,color,train,aslsearch,http://www.aslsearch.com/signs/videos/color.mp4,INVALID_CONTENT_TYPE_HTML
+13337,corn,train,aslsearch,http://www.aslsearch.com/signs/videos/corn.mp4,INVALID_CONTENT_TYPE_HTML
+13330,corn,train,handspeak,https://www.handspeak.com/word/c/corn2.mp4,HTTP_STATUS_404
+13331,corn,train,handspeak,https://www.handspeak.com/word/c/corn.mp4,HTTP_STATUS_404
+13336,corn,val,aslpro,http://www.aslpro.com/main/c/corn_b.swf,HTTP_STATUS_404
+13334,corn,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8825.mp4,HTTP_STATUS_403
+13333,corn,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7286.mp4,HTTP_STATUS_403
+13700,cow,train,handspeak,https://www.handspeak.com/word/c/cow2.mp4,HTTP_STATUS_404
+13701,cow,train,handspeak,https://www.handspeak.com/word/c/cow.mp4,HTTP_STATUS_404
+13703,cow,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14633.mp4,HTTP_STATUS_403
+13702,cow,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14631.mp4,HTTP_STATUS_403
+13709,cow,train,aslpro,http://www.aslpro.com/main/c/cow.swf,HTTP_STATUS_404
+13710,cow,test,aslsearch,http://www.aslsearch.com/signs/videos/cow.mp4,INVALID_CONTENT_TYPE_HTML
+13335,corn,val,aslpro,http://www.aslpro.com/main/c/corn_a.swf,HTTP_STATUS_404
+14633,dance,train,aslsearch,http://www.aslsearch.com/signs/videos/dance.mp4,INVALID_CONTENT_TYPE_HTML
+14626,dance,test,handspeak,https://www.handspeak.com/word/d/dance.mp4,HTTP_STATUS_404
+14632,dance,val,aslpro,http://www.aslpro.com/main/d/dance.swf,HTTP_STATUS_404
+14627,dance,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6768.mp4,HTTP_STATUS_403
+11779,color,train,aslpro,http://www.aslpro.com/main/c/color.swf,CONNECTION_TIMEOUT
+14677,dark,train,handspeak,https://www.handspeak.com/word/d/dark-color2.mp4,HTTP_STATUS_404
+14678,dark,train,handspeak,https://www.handspeak.com/word/d/dark-color.mp4,HTTP_STATUS_404
+14680,dark,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14847.mp4,HTTP_STATUS_403
+14679,dark,train,handspeak,https://www.handspeak.com/word/d/dark.mp4,HTTP_STATUS_404
+14684,dark,train,aslpro,http://www.aslpro.com/main/d/dark.swf,HTTP_STATUS_404
+14685,dark,test,aslsearch,http://www.aslsearch.com/signs/videos/dark.mp4,INVALID_CONTENT_TYPE_HTML
+14681,dark,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14870.mp4,HTTP_STATUS_403
+17018,doctor,train,handspeak,https://www.handspeak.com/word/d/doctor.mp4,HTTP_STATUS_404
+17019,doctor,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22643.mp4,HTTP_STATUS_403
+17026,doctor,train,aslsearch,http://www.aslsearch.com/signs/videos/doctor.mp4,INVALID_CONTENT_TYPE_HTML
+17025,doctor,train,aslpro,http://www.aslpro.com/main/d/doctor_2.swf,HTTP_STATUS_404
+18326,eat,test,handspeak,https://www.handspeak.com/word/e/eat-iclpop.mp4,HTTP_STATUS_404
+18328,eat,train,handspeak,https://www.handspeak.com/word/e/eat.mp4,HTTP_STATUS_404
+18329,eat,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14883.mp4,HTTP_STATUS_403
+18334,eat,train,aslpro,http://www.aslpro.com/main/e/eat.swf,HTTP_STATUS_404
+18335,eat,train,aslsearch,http://www.aslsearch.com/signs/videos/eat.mp4,INVALID_CONTENT_TYPE_HTML
+17024,doctor,test,aslpro,http://www.aslpro.com/main/d/doctor_1.swf,HTTP_STATUS_404
+19262,enjoy,test,handspeak,https://www.handspeak.com/word/e/enjoy2.mp4,HTTP_STATUS_404
+19263,enjoy,train,handspeak,https://www.handspeak.com/word/e/enjoy.mp4,HTTP_STATUS_404
+19264,enjoy,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6907.mp4,HTTP_STATUS_403
+19269,enjoy,train,aslsearch,http://www.aslsearch.com/signs/videos/enjoy.mp4,INVALID_CONTENT_TYPE_HTML
+19268,enjoy,train,aslpro,http://www.aslpro.com/main/e/enjoy.swf,HTTP_STATUS_404
+17020,doctor,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22644.mp4,CONNECTION_TIMEOUT
+22956,forget,train,handspeak,https://www.handspeak.com/word/f/forget-blank.mp4,HTTP_STATUS_404
+22966,forget,train,aslpro,http://www.aslpro.com/main/f/forget.swf,HTTP_STATUS_404
+22967,forget,train,aslsearch,http://www.aslsearch.com/signs/videos/alzheimer.mp4,INVALID_CONTENT_TYPE_HTML
+22959,forget,train,handspeak,https://www.handspeak.com/word/f/forget.mp4,HTTP_STATUS_404
+22960,forget,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8938.mp4,HTTP_STATUS_403
+24659,give,train,aslpro,http://www.aslpro.com/main/g/give.swf,HTTP_STATUS_404
+24660,give,train,aslsearch,http://www.aslsearch.com/signs/videos/give.mp4,INVALID_CONTENT_TYPE_HTML
+24642,give,val,handspeak,https://www.handspeak.com/word/g/give2.mp4,HTTP_STATUS_404
+24643,give,train,handspeak,https://www.handspeak.com/word/g/give-hir-from-me.mp4,HTTP_STATUS_404
+24645,give,train,handspeak,https://www.handspeak.com/word/g/give-you.mp4,HTTP_STATUS_404
+32263,last,val,aslsearch,http://www.aslsearch.com/signs/videos/last.mp4,INVALID_CONTENT_TYPE_HTML
+24648,give,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14622.mp4,HTTP_STATUS_403
+24649,give,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23273.mp4,HTTP_STATUS_403
+24651,give,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7424.mp4,HTTP_STATUS_403
+32252,last,train,handspeak,https://www.handspeak.com/word/l/last-past.mp4,HTTP_STATUS_404
+32251,last,train,handspeak,https://www.handspeak.com/word/l/last-final.mp4,HTTP_STATUS_404
+32253,last,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5971.mp4,HTTP_STATUS_403
+32254,last,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6063.mp4,HTTP_STATUS_403
+32260,last,train,aslsearch,http://www.aslsearch.com/signs/videos/last2.mp4,INVALID_CONTENT_TYPE_HTML
+32259,last,train,aslpro,http://www.aslpro.com/main/l/last.swf,HTTP_STATUS_404
+32261,last,train,aslsearch,http://www.aslsearch.com/signs/videos/last3.mp4,INVALID_CONTENT_TYPE_HTML
+32257,last,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9194.mp4,HTTP_STATUS_403
+32255,last,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6164.mp4,HTTP_STATUS_403
+35514,meet,train,handspeak,https://www.handspeak.com/word/m/meet-me.mp4,HTTP_STATUS_404
+35516,meet,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/0/517.mp4,HTTP_STATUS_403
+35515,meet,train,handspeak,https://www.handspeak.com/word/m/meet.mp4,HTTP_STATUS_404
+35522,meet,train,aslpro,http://www.aslpro.com/main/m/meet.swf,HTTP_STATUS_404
+35523,meet,train,aslsearch,http://www.aslsearch.com/signs/videos/meet.mp4,INVALID_CONTENT_TYPE_HTML
+35518,meet,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9003.mp4,HTTP_STATUS_403
+42835,pink,train,handspeak,https://www.handspeak.com/word/p/pink.mp4,HTTP_STATUS_404
+35517,meet,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5837.mp4,HTTP_STATUS_403
+42843,pink,train,aslsearch,http://www.aslsearch.com/signs/videos/pink.mp4,INVALID_CONTENT_TYPE_HTML
+42842,pink,test,aslpro,http://www.aslpro.com/main/p/pink.swf,HTTP_STATUS_404
+42836,pink,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22812.mp4,HTTP_STATUS_403
+42976,pizza,val,aslpro,http://www.aslpro.com/main/p/pizza.swf,HTTP_STATUS_404
+42977,pizza,val,aslsearch,http://www.aslsearch.com/signs/videos/pizza.mp4,INVALID_CONTENT_TYPE_HTML
+42963,pizza,train,handspeak,https://www.handspeak.com/word/p/pizza-eat.mp4,HTTP_STATUS_404
+42964,pizza,train,handspeak,https://www.handspeak.com/word/p/pizza-fs.mp4,HTTP_STATUS_404
+42966,pizza,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14610.mp4,HTTP_STATUS_403
+42967,pizza,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6671.mp4,HTTP_STATUS_403
+42969,pizza,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6673.mp4,HTTP_STATUS_403
+43172,play,train,handspeak,https://www.handspeak.com/word/p/play.mp4,HTTP_STATUS_404
+43178,play,val,aslpro,http://www.aslpro.com/main/p/play_theater.swf,HTTP_STATUS_404
+43174,play,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6372.mp4,HTTP_STATUS_403
+43179,play,train,aslsearch,http://www.aslsearch.com/signs/videos/act.mp4,INVALID_CONTENT_TYPE_HTML
+43180,play,train,aslsearch,http://www.aslsearch.com/signs/videos/play.mp4,INVALID_CONTENT_TYPE_HTML
+43177,play,train,aslpro,http://www.aslpro.com/main/p/play_fun.swf,HTTP_STATUS_404
+49601,school,train,handspeak,https://www.handspeak.com/word/s/school.mp4,HTTP_STATUS_404
+49604,school,train,aslpro,http://www.aslpro.com/main/s/school.swf,HTTP_STATUS_404
+43173,play,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14657.mp4,HTTP_STATUS_403
+49605,school,train,aslpro,http://www.aslpro.com/main/s/school_walking_to.swf,HTTP_STATUS_404
+49606,school,val,aslsearch,http://www.aslsearch.com/signs/videos/school.mp4,INVALID_CONTENT_TYPE_HTML
+49602,school,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6564.mp4,HTTP_STATUS_403
+50042,secretary,train,handspeak,https://www.handspeak.com/word/s/secretary2.mp4,HTTP_STATUS_404
+50043,secretary,train,handspeak,https://www.handspeak.com/word/s/secretary.mp4,HTTP_STATUS_404
+50044,secretary,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6921.mp4,HTTP_STATUS_403
+50045,secretary,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8440.mp4,HTTP_STATUS_403
+50051,secretary,val,aslpro,http://www.aslpro.com/main/s/secretary.swf,HTTP_STATUS_404
+50052,secretary,val,aslsearch,http://www.aslsearch.com/signs/videos/secretary.mp4,INVALID_CONTENT_TYPE_HTML
+50046,secretary,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8857.mp4,HTTP_STATUS_403
+51228,short,train,handspeak,https://www.handspeak.com/word/s/short-duration.mp4,HTTP_STATUS_404
+51229,short,train,handspeak,https://www.handspeak.com/word/s/short-height.mp4,HTTP_STATUS_404
+51230,short,val,handspeak,https://www.handspeak.com/word/s/short-soon.mp4,HTTP_STATUS_404
+69433,play,test,aslbrick,http://aslbricks.org/New/ASL-Videos/play.mp4,CONNECTION_REFUSED_OR_DNS_FAIL
+51234,short,test,aslpro,http://www.aslpro.com/main/s/short.swf,HTTP_STATUS_404
+51231,short,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23534.mp4,HTTP_STATUS_403
+51232,short,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9191.mp4,HTTP_STATUS_403
+51235,short,train,aslsearch,http://www.aslsearch.com/signs/videos/short2.mp4,INVALID_CONTENT_TYPE_HTML
+51236,short,train,aslsearch,http://www.aslsearch.com/signs/videos/short.mp4,INVALID_CONTENT_TYPE_HTML
+58505,time,train,aslpro,http://www.aslpro.com/main/t/time_fall_back.swf,HTTP_STATUS_404
+58506,time,train,aslpro,http://www.aslpro.com/main/t/time_spring_forward.swf,HTTP_STATUS_404
+51233,short,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9192.mp4,HTTP_STATUS_403
+58503,time,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7100.mp4,HTTP_STATUS_403
+58508,time,train,aslsearch,http://www.aslsearch.com/signs/videos/time.mp4,INVALID_CONTENT_TYPE_HTML
+58501,time,train,handspeak,https://www.handspeak.com/word/t/time-q.mp4,HTTP_STATUS_404
+58500,time,train,handspeak,https://www.handspeak.com/word/t/time2.mp4,HTTP_STATUS_404
+58502,time,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23948.mp4,HTTP_STATUS_403
+58507,time,val,aslpro,http://www.aslpro.com/main/t/time.swf,HTTP_STATUS_404
+62259,want,train,aslsearch,http://www.aslsearch.com/signs/videos/want.mp4,INVALID_CONTENT_TYPE_HTML
+62251,want,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6972.mp4,HTTP_STATUS_403
+62249,want,train,handspeak,https://www.handspeak.com/word/w/want.mp4,HTTP_STATUS_404
+62250,want,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6971.mp4,HTTP_STATUS_403
+63805,work,train,aslpro,http://www.aslpro.com/main/w/work.swf,HTTP_STATUS_404
+63806,work,train,aslsearch,http://www.aslsearch.com/signs/videos/work.mp4,INVALID_CONTENT_TYPE_HTML
+62258,want,train,aslpro,http://www.aslpro.com/main/w/want.swf,HTTP_STATUS_404
+63794,work,train,handspeak,https://www.handspeak.com/word/w/work.mp4,HTTP_STATUS_404
+63795,work,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14523.mp4,HTTP_STATUS_403
+63799,work,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8599.mp4,HTTP_STATUS_403
+01390,africa,train,handspeak,https://www.handspeak.com/word/a/africa.mp4,HTTP_STATUS_404
+01396,africa,train,aslpro,http://www.aslpro.com/main/a/africa_1.swf,HTTP_STATUS_404
+01391,africa,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14836.mp4,HTTP_STATUS_403
+01398,africa,val,aslsearch,http://www.aslsearch.com/signs/videos/africa.mp4,INVALID_CONTENT_TYPE_HTML
+05236,basketball,val,handspeak,https://www.handspeak.com/word/b/basketball-hs5.mp4,HTTP_STATUS_404
+05238,basketball,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23590.mp4,HTTP_STATUS_403
+05243,basketball,train,aslsearch,http://www.aslsearch.com/signs/videos/basketball.mp4,INVALID_CONTENT_TYPE_HTML
+05239,basketball,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6341.mp4,HTTP_STATUS_403
+06365,birthday,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8986.mp4,HTTP_STATUS_403
+06371,birthday,train,aslsearch,http://www.aslsearch.com/signs/videos/birthday.mp4,INVALID_CONTENT_TYPE_HTML
+06370,birthday,test,aslpro,http://www.aslpro.com/main/b/birthday.swf,HTTP_STATUS_404
+06363,birthday,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7007.mp4,HTTP_STATUS_403
+07966,brown,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6209.mp4,HTTP_STATUS_403
+07972,brown,train,aslpro,http://www.aslpro.com/main/b/brown.swf,HTTP_STATUS_404
+07973,brown,val,aslsearch,http://www.aslsearch.com/signs/videos/brown.mp4,INVALID_CONTENT_TYPE_HTML
+01397,africa,test,aslpro,http://www.aslpro.com/main/a/africa_2.swf,CONNECTION_TIMEOUT
+06362,birthday,val,handspeak,https://www.handspeak.com/word/b/birthday.mp4,HTTP_STATUS_404
+08429,but,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23503.mp4,HTTP_STATUS_403
+08431,but,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6551.mp4,HTTP_STATUS_403
+05237,basketball,train,handspeak,https://www.handspeak.com/word/b/basketball.mp4,CONNECTION_TIMEOUT
+08437,but,train,aslsearch,http://www.aslsearch.com/signs/videos/but.mp4,INVALID_CONTENT_TYPE_HTML
+10162,cheat,train,aslpro,http://www.aslpro.com/main/c/cheat_1.swf,HTTP_STATUS_404
+10164,cheat,train,aslpro,http://www.aslpro.com/main/c/cheat_3.swf,HTTP_STATUS_404
+10166,cheat,train,aslsearch,http://www.aslsearch.com/signs/videos/cheat.mp4,INVALID_CONTENT_TYPE_HTML
+08427,but,train,handspeak,https://www.handspeak.com/word/b/but-fs.mp4,HTTP_STATUS_404
+10157,cheat,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14045.mp4,HTTP_STATUS_403
+10158,cheat,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14046.mp4,HTTP_STATUS_403
+10159,cheat,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14047.mp4,HTTP_STATUS_403
+10904,city,val,aslsearch,http://www.aslsearch.com/signs/videos/city.mp4,INVALID_CONTENT_TYPE_HTML
+07964,brown,val,handspeak,https://www.handspeak.com/word/b/brown.mp4,CONNECTION_TIMEOUT
+10898,city,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6001.mp4,HTTP_STATUS_403
+06361,birthday,train,handspeak,https://www.handspeak.com/word/b/birthday2.mp4,CONNECTION_TIMEOUT
+08436,but,test,aslpro,http://www.aslpro.com/main/b/but.swf,CONNECTION_TIMEOUT
+08428,but,train,handspeak,https://www.handspeak.com/word/b/but.mp4,CONNECTION_TIMEOUT
+13161,cook,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5801.mp4,HTTP_STATUS_403
+13167,cook,train,aslsearch,http://www.aslsearch.com/signs/videos/cook2.mp4,INVALID_CONTENT_TYPE_HTML
+13168,cook,train,aslsearch,http://www.aslsearch.com/signs/videos/cook.mp4,INVALID_CONTENT_TYPE_HTML
+13160,cook,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14239.mp4,HTTP_STATUS_403
+15037,decide,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23917.mp4,HTTP_STATUS_403
+10896,city,train,handspeak,https://www.handspeak.com/word/c/city.mp4,CONNECTION_TIMEOUT
+15038,decide,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9203.mp4,HTTP_STATUS_403
+15043,decide,val,aslsearch,http://www.aslsearch.com/signs/videos/decide.mp4,INVALID_CONTENT_TYPE_HTML
+15042,decide,train,aslpro,http://www.aslpro.com/main/d/decide.swf,HTTP_STATUS_404
+23782,full,train,aslsearch,http://www.aslsearch.com/signs/videos/full.mp4,INVALID_CONTENT_TYPE_HTML
+23774,full,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23323.mp4,HTTP_STATUS_403
+23780,full,train,aslpro,http://www.aslpro.com/main/f/full.swf,HTTP_STATUS_404
+10156,cheat,test,handspeak,https://www.handspeak.com/word/c/cheat-us.mp4,CONNECTION_TIMEOUT
+23776,full,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7838.mp4,HTTP_STATUS_403
+13166,cook,train,aslpro,http://www.aslpro.com/main/c/cook.swf,CONNECTION_TIMEOUT
+23775,full,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/23/23324.mp4,HTTP_STATUS_403
+10903,city,train,aslpro,http://www.aslpro.com/main/c/city.swf,CONNECTION_TIMEOUT
+23772,full,train,handspeak,https://www.handspeak.com/word/f/full-eat.mp4,HTTP_STATUS_404
+13159,cook,val,handspeak,https://www.handspeak.com/word/c/cook.mp4,CONNECTION_TIMEOUT
+28210,how,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5874.mp4,HTTP_STATUS_403
+28214,how,train,aslsearch,http://www.aslsearch.com/signs/videos/how.mp4,INVALID_CONTENT_TYPE_HTML
+28213,how,train,aslpro,http://www.aslpro.com/main/h/how.swf,HTTP_STATUS_404
+28211,how,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5875.mp4,HTTP_STATUS_403
+30848,jacket,train,aslpro,http://www.aslpro.com/main/j/jacket.swf,HTTP_STATUS_404
+30849,jacket,val,aslsearch,http://www.aslsearch.com/signs/videos/jacket.mp4,INVALID_CONTENT_TYPE_HTML
+28206,how,val,handspeak,https://www.handspeak.com/word/h/how-1913.mp4,HTTP_STATUS_404
+15036,decide,train,handspeak,https://www.handspeak.com/word/d/decide.mp4,CONNECTION_TIMEOUT
+28207,how,train,handspeak,https://www.handspeak.com/word/h/how2.mp4,CONNECTION_TIMEOUT
+23773,full,train,handspeak,https://www.handspeak.com/word/f/full.mp4,HTTP_STATUS_404
+30840,jacket,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22145.mp4,HTTP_STATUS_403
+28208,how,train,handspeak,https://www.handspeak.com/word/h/how.mp4,CONNECTION_TIMEOUT
+30847,jacket,train,aslpro,http://www.aslpro.com//main/j/jacket_smoking.swf,CONNECTION_TIMEOUT
+32957,letter,train,aslpro,http://www.aslpro.com/main/l/letter.swf,HTTP_STATUS_404
+32954,letter,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6848.mp4,HTTP_STATUS_403
+32959,letter,train,aslsearch,http://www.aslsearch.com/signs/videos/letter.mp4,INVALID_CONTENT_TYPE_HTML
+32955,letter,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6850.mp4,HTTP_STATUS_403
+32953,letter,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6847.mp4,HTTP_STATUS_403
+30837,jacket,train,handspeak,https://www.handspeak.com/word/j/jacket.mp4,HTTP_STATUS_404
+35465,medicine,train,aslpro,http://www.aslpro.com/main/m/medicine.swf,HTTP_STATUS_404
+35458,medicine,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6826.mp4,HTTP_STATUS_403
+35466,medicine,val,aslpro,http://www.aslpro.com/main/m/medicine_taking.swf,HTTP_STATUS_404
+35467,medicine,train,aslsearch,http://www.aslsearch.com/signs/videos/medical.mp4,INVALID_CONTENT_TYPE_HTML
+32951,letter,train,handspeak,https://www.handspeak.com/word/l/letter.mp4,HTTP_STATUS_404
+37893,need,train,aslpro,http://www.aslpro.com/main/n/need.swf,HTTP_STATUS_404
+37886,need,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9563.mp4,HTTP_STATUS_403
+37894,need,train,aslsearch,http://www.aslsearch.com/signs/videos/shall.mp4,INVALID_CONTENT_TYPE_HTML
+40840,paint,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14823.mp4,HTTP_STATUS_403
+40841,paint,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14824.mp4,HTTP_STATUS_403
+40846,paint,train,aslpro,http://www.aslpro.com/main/p/paint.swf,HTTP_STATUS_404
+40847,paint,train,aslsearch,http://www.aslsearch.com/signs/videos/paint.mp4,INVALID_CONTENT_TYPE_HTML
+35464,medicine,train,aslpro,http://www.aslpro.com/main/l/liquid_medicine.swf,HTTP_STATUS_404
+41037,paper,train,aslsearch,http://www.aslsearch.com/signs/videos/paper.mp4,INVALID_CONTENT_TYPE_HTML
+41032,paper,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/5/5899.mp4,HTTP_STATUS_403
+30838,jacket,train,handspeak,https://www.handspeak.com/word/j/jacket-thin.mp4,CONNECTION_TIMEOUT
+41036,paper,train,aslpro,http://www.aslpro.com/main/p/paper.swf,HTTP_STATUS_404
+45273,pull,train,aslsearch,http://www.aslsearch.com/signs/videos/pull.mp4,INVALID_CONTENT_TYPE_HTML
+45267,pull,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22921.mp4,HTTP_STATUS_403
+45272,pull,train,aslpro,http://www.aslpro.com/main/p/pull.swf,HTTP_STATUS_404
+41031,paper,val,handspeak,https://www.handspeak.com/word/p/paper.mp4,HTTP_STATUS_404
+37885,need,train,handspeak,https://www.handspeak.com/word/n/need.mp4,CONNECTION_TIMEOUT
+45438,purple,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6858.mp4,HTTP_STATUS_403
+35457,medicine,val,handspeak,https://www.handspeak.com/word/m/medicine.mp4,CONNECTION_TIMEOUT
+45442,purple,train,aslpro,http://www.aslpro.com/main/p/purple.swf,HTTP_STATUS_404
+45443,purple,train,aslsearch,http://www.aslsearch.com/signs/videos/purple.mp4,INVALID_CONTENT_TYPE_HTML
+48122,right,train,aslpro,http://www.aslpro.com/main/r/right_correct.swf,HTTP_STATUS_404
+40839,paint,train,handspeak,https://www.handspeak.com/word/p/paint-wall.mp4,CONNECTION_TIMEOUT
+48123,right,val,aslpro,http://www.aslpro.com/main/r/right_direction.swf,HTTP_STATUS_404
+40838,paint,train,handspeak,https://www.handspeak.com/word/p/paint-art.mp4,HTTP_STATUS_404
+48124,right,val,aslsearch,http://www.aslsearch.com/signs/videos/correct.mp4,INVALID_CONTENT_TYPE_HTML
+48126,right,test,aslsearch,http://www.aslsearch.com/signs/videos/right.mp4,INVALID_CONTENT_TYPE_HTML
+45437,purple,train,handspeak,https://www.handspeak.com/word/p/purple.mp4,HTTP_STATUS_404
+45266,pull,train,handspeak,https://www.handspeak.com/word/p/pull.mp4,HTTP_STATUS_404
+48114,right,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/22/22624.mp4,HTTP_STATUS_403
+48115,right,test,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6234.mp4,HTTP_STATUS_403
+49180,same,test,handspeak,https://www.handspeak.com/word/s/same-as.mp4,HTTP_STATUS_404
+49188,same,train,aslsearch,http://www.aslsearch.com/signs/videos/same.mp4,INVALID_CONTENT_TYPE_HTML
+49181,same,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14298.mp4,HTTP_STATUS_403
+49183,same,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8808.mp4,HTTP_STATUS_403
+49182,same,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8807.mp4,HTTP_STATUS_403
+49179,same,test,handspeak,https://www.handspeak.com/word/s/same-also.mp4,HTTP_STATUS_404
+53273,son,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6483.mp4,HTTP_STATUS_403
+48112,right,val,handspeak,https://www.handspeak.com/word/r/right-dir.mp4,HTTP_STATUS_404
+53275,son,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8468.mp4,HTTP_STATUS_403
+53278,son,train,aslpro,http://www.aslpro.com/main/s/son.swf,HTTP_STATUS_404
+53279,son,train,aslsearch,http://www.aslsearch.com/signs/videos/son.mp4,INVALID_CONTENT_TYPE_HTML
+53272,son,train,handspeak,https://www.handspeak.com/word/s/son.mp4,HTTP_STATUS_404
+57279,tell,train,handspeak,https://www.handspeak.com/word/t/tell-me.mp4,HTTP_STATUS_404
+57281,tell,train,handspeak,https://www.handspeak.com/word/t/tell-them.mp4,HTTP_STATUS_404
+57280,tell,train,handspeak,https://www.handspeak.com/word/t/tell.mp4,HTTP_STATUS_404
+57282,tell,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/14/14398.mp4,HTTP_STATUS_403
+57283,tell,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6412.mp4,HTTP_STATUS_403
+53274,son,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/8/8467.mp4,HTTP_STATUS_403
+57291,tell,train,aslsearch,http://www.aslsearch.com/signs/videos/tell.mp4,INVALID_CONTENT_TYPE_HTML
+57286,tell,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9495.mp4,HTTP_STATUS_403
+57290,tell,val,aslpro,http://www.aslpro.com/main/t/tell.swf,HTTP_STATUS_404
+57287,tell,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9828.mp4,HTTP_STATUS_403
+57285,tell,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/9/9494.mp4,HTTP_STATUS_403
+57284,tell,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/7/7823.mp4,HTTP_STATUS_403
+58364,thursday,train,handspeak,https://www.handspeak.com/word/t/thursday.mp4,HTTP_STATUS_404
+58365,thursday,val,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6019.mp4,HTTP_STATUS_403
+48111,right,train,handspeak,https://www.handspeak.com/word/r/right-correct2.mp4,HTTP_STATUS_404
+58366,thursday,train,signingsavvy,https://www.signingsavvy.com/signs/mp4/6/6020.mp4,HTTP_STATUS_403
+58370,thursday,val,aslsearch,http://www.aslsearch.com/signs/videos/thursday.mp4,INVALID_CONTENT_TYPE_HTML
+58369,thursday,train,aslpro,http://www.aslpro.com/main/t/thursday.swf,HTTP_STATUS_404
+49187,same,val,aslpro,http://www.aslpro.com/main/s/same.swf,HTTP_STATUS_404
+68208,book,train,lillybauer,https://www.youtube.com/watch?v=1QOYOZ3g-aY,YT_DOWNLOAD_ERROR_ERROR: [youtube] 1QOYOZ3g-aY: This video is u
+67424,book,train,asllex,https://youtu.be/3-GrhsVs830,YT_VIDEO_PRIVATE
+68538,drink,val,lillybauer,https://www.youtube.com/watch?v=HZMTQJdBZ9g,YT_DOWNLOAD_ERROR_ERROR: [youtube] HZMTQJdBZ9g: This video is u
+68660,drink,train,lillybauer,https://www.youtube.com/watch?v=Lk2Vws8homw,YT_DOWNLOAD_ERROR_ERROR: [youtube] Lk2Vws8homw: This video is u
+17726,drink,train,aslu,https://www.youtube.com/watch?v=6gU3Ln98sWA,YT_DOWNLOAD_ERROR_ERROR: [youtube] 6gU3Ln98sWA: This video is u
+17727,drink,train,nabboud,https://www.youtube.com/watch?v=Ddd2ZZNFhVI,YT_DOWNLOAD_ERROR_ERROR: [youtube] Ddd2ZZNFhVI: This video is u
+67594,drink,train,asllex,https://youtu.be/yawcLQIhQiE,YT_VIDEO_PRIVATE
+69054,computer,train,lillybauer,https://www.youtube.com/watch?v=YEFd7zsUNXU,YT_DOWNLOAD_ERROR_ERROR: [youtube] YEFd7zsUNXU: This video is u
+12332,computer,test,nabboud,https://www.youtube.com/watch?v=lVo6MByRMHY,YT_DOWNLOAD_ERROR_ERROR: [youtube] lVo6MByRMHY: This video is u
+17725,drink,train,aslu,https://www.youtube.com/watch?v=537MWOtCl78,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+12336,computer,test,nabboud,https://www.youtube.com/watch?v=-wmqgdmwySo,YT_DOWNLOAD_ERROR_ERROR: [youtube] -wmqgdmwySo: This video is u
+67519,computer,test,asllex,https://youtu.be/u1xoXux2NaE,YT_VIDEO_PRIVATE
+17728,drink,train,aslu,https://www.youtube.com/watch?v=g3rl9_LYqzI,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+68580,chair,train,lillybauer,https://www.youtube.com/watch?v=j2hvnGiBrRI,YT_DOWNLOAD_ERROR_ERROR: [youtube] j2hvnGiBrRI: This video is u
+09856,chair,train,nabboud,https://www.youtube.com/watch?v=dXz1i9gTR4w,YT_DOWNLOAD_ERROR_ERROR: [youtube] dXz1i9gTR4w: This video is u
+67483,chair,val,asllex,https://youtu.be/K47c4lIJQvI,YT_VIDEO_PRIVATE
+68292,go,train,lillybauer,https://www.youtube.com/watch?v=7IkKMzvSsFM,YT_DOWNLOAD_ERROR_ERROR: [youtube] 7IkKMzvSsFM: This video is u
+24965,go,train,nabboud,https://www.youtube.com/watch?v=jknOnIhAbNo,YT_DOWNLOAD_ERROR_ERROR: [youtube] jknOnIhAbNo: This video is u
+24971,go,train,nabboud,https://www.youtube.com/watch?v=ZyL9f_qoGug,YT_DOWNLOAD_ERROR_ERROR: [youtube] ZyL9f_qoGug: This video is u
+67715,go,test,asllex,https://youtu.be/QfVrSA3yrSc,YT_VIDEO_PRIVATE
+68870,clothes,train,lillybauer,https://www.youtube.com/watch?v=RVnoNW53qFU,YT_DOWNLOAD_ERROR_ERROR: [youtube] RVnoNW53qFU: This video is u
+68019,chair,train,valencia-asl,https://www.youtube.com/watch?v=zICB0wesqvY,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+68890,who,train,lillybauer,https://www.youtube.com/watch?v=SQUHKsHMUiw,YT_DOWNLOAD_ERROR_ERROR: [youtube] SQUHKsHMUiw: This video is u
+67066,who,train,asllex,https://youtu.be/gDkZ2Zn3Sjg,YT_VIDEO_PRIVATE
+63238,who,train,nabboud,https://www.youtube.com/watch?v=dnDu1DxXWo4,YT_DOWNLOAD_ERROR_ERROR: [youtube] dnDu1DxXWo4: This video is u
+68790,candy,train,lillybauer,https://www.youtube.com/watch?v=PfobLrBH5G8,YT_DOWNLOAD_ERROR_ERROR: [youtube] PfobLrBH5G8: This video is u
+67468,candy,val,asllex,https://youtu.be/kymMYu5qPhY,YT_VIDEO_PRIVATE
+67470,candy,train,asllex,https://youtu.be/xK2QEO7Xld4,YT_VIDEO_PRIVATE
+68592,cousin,train,lillybauer,https://www.youtube.com/watch?v=jC6sHiZBEyI,YT_DOWNLOAD_ERROR_ERROR: [youtube] jC6sHiZBEyI: This video is u
+67535,cousin,test,asllex,https://youtu.be/mBNbzPNTVqk,YT_VIDEO_PRIVATE
+70332,cousin,train,northtexas,https://www.youtube.com/watch?v=bq-HmgjGzmw,YT_DOWNLOAD_ERROR_ERROR: Unable to rename file: [WinError 32] T
+68586,deaf,train,lillybauer,https://www.youtube.com/watch?v=J9hiREjgVe0,YT_DOWNLOAD_ERROR_ERROR: [youtube] J9hiREjgVe0: This video is u
+14900,deaf,train,nabboud,https://www.youtube.com/watch?v=YsLUNOu9jXU,YT_DOWNLOAD_ERROR_ERROR: [youtube] YsLUNOu9jXU: This video is u
+14895,deaf,train,nabboud,https://www.youtube.com/watch?v=5Dr7V1fbTFU,YT_DOWNLOAD_ERROR_ERROR: [youtube] 5Dr7V1fbTFU: This video is u
+67660,fine,train,asllex,https://youtu.be/2RLybfKx4Js,YT_VIDEO_PRIVATE
+67659,fine,train,asllex,https://youtu.be/lTp1ICCGCxA,YT_VIDEO_PRIVATE
+27219,help,val,nabboud,https://www.youtube.com/watch?v=RStYX5OXPjE,YT_DOWNLOAD_ERROR_ERROR: [youtube] RStYX5OXPjE: This video is u
+67757,help,train,asllex,https://youtu.be/OWXmFhatan8,YT_VIDEO_PRIVATE
+27218,help,train,nabboud,https://www.youtube.com/watch?v=l31UXgChCS4,YT_DOWNLOAD_ERROR_ERROR: [youtube] l31UXgChCS4: This video is u
+68406,no,val,lillybauer,https://www.youtube.com/watch?v=Dd95RFhtSs4,YT_DOWNLOAD_ERROR_ERROR: [youtube] Dd95RFhtSs4: This video is u
+14899,deaf,train,aslu,https://www.youtube.com/watch?v=sP4e9vRUCYM,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+67934,no,train,asllex,https://youtu.be/jGsh6zd3eUQ,YT_VIDEO_PRIVATE
+38536,no,train,nabboud,https://www.youtube.com/watch?v=lgNwgl10VSg,YT_DOWNLOAD_ERROR_ERROR: [youtube] lgNwgl10VSg: This video is u
+67299,thin,train,asllex,https://youtu.be/LCJYxgYwsVE,YT_VIDEO_PRIVATE
+68852,walk,val,lillybauer,https://www.youtube.com/watch?v=r9Rten33zC8,YT_DOWNLOAD_ERROR_ERROR: [youtube] r9Rten33zC8: This video is u
+68918,walk,val,lillybauer,https://www.youtube.com/watch?v=tRJ29Rh8pGg,YT_DOWNLOAD_ERROR_ERROR: [youtube] tRJ29Rh8pGg: This video is u
+67036,walk,train,asllex,https://youtu.be/hhgODkjRmcg,YT_VIDEO_PRIVATE
+62172,walk,train,nabboud,https://www.youtube.com/watch?v=U32Kznk2a70,YT_DOWNLOAD_ERROR_ERROR: [youtube] U32Kznk2a70: This video is u
+68416,year,val,lillybauer,https://www.youtube.com/watch?v=DnDbjT1fq8I,YT_DOWNLOAD_ERROR_ERROR: [youtube] DnDbjT1fq8I: This video is u
+68992,year,train,lillybauer,https://www.youtube.com/watch?v=w9jgHLG_4ow,YT_DOWNLOAD_ERROR_ERROR: [youtube] w9jgHLG_4ow: This video is u
+67012,year,train,asllex,https://youtu.be/21Naa_OgS4A,YT_VIDEO_PRIVATE
+64298,yes,val,nabboud,https://www.youtube.com/watch?v=wc2A8AZepy4,YT_DOWNLOAD_ERROR_ERROR: [youtube] wc2A8AZepy4: This video is u
+38540,no,train,aslu,https://www.youtube.com/watch?v=pkzfT9cYvH0,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+68720,all,test,lillybauer,https://www.youtube.com/watch?v=My4w56H6qwk,YT_DOWNLOAD_ERROR_ERROR: [youtube] My4w56H6qwk: This video is u
+67356,all,train,asllex,https://youtu.be/-lxp0xh1smo,YT_VIDEO_PRIVATE
+01998,all,train,nabboud,https://www.youtube.com/watch?v=iERRGfH_giQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] iERRGfH_giQ: This video is u
+01999,all,val,nabboud,https://www.youtube.com/watch?v=k3c4uVHBFR4,YT_DOWNLOAD_ERROR_ERROR: [youtube] k3c4uVHBFR4: This video is u
+68230,black,val,lillybauer,https://www.youtube.com/watch?v=2YRASxmXLD0,YT_DOWNLOAD_ERROR_ERROR: [youtube] 2YRASxmXLD0: This video is u
+67414,black,train,asllex,https://youtu.be/kCT-we5dguI,YT_VIDEO_PRIVATE
+01997,all,val,aslu,https://www.youtube.com/watch?v=fE1BI5KxKJM,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+06484,black,train,nabboud,https://www.youtube.com/watch?v=TLoZKdMeA8w,YT_DOWNLOAD_ERROR_ERROR: [youtube] TLoZKdMeA8w: This video is u
+68674,finish,train,lillybauer,https://www.youtube.com/watch?v=luSKhV7GMUo,YT_DOWNLOAD_ERROR_ERROR: [youtube] luSKhV7GMUo: This video is u
+68688,finish,train,lillybauer,https://www.youtube.com/watch?v=Mh3UZ1UsXzw,YT_DOWNLOAD_ERROR_ERROR: [youtube] Mh3UZ1UsXzw: This video is u
+67663,finish,train,asllex,https://youtu.be/_1MKB3Avehs,YT_VIDEO_PRIVATE
+28120,hot,train,aslu,https://www.youtube.com/watch?v=Eya_OdUAevw,YT_DOWNLOAD_ERROR_ERROR: Unable to rename file: [WinError 32] T
+28123,hot,train,nabboud,https://www.youtube.com/watch?v=Ob3drndU_yM,YT_DOWNLOAD_ERROR_ERROR: [youtube] Ob3drndU_yM: This video is u
+21952,finish,val,aslu,https://www.youtube.com/watch?v=7xQE2N0z7gM,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+33283,like,train,nabboud,https://www.youtube.com/watch?v=xKY35YaWuLE,YT_DOWNLOAD_ERROR_ERROR: [youtube] xKY35YaWuLE: This video is u
+67873,many,train,asllex,https://youtu.be/eTmzHLtBOnU,YT_VIDEO_PRIVATE
+34833,many,train,nabboud,https://www.youtube.com/watch?v=3B2kbN-ai6Y,YT_DOWNLOAD_ERROR_ERROR: [youtube] 3B2kbN-ai6Y: This video is u
+34837,many,train,nabboud,https://www.youtube.com/watch?v=MHJPgvs2kP8,YT_DOWNLOAD_ERROR_ERROR: [youtube] MHJPgvs2kP8: This video is u
+67908,mother,test,asllex,https://youtu.be/MEhxsAx_n6A,YT_VIDEO_PRIVATE
+68694,now,train,lillybauer,https://www.youtube.com/watch?v=mKDG2tGn1Y8,YT_DOWNLOAD_ERROR_ERROR: [youtube] mKDG2tGn1Y8: This video is u
+68770,now,train,lillybauer,https://www.youtube.com/watch?v=OQM3x-HY2dM,YT_DOWNLOAD_ERROR_ERROR: [youtube] OQM3x-HY2dM: This video is u
+67937,now,train,asllex,https://youtu.be/hIPRC-_00vs,YT_VIDEO_PRIVATE
+67949,orange,test,asllex,https://youtu.be/F4cpgfDA0ds,YT_VIDEO_PRIVATE
+40124,orange,train,nabboud,https://www.youtube.com/watch?v=juHCHcRrGew,YT_DOWNLOAD_ERROR_ERROR: [youtube] juHCHcRrGew: This video is u
+70249,orange,train,northtexas,https://www.youtube.com/watch?v=WprUBqi3iBc,YT_DOWNLOAD_ERROR_ERROR: Unable to rename file: [WinError 32] T
+68972,table,val,lillybauer,https://www.youtube.com/watch?v=VQMheRBg2Mw,YT_DOWNLOAD_ERROR_ERROR: [youtube] VQMheRBg2Mw: This video is u
+56564,table,train,nabboud,https://www.youtube.com/watch?v=DB5oSxy6rrc,YT_DOWNLOAD_ERROR_ERROR: [youtube] DB5oSxy6rrc: This video is u
+67275,table,test,asllex,https://youtu.be/XtP6_KGsQwE,YT_VIDEO_PRIVATE
+40123,orange,train,aslu,https://www.youtube.com/watch?v=gHyJ2zdCVHw,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+69092,thanksgiving,train,lillybauer,https://www.youtube.com/watch?v=ZxOqr6aCVLc,YT_DOWNLOAD_ERROR_ERROR: [youtube] ZxOqr6aCVLc: This video is u
+67292,thanksgiving,train,asllex,https://youtu.be/3PcHDlj9WEc,YT_VIDEO_PRIVATE
+40126,orange,test,scott,https://www.youtube.com/watch?v=V3hT7-PIJz4,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+68330,what,train,lillybauer,https://www.youtube.com/watch?v=AK26EQRsH7k,YT_DOWNLOAD_ERROR_ERROR: [youtube] AK26EQRsH7k: This video is u
+62982,what,train,nabboud,https://www.youtube.com/watch?v=M1gXuGSWqVI,YT_DOWNLOAD_ERROR_ERROR: [youtube] M1gXuGSWqVI: This video is u
+67057,what,train,asllex,https://youtu.be/sbODkAcZ5Mw,YT_VIDEO_PRIVATE
+67058,what,train,asllex,https://youtu.be/XO9Lq5Gyuaw,YT_VIDEO_PRIVATE
+68764,woman,val,lillybauer,https://www.youtube.com/watch?v=OgcjUatW9LA,YT_DOWNLOAD_ERROR_ERROR: [youtube] OgcjUatW9LA: This video is u
+67078,woman,train,asllex,https://youtu.be/2GhoeP8Gcyk,YT_VIDEO_PRIVATE
+67400,bed,val,asllex,https://youtu.be/Rl52rS9gxSU,YT_VIDEO_PRIVATE
+05642,bed,train,nabboud,https://www.youtube.com/watch?v=zsInxFbekV8,YT_DOWNLOAD_ERROR_ERROR: [youtube] zsInxFbekV8: This video is u
+68274,blue,train,lillybauer,https://www.youtube.com/watch?v=6I9PNDl8A_U,YT_DOWNLOAD_ERROR_ERROR: [youtube] 6I9PNDl8A_U: This video is u
+67420,blue,val,asllex,https://youtu.be/b_4KkOWYXIU,YT_VIDEO_PRIVATE
+06843,blue,val,nabboud,https://www.youtube.com/watch?v=Xi6L8dzG8YQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] Xi6L8dzG8YQ: This video is u
+67431,bowling,train,asllex,https://youtu.be/GZ_G19YmWO8,YT_VIDEO_PRIVATE
+08950,can,train,nabboud,https://www.youtube.com/watch?v=_jv2aC-37vQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] _jv2aC-37vQ: This video is u
+08951,can,train,nabboud,https://www.youtube.com/watch?v=trqyl20lEno,YT_DOWNLOAD_ERROR_ERROR: [youtube] trqyl20lEno: This video is u
+08952,can,train,nabboud,https://www.youtube.com/watch?v=-VJGz9f7DMY,YT_DOWNLOAD_ERROR_ERROR: [youtube] -VJGz9f7DMY: This video is u
+67465,can,val,asllex,https://youtu.be/XKsE3bqirCc,YT_VIDEO_PRIVATE
+08947,can,test,nabboud,https://www.youtube.com/watch?v=AkAg7GO240c,YT_DOWNLOAD_ERROR_ERROR: [youtube] AkAg7GO240c: This video is u
+08946,can,train,aslu,https://www.youtube.com/watch?v=4zPifaOHJIE,YT_DOWNLOAD_ERROR_ERROR: Unable to rename file: [WinError 32] T
+08949,can,train,nabboud,https://www.youtube.com/watch?v=FH3mTCczlsc,YT_DOWNLOAD_ERROR_ERROR: [youtube] FH3mTCczlsc: This video is u
+68632,dog,train,lillybauer,https://www.youtube.com/watch?v=kMcaG9BjXXg,YT_DOWNLOAD_ERROR_ERROR: [youtube] kMcaG9BjXXg: This video is u
+17092,dog,train,nabboud,https://www.youtube.com/watch?v=catBjk1p2bk,YT_DOWNLOAD_ERROR_ERROR: [youtube] catBjk1p2bk: This video is u
+67578,dog,test,asllex,https://youtu.be/-9AsKTaXwH8,YT_VIDEO_PRIVATE
+69016,family,train,lillybauer,https://www.youtube.com/watch?v=x3GJ5mFOpNA,YT_DOWNLOAD_ERROR_ERROR: [youtube] x3GJ5mFOpNA: This video is u
+67642,family,val,asllex,https://youtu.be/Yuif86dOrEY,YT_VIDEO_PRIVATE
+67667,fish,val,asllex,https://youtu.be/61B8V3YHlqg,YT_VIDEO_PRIVATE
+22124,fish,train,nabboud,https://www.youtube.com/watch?v=22cYLTT67sc,YT_DOWNLOAD_ERROR_ERROR: [youtube] 22cYLTT67sc: This video is u
+68528,graduate,train,lillybauer,https://www.youtube.com/watch?v=HNp5UcfuRSI,YT_DOWNLOAD_ERROR_ERROR: [youtube] HNp5UcfuRSI: This video is u
+67722,graduate,test,asllex,https://youtu.be/aciHfU1IrCc,YT_VIDEO_PRIVATE
+68396,hat,train,lillybauer,https://www.youtube.com/watch?v=Cw7DfeqaQu0,YT_DOWNLOAD_ERROR_ERROR: [youtube] Cw7DfeqaQu0: This video is u
+67745,hat,val,asllex,https://youtu.be/YZyaVHlqsvY,YT_VIDEO_PRIVATE
+26722,hat,train,nabboud,https://www.youtube.com/watch?v=40-GTK0E2k4,YT_DOWNLOAD_ERROR_ERROR: [youtube] 40-GTK0E2k4: This video is u
+26726,hat,train,nabboud,https://www.youtube.com/watch?v=QhYtXRY5ULQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] QhYtXRY5ULQ: This video is u
+68350,hearing,train,lillybauer,https://www.youtube.com/watch?v=ba87IfnWL9s,YT_DOWNLOAD_ERROR_ERROR: [youtube] ba87IfnWL9s: This video is u
+67750,hearing,val,asllex,https://youtu.be/eQlq7VX7VSg,YT_VIDEO_PRIVATE
+26981,hearing,train,nabboud,https://www.youtube.com/watch?v=AoyNI1BJmOE,YT_DOWNLOAD_ERROR_ERROR: [youtube] AoyNI1BJmOE: This video is u
+25333,graduate,train,aslu,https://www.youtube.com/watch?v=Uch6xFIQ3X0,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+67817,kiss,train,asllex,https://youtu.be/xUtx5xCoVXI,YT_VIDEO_PRIVATE
+31763,kiss,train,nabboud,https://www.youtube.com/watch?v=SbvomlBCAe8,YT_DOWNLOAD_ERROR_ERROR: [youtube] SbvomlBCAe8: This video is u
+31764,kiss,train,nabboud,https://www.youtube.com/watch?v=tp7A4b_dO0k,YT_DOWNLOAD_ERROR_ERROR: [youtube] tp7A4b_dO0k: This video is u
+68904,language,val,lillybauer,https://www.youtube.com/watch?v=TaeaJ9r1A5U,YT_DOWNLOAD_ERROR_ERROR: [youtube] TaeaJ9r1A5U: This video is u
+67827,language,val,asllex,https://youtu.be/ZS5lDC1yMSo,YT_VIDEO_PRIVATE
+32165,language,train,aslu,https://www.youtube.com/watch?v=y3ZYWbCLnGU,YT_DOWNLOAD_ERROR_ERROR: [youtube] y3ZYWbCLnGU: This video is u
+67829,later,test,asllex,https://youtu.be/s3wDKw4Y4w0,YT_VIDEO_PRIVATE
+68070,hearing,train,valencia-asl,https://www.youtube.com/watch?v=x5cwBfSKnZc,"YT_DOWNLOAD_ERROR_ERROR: [download] Got error: (<HTTPSConnecti"
+68794,man,train,lillybauer,https://www.youtube.com/watch?v=pi_BA9L-UNk,YT_DOWNLOAD_ERROR_ERROR: [youtube] pi_BA9L-UNk: This video is u
+67872,man,val,asllex,https://youtu.be/T2R4utmVagc,YT_VIDEO_PRIVATE
+68928,shirt,train,lillybauer,https://www.youtube.com/watch?v=u7GIbrpxyFU,YT_DOWNLOAD_ERROR_ERROR: [youtube] u7GIbrpxyFU: This video is u
+67188,shirt,train,asllex,https://youtu.be/lSqfurbjfDc,YT_BOT_CHALLENGE
+51070,shirt,train,nabboud,https://www.youtube.com/watch?v=8dyicrBmgKE,YT_DOWNLOAD_ERROR_ERROR: [youtube] 8dyicrBmgKE: This video is u
+51069,shirt,train,aslu,https://www.youtube.com/watch?v=4ln_5SQd__w,YT_BOT_CHALLENGE
+51071,shirt,val,aslu,https://www.youtube.com/watch?v=9Rcg3QJiClc,YT_BOT_CHALLENGE
+51072,shirt,train,aslu,https://www.youtube.com/watch?v=i14EM0ZbtUY,YT_BOT_CHALLENGE
+55356,study,test,asl5200,https://www.youtube.com/watch?v=XB3Q6IX6CBo,YT_BOT_CHALLENGE
+68428,study,val,lillybauer,https://www.youtube.com/watch?v=edaot0Pm6NI,YT_DOWNLOAD_ERROR_ERROR: [youtube] edaot0Pm6NI: This video is u
+68624,study,train,lillybauer,https://www.youtube.com/watch?v=kePJ_Y5KPmM,YT_DOWNLOAD_ERROR_ERROR: [youtube] kePJ_Y5KPmM: This video is u
+68162,study,train,valencia-asl,https://www.youtube.com/watch?v=JSwDsjPxKk0,YT_BOT_CHALLENGE
+55370,study,train,aslu,https://www.youtube.com/watch?v=MI5yNdCJ7kg,YT_BOT_CHALLENGE
+55371,study,val,aslu,https://www.youtube.com/watch?v=ngmdzuRjqcA,YT_BOT_CHALLENGE
+55372,study,train,aslu,https://www.youtube.com/watch?v=tGm13N0s4wQ,YT_BOT_CHALLENGE
+55373,study,val,aslu,https://www.youtube.com/watch?v=ZRgbix3ihv0,YT_BOT_CHALLENGE
+67278,tall,test,asllex,https://youtu.be/qk-or6jz0Hk,YT_BOT_CHALLENGE
+67279,tall,train,asllex,https://youtu.be/sT8fYiXBtZE,YT_BOT_CHALLENGE
+56849,tall,train,aslu,https://www.youtube.com/watch?v=3FdpwAJlbaU,YT_BOT_CHALLENGE
+56850,tall,val,aslu,https://www.youtube.com/watch?v=orl2KrOMEIQ,YT_BOT_CHALLENGE
+68622,white,train,lillybauer,https://www.youtube.com/watch?v=kddq0oAgBS0,YT_DOWNLOAD_ERROR_ERROR: [youtube] kddq0oAgBS0: This video is u
+68182,white,train,valencia-asl,https://www.youtube.com/watch?v=TomJbyh-XVY,YT_BOT_CHALLENGE
+63209,white,train,nabboud,https://www.youtube.com/watch?v=0FYsztUQnUM,YT_DOWNLOAD_ERROR_ERROR: [youtube] 0FYsztUQnUM: This video is u
+63210,white,train,scott,https://www.youtube.com/watch?v=O6-OsGXF0Uw,YT_BOT_CHALLENGE
+63211,white,val,aslu,https://www.youtube.com/watch?v=uLjkLwFvFtw,YT_BOT_CHALLENGE
+63212,white,train,aslu,https://www.youtube.com/watch?v=v8h6mw4zGys,YT_BOT_CHALLENGE
+68189,wrong,val,valencia-asl,https://www.youtube.com/watch?v=BNOGQec2v8M,YT_BOT_CHALLENGE
+70132,wrong,train,northtexas,https://www.youtube.com/watch?v=VwejDy96MzM,YT_BOT_CHALLENGE
+64092,wrong,train,aslu,https://www.youtube.com/watch?v=GLAPZdS-gpU,YT_BOT_CHALLENGE
+64093,wrong,train,aslu,https://www.youtube.com/watch?v=JI7l0z8hEKY,YT_BOT_CHALLENGE
+67009,wrong,train,asllex,https://youtu.be/Dl5AFJH040s,YT_BOT_CHALLENGE
+67010,wrong,val,asllex,https://youtu.be/hlVM_zS_dzw,YT_BOT_CHALLENGE
+64094,wrong,train,aslu,https://www.youtube.com/watch?v=UQakVMOT350,YT_BOT_CHALLENGE
+64095,wrong,val,aslu,https://www.youtube.com/watch?v=xt3jJMKpCqY,YT_BOT_CHALLENGE
+67342,accident,val,asllex,https://youtu.be/l5KxrD1W7oQ,YT_BOT_CHALLENGE
+00635,accident,test,aslu,https://www.youtube.com/watch?v=SvF0j4h-3uE,YT_BOT_CHALLENGE
+68576,apple,train,lillybauer,https://www.youtube.com/watch?v=iVgjg202V6M,YT_DOWNLOAD_ERROR_ERROR: [youtube] iVgjg202V6M: This video is u
+68003,apple,train,valencia-asl,https://www.youtube.com/watch?v=BT3cFFLNzD8,YT_BOT_CHALLENGE
+03006,apple,train,aslu,https://www.youtube.com/watch?v=4gTs30ozIrA,YT_BOT_CHALLENGE
+67367,apple,train,asllex,https://youtu.be/jVqjCsYCoMM,YT_BOT_CHALLENGE
+70107,bird,train,northtexas,https://www.youtube.com/watch?v=lvqGMGFmuV4,YT_BOT_CHALLENGE
+06338,bird,train,aslu,https://www.youtube.com/watch?v=1ZEAGpAH284,YT_BOT_CHALLENGE
+67411,bird,train,asllex,https://youtu.be/pq-48yqB8kM,YT_BOT_CHALLENGE
+06339,bird,train,nabboud,https://www.youtube.com/watch?v=BC2ahgTLYbk,YT_DOWNLOAD_ERROR_ERROR: [youtube] BC2ahgTLYbk: This video is u
+06340,bird,val,aslu,https://www.youtube.com/watch?v=Bibgy-yjgYE,YT_BOT_CHALLENGE
+06341,bird,train,aslu,https://www.youtube.com/watch?v=o9GSFqvikro,YT_BOT_CHALLENGE
+70379,change,val,northtexas,https://www.youtube.com/watch?v=Z25ng9maolE,YT_BOT_CHALLENGE
+09968,change,train,aslu,https://www.youtube.com/watch?v=lT0E7jGHIKY,YT_BOT_CHALLENGE
+68202,color,train,lillybauer,https://www.youtube.com/watch?v=13NxXYPYpb0,YT_DOWNLOAD_ERROR_ERROR: [youtube] 13NxXYPYpb0: This video is u
+68027,color,train,valencia-asl,https://www.youtube.com/watch?v=MslyAd8WAwU,YT_BOT_CHALLENGE
+11774,color,train,aslu,https://www.youtube.com/watch?v=KaNDm5Xvkzs,YT_BOT_CHALLENGE
+11775,color,train,aslu,https://www.youtube.com/watch?v=KaNDm5Xvkzs,YT_BOT_CHALLENGE
+11776,color,train,aslu,https://www.youtube.com/watch?v=-kKuV4iM_NQ,YT_BOT_CHALLENGE
+67514,color,val,asllex,https://youtu.be/7Do9s2qJpeA,YT_BOT_CHALLENGE
+11777,color,train,scott,https://www.youtube.com/watch?v=MIUuj3MCRs8,YT_BOT_CHALLENGE
+11778,color,val,aslu,https://www.youtube.com/watch?v=R0MW-QKaqeQ,YT_BOT_CHALLENGE
+67531,corn,train,asllex,https://youtu.be/0C7Gfubq690,YT_BOT_CHALLENGE
+67530,corn,test,asllex,https://youtu.be/lPM0S5NBl_0,YT_BOT_CHALLENGE
+67536,cow,train,asllex,https://youtu.be/VO9nCXjgMW4,YT_BOT_CHALLENGE
+13704,cow,train,aslu,https://www.youtube.com/watch?v=HTCXKjM5h-4,YT_BOT_CHALLENGE
+13705,cow,train,aslu,https://www.youtube.com/watch?v=I2_nB2cXP58,YT_BOT_CHALLENGE
+13706,cow,train,nabboud,https://www.youtube.com/watch?v=-IWU7gZ-gAQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] -IWU7gZ-gAQ: This video is u
+13708,cow,test,aslu,https://www.youtube.com/watch?v=sdr-c7NRai8,YT_BOT_CHALLENGE
+13707,cow,train,aslu,https://www.youtube.com/watch?v=oId_a4wrcds,YT_BOT_CHALLENGE
+68032,dance,val,valencia-asl,https://www.youtube.com/watch?v=G6pN8BFQYDI,YT_BOT_CHALLENGE
+70152,dance,train,northtexas,https://www.youtube.com/watch?v=VwejDy96MzM,YT_BOT_CHALLENGE
+68988,dance,train,lillybauer,https://www.youtube.com/watch?v=w6ZfGv4ns64,YT_DOWNLOAD_ERROR_ERROR: [youtube] w6ZfGv4ns64: This video is u
+69048,dance,train,lillybauer,https://www.youtube.com/watch?v=y8Rm0Q7fDYk,YT_DOWNLOAD_ERROR_ERROR: [youtube] y8Rm0Q7fDYk: This video is u
+14629,dance,train,nabboud,https://www.youtube.com/watch?v=g67ZXnEx9Z4,YT_DOWNLOAD_ERROR_ERROR: [youtube] g67ZXnEx9Z4: This video is u
+14628,dance,train,aslu,https://www.youtube.com/watch?v=fbgiLOBY4P0,YT_BOT_CHALLENGE
+67550,dance,val,asllex,https://youtu.be/vrAcHSfVt88,YT_BOT_CHALLENGE
+14630,dance,train,aslu,https://www.youtube.com/watch?v=GfUdx7LmGhc,YT_BOT_CHALLENGE
+14631,dance,train,aslu,https://www.youtube.com/watch?v=p3UKhedGeTA,YT_BOT_CHALLENGE
+14683,dark,val,nabboud,https://www.youtube.com/watch?v=eWiJm1rz0Fk,YT_DOWNLOAD_ERROR_ERROR: [youtube] eWiJm1rz0Fk: This video is u
+14682,dark,test,aslu,https://www.youtube.com/watch?v=CGLQEeEzo1s,YT_BOT_CHALLENGE
+68842,doctor,train,lillybauer,https://www.youtube.com/watch?v=QPiZO8Aswgo,YT_DOWNLOAD_ERROR_ERROR: [youtube] QPiZO8Aswgo: This video is u
+67579,doctor,test,asllex,https://youtu.be/sSpld6bXlM0,YT_BOT_CHALLENGE
+70049,doctor,train,northtexas,https://www.youtube.com/watch?v=sErq0TJMKEo,YT_BOT_CHALLENGE
+17022,doctor,val,aslu,https://www.youtube.com/watch?v=1t6GrmgKN5U,YT_BOT_CHALLENGE
+68520,eat,train,lillybauer,https://www.youtube.com/watch?v=HAqSIA2GG3g,YT_DOWNLOAD_ERROR_ERROR: [youtube] HAqSIA2GG3g: This video is u
+17023,doctor,val,aslu,https://www.youtube.com/watch?v=IEVgcJA3JWk,YT_BOT_CHALLENGE
+18316,eat,test,asl5200,https://www.youtube.com/watch?v=2oaCeSdHG-A,YT_BOT_CHALLENGE
+69086,eat,train,lillybauer,https://www.youtube.com/watch?v=zOzgRJ3bAdI,YT_DOWNLOAD_ERROR_ERROR: [youtube] zOzgRJ3bAdI: This video is u
+68044,eat,train,valencia-asl,https://www.youtube.com/watch?v=lsjFBdE3X7M,YT_BOT_CHALLENGE
+18332,eat,train,aslu,https://www.youtube.com/watch?v=OmylSinUxns,YT_BOT_CHALLENGE
+18331,eat,train,aslu,https://www.youtube.com/watch?v=9AYysHe14jg,YT_BOT_CHALLENGE
+67610,eat,train,asllex,https://youtu.be/FSxHpeiCuBc,YT_BOT_CHALLENGE
+67611,eat,val,asllex,https://youtu.be/QkTP_AyKk_k,YT_BOT_CHALLENGE
+18333,eat,train,nabboud,https://www.youtube.com/watch?v=rbnYbQyFvK4,YT_DOWNLOAD_ERROR_ERROR: [youtube] rbnYbQyFvK4: This video is u
+68344,enjoy,val,lillybauer,https://www.youtube.com/watch?v=aYMV4_YuPi8,YT_DOWNLOAD_ERROR_ERROR: [youtube] aYMV4_YuPi8: This video is u
+19255,enjoy,test,asl5200,https://www.youtube.com/watch?v=2oaCeSdHG-A,YT_BOT_CHALLENGE
+19265,enjoy,train,nabboud,https://www.youtube.com/watch?v=DAotz9r5g_o,YT_DOWNLOAD_ERROR_ERROR: [youtube] DAotz9r5g_o: This video is u
+70051,enjoy,train,northtexas,https://www.youtube.com/watch?v=sErq0TJMKEo,YT_BOT_CHALLENGE
+19266,enjoy,train,aslu,https://www.youtube.com/watch?v=G7MMoJZRltk,YT_BOT_CHALLENGE
+67624,enjoy,train,asllex,https://youtu.be/OL02Odh2dRg,YT_BOT_CHALLENGE
+68046,enjoy,train,valencia-asl,https://www.youtube.com/watch?v=rNb-ogcyRAE,YT_BOT_CHALLENGE
+68692,forget,train,lillybauer,https://www.youtube.com/watch?v=mK0OtDTC5To,YT_DOWNLOAD_ERROR_ERROR: [youtube] mK0OtDTC5To: This video is u
+68053,forget,val,valencia-asl,https://www.youtube.com/watch?v=l_aBsu7kVqI,YT_BOT_CHALLENGE
+19267,enjoy,val,aslu,https://www.youtube.com/watch?v=Uo_AUbP0O9g,YT_BOT_CHALLENGE
+68054,forget,train,valencia-asl,https://www.youtube.com/watch?v=TxfYzcnSl-o,YT_BOT_CHALLENGE
+22961,forget,train,aslu,https://www.youtube.com/watch?v=1vXrp5awuHc,YT_BOT_CHALLENGE
+70376,forget,train,northtexas,https://www.youtube.com/watch?v=Z25ng9maolE,YT_BOT_CHALLENGE
+22962,forget,val,aslu,https://www.youtube.com/watch?v=fCzxDWv0jbo,YT_BOT_CHALLENGE
+22963,forget,train,aslu,https://www.youtube.com/watch?v=N18WPFcphhs,YT_BOT_CHALLENGE
+24655,give,train,aslu,https://www.youtube.com/watch?v=PkJpgPxNhwE,YT_BOT_CHALLENGE
+22964,forget,val,aslu,https://www.youtube.com/watch?v=qSzyQByTFps,YT_BOT_CHALLENGE
+22965,forget,train,aslu,https://www.youtube.com/watch?v=TVFEnWVgoII,YT_BOT_CHALLENGE
+24656,give,train,nabboud,https://www.youtube.com/watch?v=qMgcmGOiNmw,YT_DOWNLOAD_ERROR_ERROR: [youtube] qMgcmGOiNmw: This video is u
+24657,give,train,aslu,https://www.youtube.com/watch?v=U5p42-d-buw,YT_BOT_CHALLENGE
+24658,give,val,aslu,https://www.youtube.com/watch?v=wEKZPaO7XTQ,YT_BOT_CHALLENGE
+69068,last,train,lillybauer,https://www.youtube.com/watch?v=Yp5z7Px_aV8,YT_DOWNLOAD_ERROR_ERROR: [youtube] Yp5z7Px_aV8: This video is u
+24652,give,train,aslu,https://www.youtube.com/watch?v=bjXPOO_DUMw,YT_BOT_CHALLENGE
+68086,last,train,valencia-asl,https://www.youtube.com/watch?v=BsaWM5I_G1o,YT_BOT_CHALLENGE
+67826,last,val,asllex,https://youtu.be/HV_8ELVFXzU,YT_BOT_CHALLENGE
+32258,last,test,aslu,https://www.youtube.com/watch?v=f8MfjdWKh24,YT_BOT_CHALLENGE
+68974,meet,train,lillybauer,https://www.youtube.com/watch?v=VSBIqNFEQxI,YT_DOWNLOAD_ERROR_ERROR: [youtube] VSBIqNFEQxI: This video is u
+68099,meet,val,valencia-asl,https://www.youtube.com/watch?v=pWFDhzkId9o,YT_BOT_CHALLENGE
+67886,meet,val,asllex,https://youtu.be/W4FXyEWBu4I,YT_BOT_CHALLENGE
+35520,meet,train,aslu,https://www.youtube.com/watch?v=eP816GBFVeg,YT_BOT_CHALLENGE
+35521,meet,train,aslu,https://www.youtube.com/watch?v=FC1R9kyegJY,YT_BOT_CHALLENGE
+35519,meet,train,scott,https://www.youtube.com/watch?v=AsdBSknwrjg,YT_BOT_CHALLENGE
+42827,pink,train,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+68398,pink,val,lillybauer,https://www.youtube.com/watch?v=cx14s_gt60I,YT_DOWNLOAD_ERROR_ERROR: [youtube] cx14s_gt60I: This video is u
+68132,pink,test,valencia-asl,https://www.youtube.com/watch?v=2igUp9Fvq-E,YT_BOT_CHALLENGE
+42838,pink,train,aslu,https://www.youtube.com/watch?v=aNilWTBIl0g,YT_BOT_CHALLENGE
+67990,pink,train,asllex,https://youtu.be/9bkVAOz1ips,YT_BOT_CHALLENGE
+42841,pink,val,nabboud,https://www.youtube.com/watch?v=TLsGey9Cd7A,YT_DOWNLOAD_ERROR_ERROR: [youtube] TLsGey9Cd7A: This video is u
+42840,pink,test,scott,https://www.youtube.com/watch?v=S8k8gjRdYXw,YT_BOT_CHALLENGE
+42953,pizza,test,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+42974,pizza,train,aslu,https://www.youtube.com/watch?v=XIZ2DrdEU3k,YT_BOT_CHALLENGE
+42972,pizza,train,aslu,https://www.youtube.com/watch?v=nrXA-R3VgJ8,YT_BOT_CHALLENGE
+68288,play,train,lillybauer,https://www.youtube.com/watch?v=75FwzqQqyM0,YT_DOWNLOAD_ERROR_ERROR: [youtube] 75FwzqQqyM0: This video is u
+42971,pizza,train,aslu,https://www.youtube.com/watch?v=JZeO2EXjxOE,YT_BOT_CHALLENGE
+68133,play,train,valencia-asl,https://www.youtube.com/watch?v=M80w0mda7zM,YT_BOT_CHALLENGE
+67081,play,train,asllex,https://youtu.be/vz9KBYTBL4o,YT_BOT_CHALLENGE
+43176,play,val,nabboud,https://www.youtube.com/watch?v=Ui8rn2gM1ZE,YT_DOWNLOAD_ERROR_ERROR: [youtube] Ui8rn2gM1ZE: This video is u
+43175,play,train,aslu,https://www.youtube.com/watch?v=ODByBNyosxc,YT_BOT_CHALLENGE
+68218,school,train,lillybauer,https://www.youtube.com/watch?v=2EAilZspev4,YT_DOWNLOAD_ERROR_ERROR: [youtube] 2EAilZspev4: This video is u
+68145,school,test,valencia-asl,https://www.youtube.com/watch?v=ig7SKr3tvWc,YT_BOT_CHALLENGE
+68510,school,train,lillybauer,https://www.youtube.com/watch?v=g-w38Q0QrWE,YT_DOWNLOAD_ERROR_ERROR: [youtube] g-w38Q0QrWE: This video is u
+70207,school,train,northtexas,https://www.youtube.com/watch?v=hjS0dQDgbjo,YT_BOT_CHALLENGE
+49603,school,train,aslu,https://www.youtube.com/watch?v=vuE3RN10AGA,YT_BOT_CHALLENGE
+67170,school,val,asllex,https://youtu.be/A_rNr7i1uAs,YT_BOT_CHALLENGE
+67177,secretary,test,asllex,https://youtu.be/rhpYRl3kHQU,YT_BOT_CHALLENGE
+50047,secretary,train,aslu,https://www.youtube.com/watch?v=7FvR0sUKA84,YT_BOT_CHALLENGE
+50048,secretary,train,aslu,https://www.youtube.com/watch?v=ASCPx0sjuwM,YT_BOT_CHALLENGE
+50049,secretary,train,aslu,https://www.youtube.com/watch?v=D1Zl-7gp0Zs,YT_BOT_CHALLENGE
+50050,secretary,test,aslu,https://www.youtube.com/watch?v=U3lM2jSLNno,YT_BOT_CHALLENGE
+68294,time,train,lillybauer,https://www.youtube.com/watch?v=7Mhil9I1Ocs,YT_DOWNLOAD_ERROR_ERROR: [youtube] 7Mhil9I1Ocs: This video is u
+68171,time,train,valencia-asl,https://www.youtube.com/watch?v=m_nEgm4uX6U,YT_BOT_CHALLENGE
+58504,time,train,aslu,https://www.youtube.com/watch?v=s-y1OtBgHkU,YT_BOT_CHALLENGE
+67309,time,train,asllex,https://youtu.be/tXhJplJXFmo,YT_BOT_CHALLENGE
+68540,want,train,lillybauer,https://www.youtube.com/watch?v=I0v6P6HEGCA,YT_DOWNLOAD_ERROR_ERROR: [youtube] I0v6P6HEGCA: This video is u
+68178,want,train,valencia-asl,https://www.youtube.com/watch?v=co7zdtkJW1E,YT_BOT_CHALLENGE
+67038,want,train,asllex,https://youtu.be/Xl2VNuFGexI,YT_BOT_CHALLENGE
+62253,want,train,aslu,https://www.youtube.com/watch?v=aGzNpjV6-0I,YT_BOT_CHALLENGE
+62256,want,train,nabboud,https://www.youtube.com/watch?v=fBVbr5ci0EQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] fBVbr5ci0EQ: This video is u
+62254,want,val,aslu,https://www.youtube.com/watch?v=aGzNpjV6-0I,YT_BOT_CHALLENGE
+62257,want,train,nabboud,https://www.youtube.com/watch?v=nI-XX3BtUlQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] nI-XX3BtUlQ: This video is u
+68924,work,val,lillybauer,https://www.youtube.com/watch?v=TZ65f_6GglU,YT_DOWNLOAD_ERROR_ERROR: [youtube] TZ65f_6GglU: This video is u
+63804,work,train,nabboud,https://www.youtube.com/watch?v=pDRfD3bNsEo,YT_DOWNLOAD_ERROR_ERROR: [youtube] pDRfD3bNsEo: This video is u
+67003,work,train,asllex,https://youtu.be/FwfWrRxzSxw,YT_BOT_CHALLENGE
+63801,work,train,aslu,https://www.youtube.com/watch?v=1nt04tWWp5s,YT_BOT_CHALLENGE
+63802,work,train,nabboud,https://www.youtube.com/watch?v=dsZQRTrQjiE,YT_DOWNLOAD_ERROR_ERROR: [youtube] dsZQRTrQjiE: This video is u
+63803,work,train,aslu,https://www.youtube.com/watch?v=mJrUYRjvrew,YT_BOT_CHALLENGE
+67350,africa,train,asllex,https://youtu.be/niBJ6C9Rs_8,YT_BOT_CHALLENGE
+01392,africa,train,aslu,https://www.youtube.com/watch?v=qtVdE7tBGsU,YT_BOT_CHALLENGE
+01393,africa,train,aslu,https://www.youtube.com/watch?v=S__GZ7Vki30,YT_BOT_CHALLENGE
+01394,africa,test,aslu,https://www.youtube.com/watch?v=YnK5IFMrc6Q,YT_BOT_CHALLENGE
+01395,africa,train,aslu,https://www.youtube.com/watch?v=ZyH7kuEa18Q,YT_BOT_CHALLENGE
+68612,basketball,train,lillybauer,https://www.youtube.com/watch?v=JxtYMfvnp58,YT_DOWNLOAD_ERROR_ERROR: [youtube] JxtYMfvnp58: This video is u
+67392,basketball,train,asllex,https://youtu.be/CsqxlMUHwyg,YT_BOT_CHALLENGE
+68338,birthday,train,lillybauer,https://www.youtube.com/watch?v=aSvUHxoby4U,YT_DOWNLOAD_ERROR_ERROR: [youtube] aSvUHxoby4U: This video is u
+05241,basketball,train,aslu,https://www.youtube.com/watch?v=hMTxTnXCzOo,YT_BOT_CHALLENGE
+06366,birthday,test,aslu,https://www.youtube.com/watch?v=1n3eN9v8VV0,YT_BOT_CHALLENGE
+06367,birthday,train,aslu,https://www.youtube.com/watch?v=eB0lhZn8N9A,YT_BOT_CHALLENGE
+06368,birthday,train,aslu,https://www.youtube.com/watch?v=m4YhzJV_wzQ,YT_BOT_CHALLENGE
+67413,birthday,train,asllex,https://youtu.be/Kn_IKf8zC1w,YT_BOT_CHALLENGE
+06369,birthday,val,aslu,https://www.youtube.com/watch?v=NuNbd8a665I,YT_BOT_CHALLENGE
+69028,brown,train,lillybauer,https://www.youtube.com/watch?v=--Xi-n0DgBU,YT_DOWNLOAD_ERROR_ERROR: [youtube] --Xi-n0DgBU: This video is u
+07967,brown,train,scott,https://www.youtube.com/watch?v=_7B0lz1PMoc,YT_BOT_CHALLENGE
+07968,brown,val,aslu,https://www.youtube.com/watch?v=HGBcts4shKw,YT_BOT_CHALLENGE
+07969,brown,train,nabboud,https://www.youtube.com/watch?v=kpngPVmD_6Q,YT_DOWNLOAD_ERROR_ERROR: [youtube] kpngPVmD_6Q: This video is u
+67446,brown,train,asllex,https://youtu.be/v0PgAPiUeHk,YT_BOT_CHALLENGE
+07971,brown,train,aslu,https://www.youtube.com/watch?v=PrniQgULERg,YT_BOT_CHALLENGE
+68368,but,train,lillybauer,https://www.youtube.com/watch?v=c17A0edBIaA,YT_DOWNLOAD_ERROR_ERROR: [youtube] c17A0edBIaA: This video is u
+68016,but,train,valencia-asl,https://www.youtube.com/watch?v=cFlUlLhRbTE,YT_BOT_CHALLENGE
+08432,but,val,aslu,https://www.youtube.com/watch?v=A-n2pjNaz-k,YT_BOT_CHALLENGE
+67451,but,train,asllex,https://youtu.be/A1nZLK4Qodw,YT_BOT_CHALLENGE
+08433,but,train,aslu,https://www.youtube.com/watch?v=BzA6aV3_izM,YT_BOT_CHALLENGE
+08435,but,train,aslu,https://www.youtube.com/watch?v=Ldw8UzKED8s,YT_BOT_CHALLENGE
+08434,but,train,aslu,https://www.youtube.com/watch?v=l3pElzy2Png,YT_BOT_CHALLENGE
+67489,cheat,train,asllex,https://youtu.be/lmWVuurMMOc,YT_BOT_CHALLENGE
+67490,cheat,val,asllex,https://youtu.be/U2Nf3gOSPhg,YT_BOT_CHALLENGE
+10161,cheat,train,aslu,https://www.youtube.com/watch?v=M-YTVGOSvqA,YT_BOT_CHALLENGE
+68374,city,train,lillybauer,https://www.youtube.com/watch?v=cEbPqZiaAqQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] cEbPqZiaAqQ: This video is u
+10160,cheat,train,aslu,https://www.youtube.com/watch?v=hIKTWc-9yKg,YT_BOT_CHALLENGE
+10899,city,train,aslu,https://www.youtube.com/watch?v=e7Tz3OSQBQQ,YT_BOT_CHALLENGE
+10900,city,train,aslu,https://www.youtube.com/watch?v=R6T2OTSZNck,YT_BOT_CHALLENGE
+67501,city,train,asllex,https://youtu.be/DV17xsFO5Jg,YT_BOT_CHALLENGE
+10901,city,val,aslu,https://www.youtube.com/watch?v=y3aZGBOFqtU,YT_BOT_CHALLENGE
+10902,city,train,aslu,https://www.youtube.com/watch?v=Y8QX1lAPwOs,YT_BOT_CHALLENGE
+70030,cook,test,northtexas,https://www.youtube.com/watch?v=sErq0TJMKEo,YT_BOT_CHALLENGE
+68029,cook,train,valencia-asl,https://www.youtube.com/watch?v=sK9DAZw4_zs,YT_BOT_CHALLENGE
+69004,cook,train,lillybauer,https://www.youtube.com/watch?v=Wny0hRLOETg,YT_DOWNLOAD_ERROR_ERROR: [youtube] Wny0hRLOETg: This video is u
+67527,cook,train,asllex,https://youtu.be/lvwn7OAGJWk,YT_BOT_CHALLENGE
+13162,cook,val,aslu,https://www.youtube.com/watch?v=DPOkRwo1a6A,YT_BOT_CHALLENGE
+13164,cook,train,aslu,https://www.youtube.com/watch?v=UCVlTV4FF9g,YT_BOT_CHALLENGE
+13165,cook,train,aslu,https://www.youtube.com/watch?v=Xy0FCuz1KHw,YT_BOT_CHALLENGE
+70119,decide,test,northtexas,https://www.youtube.com/watch?v=lvqGMGFmuV4,YT_BOT_CHALLENGE
+15040,decide,val,aslu,https://www.youtube.com/watch?v=hIj1mcPpVC4,YT_BOT_CHALLENGE
+67555,decide,train,asllex,https://youtu.be/0F7ugTN-VX8,YT_BOT_CHALLENGE
+15039,decide,train,aslu,https://www.youtube.com/watch?v=hIj1mcPpVC4,YT_BOT_CHALLENGE
+67556,decide,train,asllex,https://youtu.be/AFkia1eR0_E,YT_BOT_CHALLENGE
+15041,decide,train,aslu,https://www.youtube.com/watch?v=N0969RhLMp0,YT_BOT_CHALLENGE
+70029,full,test,northtexas,https://www.youtube.com/watch?v=sErq0TJMKEo,YT_BOT_CHALLENGE
+23777,full,train,aslu,https://www.youtube.com/watch?v=BOBKWrkwqUI,YT_BOT_CHALLENGE
+67697,full,train,asllex,https://youtu.be/vMLkIHIe_fA,YT_BOT_CHALLENGE
+23779,full,train,aslu,https://www.youtube.com/watch?v=U8mXqYD9S4Q,YT_BOT_CHALLENGE
+23778,full,val,aslu,https://www.youtube.com/watch?v=OUY3FFvAjJ0,YT_BOT_CHALLENGE
+68954,how,val,lillybauer,https://www.youtube.com/watch?v=uVXtydfzLIo,YT_DOWNLOAD_ERROR_ERROR: [youtube] uVXtydfzLIo: This video is u
+67776,how,train,asllex,https://youtu.be/X9k65VXITzY,YT_BOT_CHALLENGE
+28212,how,train,aslu,https://www.youtube.com/watch?v=awmySeWaTkk,YT_BOT_CHALLENGE
+30830,jacket,test,asl5200,https://www.youtube.com/watch?v=8kWVajLqBL4,YT_BOT_CHALLENGE
+68320,jacket,test,lillybauer,https://www.youtube.com/watch?v=9YdNdSUawfc,YT_DOWNLOAD_ERROR_ERROR: [youtube] 9YdNdSUawfc: This video is u
+68079,jacket,train,valencia-asl,https://www.youtube.com/watch?v=lMSfIEHvClM,YT_BOT_CHALLENGE
+67802,jacket,train,asllex,https://youtu.be/rSdZfzJZZh8,YT_BOT_CHALLENGE
+30841,jacket,val,nabboud,https://www.youtube.com/watch?v=5E38gLsXn3E,YT_DOWNLOAD_ERROR_ERROR: [youtube] 5E38gLsXn3E: This video is u
+30842,jacket,train,nabboud,https://www.youtube.com/watch?v=dqRCKjpXV4Q,YT_DOWNLOAD_ERROR_ERROR: [youtube] dqRCKjpXV4Q: This video is u
+30843,jacket,train,aslu,https://www.youtube.com/watch?v=RhHvcp1K0-g,YT_BOT_CHALLENGE
+68636,letter,test,lillybauer,https://www.youtube.com/watch?v=Kw9nFq7HD4Y,YT_DOWNLOAD_ERROR_ERROR: [youtube] Kw9nFq7HD4Y: This video is u
+67840,letter,train,asllex,https://youtu.be/cIC4tYLHaME,YT_BOT_CHALLENGE
+68089,letter,val,valencia-asl,https://www.youtube.com/watch?v=XYWN81jAkgY,YT_BOT_CHALLENGE
+68810,medicine,test,lillybauer,https://www.youtube.com/watch?v=pupBwmtznhI,YT_DOWNLOAD_ERROR_ERROR: [youtube] pupBwmtznhI: This video is u
+32956,letter,val,aslu,https://www.youtube.com/watch?v=fLkoJvqUUi8,YT_BOT_CHALLENGE
+35460,medicine,train,aslu,https://www.youtube.com/watch?v=88xSMjuFPHA,YT_BOT_CHALLENGE
+67890,medicine,train,asllex,https://youtu.be/AUEQVbV588c,YT_BOT_CHALLENGE
+35461,medicine,val,aslu,https://www.youtube.com/watch?v=R62C5PdSB1o,YT_BOT_CHALLENGE
+35462,medicine,train,nabboud,https://www.youtube.com/watch?v=rdtLwk9PeEU,YT_DOWNLOAD_ERROR_ERROR: [youtube] rdtLwk9PeEU: This video is u
+35463,medicine,train,nabboud,https://www.youtube.com/watch?v=vAVSxCCr9jk,YT_DOWNLOAD_ERROR_ERROR: [youtube] vAVSxCCr9jk: This video is u
+68544,need,train,lillybauer,https://www.youtube.com/watch?v=ieLzL1Sl6SU,YT_DOWNLOAD_ERROR_ERROR: [youtube] ieLzL1Sl6SU: This video is u
+37887,need,val,aslu,https://www.youtube.com/watch?v=Eo-vEE1gFxM,YT_BOT_CHALLENGE
+37888,need,train,aslu,https://www.youtube.com/watch?v=Eo-vEE1gFxM,YT_BOT_CHALLENGE
+37890,need,val,aslu,https://www.youtube.com/watch?v=n5hGwUxGm0Y,YT_BOT_CHALLENGE
+37889,need,train,aslu,https://www.youtube.com/watch?v=kgmz82HWI-I,YT_BOT_CHALLENGE
+67925,need,train,asllex,https://youtu.be/JPvbOOrG-gU,YT_BOT_CHALLENGE
+37892,need,train,nabboud,https://www.youtube.com/watch?v=rul1iWBt3Jg,YT_DOWNLOAD_ERROR_ERROR: [youtube] rul1iWBt3Jg: This video is u
+37891,need,train,aslu,https://www.youtube.com/watch?v=RoY7cjIPNxY,YT_BOT_CHALLENGE
+40816,paint,test,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+68364,paint,test,lillybauer,https://www.youtube.com/watch?v=bzeoojCEbX0,YT_DOWNLOAD_ERROR_ERROR: [youtube] bzeoojCEbX0: This video is u
+68125,paint,train,valencia-asl,https://www.youtube.com/watch?v=VPeBrHewtSY,YT_BOT_CHALLENGE
+40842,paint,train,aslu,https://www.youtube.com/watch?v=9V_pXf6tP_U,YT_BOT_CHALLENGE
+40843,paint,val,aslu,https://www.youtube.com/watch?v=iZ713O5fNos,YT_BOT_CHALLENGE
+40844,paint,train,nabboud,https://www.youtube.com/watch?v=NGNoEmYEpCQ,YT_DOWNLOAD_ERROR_ERROR: [youtube] NGNoEmYEpCQ: This video is u
+67958,paint,train,asllex,https://youtu.be/2x5hblbX1Ho,YT_BOT_CHALLENGE
+68446,paper,test,lillybauer,https://www.youtube.com/watch?v=f85vUmJJP8I,YT_DOWNLOAD_ERROR_ERROR: [youtube] f85vUmJJP8I: This video is u
+41008,paper,test,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+70211,paper,train,northtexas,https://www.youtube.com/watch?v=hjS0dQDgbjo,YT_BOT_CHALLENGE
+41033,paper,train,aslu,https://www.youtube.com/watch?v=zNSQm23fGzI,YT_BOT_CHALLENGE
+68127,paper,train,valencia-asl,https://www.youtube.com/watch?v=LXLQyvK23hc,YT_BOT_CHALLENGE
+41034,paper,val,aslu,https://www.youtube.com/watch?v=zNSQm23fGzI,YT_BOT_CHALLENGE
+67961,paper,train,asllex,https://youtu.be/f_l5OkjlEpw,YT_BOT_CHALLENGE
+45252,pull,test,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+41035,paper,train,aslu,https://www.youtube.com/watch?v=ZrdOYM36B9I,YT_BOT_CHALLENGE
+70378,pull,train,northtexas,https://www.youtube.com/watch?v=Z25ng9maolE,YT_BOT_CHALLENGE
+45270,pull,val,nabboud,https://www.youtube.com/watch?v=v_raVhhnAIE,YT_DOWNLOAD_ERROR_ERROR: [youtube] v_raVhhnAIE: This video is u
+45268,pull,train,aslu,https://www.youtube.com/watch?v=i5qAkbXqz9Y,YT_BOT_CHALLENGE
+45269,pull,train,aslu,https://www.youtube.com/watch?v=kO_5FgRTVCs,YT_BOT_CHALLENGE
+67111,pull,train,asllex,https://youtu.be/nsRQOdkyTP8,YT_BOT_CHALLENGE
+45271,pull,train,aslu,https://www.youtube.com/watch?v=zfNH9EdhgNo,YT_BOT_CHALLENGE
+68137,purple,train,valencia-asl,https://www.youtube.com/watch?v=ESK6NAvvsKg,YT_BOT_CHALLENGE
+45432,purple,test,asl5200,https://www.youtube.com/watch?v=zHd4YEFzpwE,YT_BOT_CHALLENGE
+68726,purple,train,lillybauer,https://www.youtube.com/watch?v=nBhhhS7HXIo,YT_DOWNLOAD_ERROR_ERROR: [youtube] nBhhhS7HXIo: This video is u
+45441,purple,val,nabboud,https://www.youtube.com/watch?v=zW5FrLEDRiM,YT_DOWNLOAD_ERROR_ERROR: [youtube] zW5FrLEDRiM: This video is u
+45440,purple,train,aslu,https://www.youtube.com/watch?v=zgdzYtHB6jg,YT_BOT_CHALLENGE
+45439,purple,train,scott,https://www.youtube.com/watch?v=lKzYzA2JZaI,YT_BOT_CHALLENGE
+67114,purple,train,asllex,https://youtu.be/54csIWbS-Gc,YT_BOT_CHALLENGE
+67143,right,train,asllex,https://youtu.be/0AbAh8gsQZg,YT_BOT_CHALLENGE
+67142,right,train,asllex,https://youtu.be/bmc1BJWo_Pw,YT_BOT_CHALLENGE
+68142,right,train,valencia-asl,https://www.youtube.com/watch?v=e1RF5h4OgOg,YT_BOT_CHALLENGE
+48117,right,train,aslu,https://www.youtube.com/watch?v=5UnUWDYxfv0,YT_BOT_CHALLENGE
+68856,same,train,lillybauer,https://www.youtube.com/watch?v=rDAGt54vEsI,YT_DOWNLOAD_ERROR_ERROR: [youtube] rDAGt54vEsI: This video is u
+48120,right,train,aslu,https://www.youtube.com/watch?v=mxX9mVMl8O4,YT_BOT_CHALLENGE
+67159,same,train,asllex,https://youtu.be/BZxoTuwBHvA,YT_BOT_CHALLENGE
+67161,same,train,asllex,https://youtu.be/sR_PzooQLx4,YT_BOT_CHALLENGE
+49184,same,train,aslu,https://www.youtube.com/watch?v=cnX45VWbjmc,YT_BOT_CHALLENGE
+49185,same,train,aslu,https://www.youtube.com/watch?v=o1NMZAc7vO4,YT_BOT_CHALLENGE
+49186,same,train,aslu,https://www.youtube.com/watch?v=OwtSP1QozuE,YT_BOT_CHALLENGE
+68336,son,test,lillybauer,https://www.youtube.com/watch?v=Aq6l7fEWRVM,YT_DOWNLOAD_ERROR_ERROR: [youtube] Aq6l7fEWRVM: This video is u
+53276,son,train,aslu,https://www.youtube.com/watch?v=IRIy8xUFfHk,YT_BOT_CHALLENGE
+67227,son,train,asllex,https://youtu.be/rbEp5hFQljM,YT_BOT_CHALLENGE
+53277,son,val,aslu,https://www.youtube.com/watch?v=JtgGFe8HIFQ,YT_BOT_CHALLENGE
+67287,tell,train,asllex,https://youtu.be/giIzGcYftow,YT_BOT_CHALLENGE
+57288,tell,train,aslu,https://www.youtube.com/watch?v=SvfopPYaJJU,YT_BOT_CHALLENGE
+57289,tell,train,aslu,https://www.youtube.com/watch?v=Uda6XJH18yw,YT_BOT_CHALLENGE
+70026,thursday,test,northtexas,https://www.youtube.com/watch?v=sErq0TJMKEo,YT_BOT_CHALLENGE
+58367,thursday,train,aslu,https://www.youtube.com/watch?v=avbqdo5HoQc,YT_BOT_CHALLENGE
+58368,thursday,val,aslu,https://www.youtube.com/watch?v=PJs5VaRTMak,YT_BOT_CHALLENGE
+67306,thursday,train,asllex,https://youtu.be/3HztBiJlikY,YT_BOT_CHALLENGE
