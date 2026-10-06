@@ -84,6 +84,21 @@ def parse_args():
         help="Giới hạn số lượng video cần trích xuất (0 là trích xuất toàn bộ)",
     )
     parser.add_argument(
+        "--num_workers",
+        "-w",
+        type=int,
+        default=0,
+        help="Số worker đa tiến trình (0: tự động chạy đa tiến trình song song, 1: đơn tiến trình)",
+    )
+    parser.add_argument(
+        "--format",
+        "-f",
+        type=str,
+        default="both",
+        choices=["both", "npy", "hdf5", "h5"],
+        help="Định dạng lưu trữ ('both', 'npy', 'hdf5')",
+    )
+    parser.add_argument(
         "--skip_existing",
         action="store_true",
         default=True,
@@ -150,6 +165,13 @@ def load_target_videos(annotations_path: Path, videos_dir: Path, split_filter: s
 
 def main():
     args = parse_args()
+
+    # Nếu num_workers != 1 (mặc định là 0 = tự động đa tiến trình), chuyển tiếp sang extract_multiprocess
+    if args.num_workers != 1:
+        from scripts.extract_multiprocess import main as mp_main
+        mp_main()
+        return
+
     config_path = Path(args.config)
     videos_dir = Path(args.videos_dir)
     out_dir = Path(args.output_dir)

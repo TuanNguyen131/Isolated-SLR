@@ -15,6 +15,7 @@ from torch.utils.data import Dataset, DataLoader
 class WLASLDataset(Dataset):
     """
     Dataset loader cho các chuỗi đặc trưng landmarks trích xuất từ MediaPipe Holistic.
+    Hỗ trợ tải trực tiếp từ các file .npy riêng lẻ hoặc file HDF5 (.h5) tổng hợp.
     """
     def __init__(
         self,
@@ -26,6 +27,7 @@ class WLASLDataset(Dataset):
         flatten: bool = True,
         only_available: bool = True,
         transform: Optional[Callable] = None,
+        h5_path: Optional[Union[str, Path]] = None,
     ):
         self.annotations_path = Path(annotations_path)
         self.landmarks_dir = Path(landmarks_dir)
@@ -34,6 +36,15 @@ class WLASLDataset(Dataset):
         self.max_seq_len = max_seq_len
         self.flatten = flatten
         self.transform = transform
+
+        if h5_path:
+            self.h5_path = Path(h5_path)
+        elif (self.landmarks_dir / "wlasl100_landmarks.h5").is_file():
+            self.h5_path = self.landmarks_dir / "wlasl100_landmarks.h5"
+        else:
+            self.h5_path = None
+
+        self._h5_file = None
 
         self.gloss_to_id = {}
         mapping_file = self.annotations_path.parent / "class_mapping.json"
@@ -57,11 +68,24 @@ class WLASLDataset(Dataset):
                 only_available=False,
             )
 
-            # Lọc chỉ lấy các mẫu đã có file landmark .npy
-            if only_available and self.landmarks_dir.exists():
+            # Lọc chỉ lấy các mẫu đã có file landmark .npy hoặc trong HDF5
+            if only_available:
+                h5_keys = set()
+                if self.h5_path and self.h5_path.is_file():
+                    try:
+                        import h5py
+                        with h5py.File(str(self.h5_path), "r") as hf:
+                            if self.split in hf:
+                                h5_keys = set(hf[self.split].keys())
+                            else:
+                                h5_keys = set(hf.keys())
+                    except Exception:
+                        pass
+
                 for s in all_samples:
-                    npy_path = self.landmarks_dir / f"{s['video_id']}.npy"
-                    if npy_path.is_file():
+                    vid = s["video_id"]
+                    npy_path = self.landmarks_dir / f"{vid}.npy"
+                    if npy_path.is_file() or vid in h5_keys:
                         self.samples.append(s)
             else:
                 self.samples = all_samples
@@ -78,23 +102,41 @@ class WLASLDataset(Dataset):
             label = int(raw_label)
         else:
             label = int(self.gloss_to_id.get(gloss, 0))
+
+        landmarks = None
         npy_path = self.landmarks_dir / f"{video_id}.npy"
 
-        # Tải mảng landmarks: (T, num_keypoints, coord_dim)
+        # 1. Thử tải từ file .npy
         if npy_path.is_file():
-            landmarks = np.load(npy_path).astype(np.float32)
-        else:
-            # Nếu file thiếu -> trả về tensor rỗng
+            try:
+                landmarks = np.load(npy_path).astype(np.float32)
+            except Exception:
+                landmarks = None
+
+        # 2. Nếu chưa có, thử tải từ file HDF5
+        if landmarks is None and self.h5_path and self.h5_path.is_file():
+            try:
+                if self._h5_file is None:
+                    import h5py
+                    self._h5_file = h5py.File(str(self.h5_path), "r")
+                h5_key = f"{self.split}/{video_id}"
+                if h5_key in self._h5_file:
+                    landmarks = np.array(self._h5_file[h5_key], dtype=np.float32)
+                elif video_id in self._h5_file:
+                    landmarks = np.array(self._h5_file[video_id], dtype=np.float32)
+            except Exception:
+                landmarks = None
+
+        # 3. Nếu không tìm thấy -> tensor rỗng mặc định
+        if landmarks is None or landmarks.size == 0:
             landmarks = np.zeros((1, 543, 3), dtype=np.float32)
 
         # Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
         num_frames = landmarks.shape[0]
         if num_frames > self.max_seq_len:
-            # Lấy mẫu đều các frame qua thời gian
             indices = np.linspace(0, num_frames - 1, self.max_seq_len, dtype=int)
             landmarks = landmarks[indices]
         elif num_frames < self.max_seq_len:
-            # Zero-padding cho các frame còn thiếu ở cuối
             pad_len = self.max_seq_len - num_frames
             padding = np.zeros((pad_len, *landmarks.shape[1:]), dtype=np.float32)
             landmarks = np.concatenate([landmarks, padding], axis=0)
@@ -112,6 +154,13 @@ class WLASLDataset(Dataset):
 
         return features_tensor, label_tensor, video_id
 
+    def __del__(self):
+        if hasattr(self, "_h5_file") and self._h5_file is not None:
+            try:
+                self._h5_file.close()
+            except Exception:
+                pass
+
 
 def create_dataloader(
     annotations_path: Union[str, Path],
@@ -122,6 +171,7 @@ def create_dataloader(
     num_workers: int = 0,
     max_seq_len: int = 60,
     flatten: bool = True,
+    h5_path: Optional[Union[str, Path]] = None,
 ) -> DataLoader:
     """Tạo DataLoader tiện lợi cho việc huấn luyện và kiểm thử."""
     is_train = split == "train"
@@ -134,6 +184,7 @@ def create_dataloader(
         max_seq_len=max_seq_len,
         flatten=flatten,
         only_available=True,
+        h5_path=h5_path,
     )
 
     return DataLoader(
