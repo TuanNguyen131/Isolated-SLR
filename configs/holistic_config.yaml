@@ -38,8 +38,12 @@ extraction:
   # Chuẩn hóa tọa độ (centering vào điểm giữa 2 vai, scale theo khoảng cách vai)
   normalize: true
 
+  # Chuẩn hóa tọa độ bàn tay: "wrist" (dời gốc về cổ tay) hoặc "shoulder" (dời về vai)
+  hand_origin: "wrist"
+
   # Giá trị thay thế khi một bộ phận không xuất hiện trong khung hình: "zeros" hoặc "nan"
   fill_missing: "zeros"
+
 
   # Tự động nội suy các frame mất dấu bàn tay bằng thuật toán nội suy thời gian
   interpolate_hands: true

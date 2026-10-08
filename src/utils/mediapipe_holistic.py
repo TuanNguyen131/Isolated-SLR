@@ -11,6 +11,7 @@ from typing import Optional, Tuple, List, Union, Dict, Any
 
 from .holistic_config import HolisticConfig, UNIQUE_LIPS_INDICES
 from src.data.interpolation import interpolate_holistic_landmarks
+from src.data.normalization import normalize_holistic_landmarks
 
 
 class MediaPipeHolisticExtractor:
@@ -160,7 +161,8 @@ class MediaPipeHolisticExtractor:
     def normalize_landmarks(self, landmarks_seq: np.ndarray) -> np.ndarray:
         """
         Chuẩn hóa chuỗi landmarks theo khung tọa độ chuẩn:
-        - Tịnh tiến (Centering): Đưa trung điểm của 2 vai (landmark 11 và 12 của Pose) về gốc (0, 0, 0).
+        - Thân người (Pose): Đưa trung điểm của 2 vai (landmark 11 và 12 của Pose) về gốc (0, 0, 0).
+        - Bàn tay (Hands): Nếu hand_origin == "wrist", dời gốc về cổ tay (Landmark 0) của mỗi bàn tay.
         - Co giãn (Scaling): Chia cho khoảng cách Euclidean giữa 2 vai để bất biến khoảng cách máy quay.
         
         Input shape: (num_frames, num_keypoints, coord_dim)
@@ -168,44 +170,17 @@ class MediaPipeHolisticExtractor:
         if not self.config.normalize or landmarks_seq.shape[0] == 0:
             return landmarks_seq
 
-        normed = landmarks_seq.copy()
-        # Trong mảng landmarks, 33 điểm đầu tiên luôn là Pose landmarks:
-        # Landmark 11: left_shoulder, Landmark 12: right_shoulder
-        left_shoulders = normed[:, 11, :2]
-        right_shoulders = normed[:, 12, :2]
+        hand_origin = getattr(self.config, "hand_origin", "wrist")
+        store_wrist = getattr(self.config, "store_wrist_origin", False)
 
-        # Kiểm tra tính hợp lệ của vai
-        valid_mask = (np.abs(left_shoulders).sum(axis=-1) > 0) & (np.abs(right_shoulders).sum(axis=-1) > 0)
+        return normalize_holistic_landmarks(
+            landmarks_seq=landmarks_seq,
+            keypoint_mode=self.config.keypoint_mode,
+            sequence_level=True,
+            hand_origin=hand_origin,
+            store_wrist_origin=store_wrist,
+        )
 
-        if np.any(valid_mask):
-            # Tính trung điểm vai trung bình qua các frame hợp lệ
-            mid_shoulders = (left_shoulders[valid_mask] + right_shoulders[valid_mask]) / 2.0
-            center = np.mean(mid_shoulders, axis=0)  # (2,)
-
-            # Tính khoảng cách 2 vai
-            dists = np.linalg.norm(left_shoulders[valid_mask] - right_shoulders[valid_mask], axis=1)
-            scale = np.mean(dists)
-            if scale < 1e-4:
-                scale = 1.0
-        else:
-            center = np.array([0.5, 0.5], dtype=np.float32)
-            scale = 1.0
-
-        # Áp dụng chuẩn hóa cho x và y
-        coord_dim = self.config.coord_dim
-        dim_to_norm = min(2, coord_dim)
-
-        # Trừ tâm và chia tỉ lệ (chỉ trừ vào các điểm khác 0/hợp lệ)
-        nonzero_mask = np.abs(normed[:, :, :dim_to_norm]).sum(axis=-1) > 0
-        normed[:, :, :dim_to_norm][nonzero_mask] -= center
-        normed[:, :, :dim_to_norm][nonzero_mask] /= scale
-
-        # Nếu có tọa độ z (cột 2), chia tỉ lệ cùng scale
-        if coord_dim >= 3 and self.config.include_z:
-            z_mask = np.abs(normed[:, :, 2]) > 0
-            normed[:, :, 2][z_mask] /= scale
-
-        return normed
 
     def extract_from_video(
         self,

@@ -36,6 +36,10 @@ from src.data.interpolation import (
     interpolate_holistic_landmarks,
     detect_missing_frames,
 )
+from src.data.normalization import (
+    normalize_vector201,
+    normalize_holistic_landmarks,
+)
 
 
 def process_dataset(
@@ -44,6 +48,8 @@ def process_dataset(
     kind: str = "linear",
     max_gap_size: int = 0,
     boundary_mode: str = "zeros",
+    normalize: bool = False,
+    hand_origin: str = "wrist",
     limit: int = 0,
 ) -> Dict[str, Any]:
     """
@@ -66,7 +72,9 @@ def process_dataset(
     print(f"[*] Phương pháp nội suy: {kind}")
     print(f"[*] Giới hạn gap:        {'Không giới hạn' if max_gap_size <= 0 else f'{max_gap_size} frames'}")
     print(f"[*] Chế độ vùng biên:    {boundary_mode} (Zero-Padding)")
+    print(f"[*] Chuẩn hóa tọa độ:    {normalize} (hand_origin='{hand_origin}')")
     print("-" * 75)
+
 
     gap_limit = max_gap_size if max_gap_size > 0 else None
 
@@ -134,6 +142,12 @@ def process_dataset(
             np.save(out_path, arr)
             continue
 
+        if normalize:
+            if arr.ndim == 2 and arr.shape[1] == 201:
+                processed = normalize_vector201(processed, hand_origin=hand_origin)
+            elif arr.ndim == 3 and arr.shape[1] in (543, 75, 115):
+                processed = normalize_holistic_landmarks(processed, keypoint_mode=k_mode, hand_origin=hand_origin)
+
         np.save(out_path, processed.astype(np.float32))
 
         n_f = arr.shape[0]
@@ -168,6 +182,9 @@ def process_dataset(
     print(f"    - Frame mất dấu ban đầu:        {total_rh_missing_before:,} ({total_rh_missing_before/max(1, total_frames)*100:.1f}%)")
     print(f"    - Frame đã được nội suy mượt:   {total_rh_interpolated:,} (tại {videos_with_rh_gap} clips)")
     print(f"    - Frame zero-padded (vùng biên):{total_rh_padded:,}")
+    if normalize:
+        print(f"  [CHUẨN HÓA TỌA ĐỘ]:")
+        print(f"    - Đã chuẩn hóa dời gốc về '{hand_origin}' và co giãn theo khoảng cách 2 vai cho toàn bộ {total_videos} videos.")
     print("=" * 75 + "\n")
 
     return {
@@ -186,6 +203,8 @@ def main():
     parser.add_argument("--kind", type=str, default="linear", choices=["linear", "nearest"], help="Thuật toán nội suy")
     parser.add_argument("--max_gap_size", type=int, default=0, help="Giới hạn frame mất dấu tối đa để nội suy")
     parser.add_argument("--boundary_mode", type=str, default="zeros", choices=["zeros", "nearest"], help="Chế độ vùng biên (mặc định: zeros)")
+    parser.add_argument("--normalize", action="store_true", help="Chuẩn hóa tọa độ (dời gốc về cổ tay/khoảng cách hai vai)")
+    parser.add_argument("--hand_origin", type=str, default="wrist", choices=["wrist", "shoulder"], help="Gốc tọa độ bàn tay: 'wrist' hoặc 'shoulder'")
     parser.add_argument("--limit", "-l", type=int, default=0, help="Giới hạn số file xử lý (0 là toàn bộ)")
     args = parser.parse_args()
 
@@ -195,6 +214,8 @@ def main():
         kind=args.kind,
         max_gap_size=args.max_gap_size,
         boundary_mode=args.boundary_mode,
+        normalize=args.normalize,
+        hand_origin=args.hand_origin,
         limit=args.limit,
     )
 

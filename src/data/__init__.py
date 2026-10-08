@@ -19,6 +19,16 @@ from .interpolation import (
     pad_or_truncate_sequence,
     HandInterpolationPipeline,
 )
+from .normalization import (
+    compute_shoulder_reference,
+    compute_sequence_shoulder_reference,
+    normalize_hand_landmarks,
+    normalize_pose_landmarks,
+    normalize_landmarks_wrist_shoulder,
+    normalize_vector201,
+    normalize_holistic_landmarks,
+    CoordinateNormalizer,
+)
 
 __all__ = [
     "SignFeatureExtractor",
@@ -34,5 +44,14 @@ __all__ = [
     "interpolate_holistic_landmarks",
     "pad_or_truncate_sequence",
     "HandInterpolationPipeline",
+    "compute_shoulder_reference",
+    "compute_sequence_shoulder_reference",
+    "normalize_hand_landmarks",
+    "normalize_pose_landmarks",
+    "normalize_landmarks_wrist_shoulder",
+    "normalize_vector201",
+    "normalize_holistic_landmarks",
+    "CoordinateNormalizer",
 ]
+
 

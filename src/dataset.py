@@ -16,6 +16,10 @@ from .data.interpolation import (
     interpolate_holistic_landmarks,
     pad_or_truncate_sequence,
 )
+from .data.normalization import (
+    normalize_vector201,
+    normalize_holistic_landmarks,
+)
 
 
 class WLASLDataset(Dataset):
@@ -34,6 +38,8 @@ class WLASLDataset(Dataset):
         only_available: bool = True,
         interpolate_hands: bool = True,
         boundary_mode: str = "zeros",
+        normalize_landmarks: bool = True,
+        hand_origin: str = "wrist",
         transform: Optional[Callable] = None,
         h5_path: Optional[Union[str, Path]] = None,
     ):
@@ -45,6 +51,8 @@ class WLASLDataset(Dataset):
         self.flatten = flatten
         self.interpolate_hands = interpolate_hands
         self.boundary_mode = boundary_mode
+        self.normalize_landmarks = normalize_landmarks
+        self.hand_origin = hand_origin
         self.transform = transform
 
         if h5_path:
@@ -159,7 +167,25 @@ class WLASLDataset(Dataset):
             except Exception:
                 pass
 
-        # 5. Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
+        # 5. Chuẩn hóa tọa độ (Dời gốc về cổ tay / khoảng cách 2 vai)
+        if self.normalize_landmarks and landmarks.shape[0] > 0:
+            try:
+                if landmarks.ndim == 2 and landmarks.shape[1] == 201:
+                    landmarks = normalize_vector201(
+                        landmarks,
+                        hand_origin=self.hand_origin,
+                    )
+                elif landmarks.ndim == 3:
+                    mode = "full" if landmarks.shape[1] == 543 else "hands_pose"
+                    landmarks = normalize_holistic_landmarks(
+                        landmarks,
+                        keypoint_mode=mode,
+                        hand_origin=self.hand_origin,
+                    )
+            except Exception:
+                pass
+
+        # 6. Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
         num_frames = landmarks.shape[0]
         if num_frames > self.max_seq_len:
             indices = np.linspace(0, num_frames - 1, self.max_seq_len, dtype=int)
@@ -201,6 +227,8 @@ def create_dataloader(
     flatten: bool = True,
     interpolate_hands: bool = True,
     boundary_mode: str = "zeros",
+    normalize_landmarks: bool = True,
+    hand_origin: str = "wrist",
     h5_path: Optional[Union[str, Path]] = None,
 ) -> DataLoader:
     """Tạo DataLoader tiện lợi cho việc huấn luyện và kiểm thử."""
@@ -216,6 +244,8 @@ def create_dataloader(
         only_available=True,
         interpolate_hands=interpolate_hands,
         boundary_mode=boundary_mode,
+        normalize_landmarks=normalize_landmarks,
+        hand_origin=hand_origin,
         h5_path=h5_path,
     )
 
@@ -225,4 +255,5 @@ def create_dataloader(
         shuffle=shuffle,
         num_workers=num_workers,
     )
+
 

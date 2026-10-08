@@ -25,6 +25,7 @@ import numpy as np
 import mediapipe as mp
 
 from .interpolation import interpolate_vector201
+from .normalization import normalize_landmarks_wrist_shoulder
 
 # Đảm bảo UTF-8 hoạt động chuẩn trên Windows Console
 if sys.platform == "win32":
@@ -79,6 +80,8 @@ class SignFeatureExtractor:
         interpolate_hands: bool = True,
         max_gap_size: Optional[int] = None,
         boundary_mode: str = "zeros",
+        hand_origin: str = "wrist",
+        store_wrist_origin: bool = False,
     ):
         """
         Khởi tạo MediaPipe Holistic.
@@ -93,6 +96,8 @@ class SignFeatureExtractor:
             interpolate_hands: Bật thuật toán nội suy và zero-padding cho frame mất dấu bàn tay.
             max_gap_size: Số frame mất dấu liên tiếp tối đa được nội suy (None là toàn bộ gap nội tại).
             boundary_mode: Cách xử lý vùng biên đầu/cuối video ("zeros" hoặc "nearest").
+            hand_origin: "wrist" (dời gốc về cổ tay) hoặc "shoulder" (dời gốc về trung điểm 2 vai).
+            store_wrist_origin: Lưu vị trí cổ tay tại landmark 0 thay vì đặt thành (0, 0, 0).
         """
         self.static_image_mode = static_image_mode
         self.model_complexity = model_complexity
@@ -103,6 +108,8 @@ class SignFeatureExtractor:
         self.interpolate_hands = interpolate_hands
         self.max_gap_size = max_gap_size
         self.boundary_mode = boundary_mode
+        self.hand_origin = hand_origin
+        self.store_wrist_origin = store_wrist_origin
 
         self.mp_holistic = mp.solutions.holistic
         self.mp_drawing = mp.solutions.drawing_utils
@@ -161,49 +168,20 @@ class SignFeatureExtractor:
         self, lh: np.ndarray, rh: np.ndarray, pose: np.ndarray
     ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """
-        Chuẩn hóa tọa độ dựa trên thân người (Gốc tọa độ tại trung điểm vai, co giãn theo khoảng cách 2 vai):
-        - Vai trái: index 11 trong pose (POSE_UPPER_BODY_INDICES[11] = 11)
-        - Vai phải: index 12 trong pose (POSE_UPPER_BODY_INDICES[12] = 12)
-        
-        Giúp vector đặc trưng bất biến trước khoảng cách đứng xa/gần camera và lệch vị trí khung hình.
+        Chuẩn hóa tọa độ theo thuật toán chuẩn:
+        - Thân trên (Pose): Gốc tọa độ tại trung điểm hai vai, co giãn theo khoảng cách hai vai.
+        - Bàn tay (Hands): Nếu hand_origin == "wrist", dời gốc tọa độ của 21 điểm về cổ tay (Landmark 0)
+          và co giãn theo khoảng cách hai vai. Nếu "shoulder", dời gốc về trung điểm hai vai.
         """
-        norm_lh = lh.copy()
-        norm_rh = rh.copy()
-        norm_pose = pose.copy()
+        return normalize_landmarks_wrist_shoulder(
+            lh=lh,
+            rh=rh,
+            pose=pose,
+            sequence_level=False,
+            hand_origin=self.hand_origin,
+            store_wrist_origin=self.store_wrist_origin,
+        )
 
-        # Tọa độ vai trái và vai phải
-        left_shoulder = pose[11, :2]
-        right_shoulder = pose[12, :2]
-
-        has_left = np.abs(left_shoulder).sum() > 0
-        has_right = np.abs(right_shoulder).sum() > 0
-
-        if has_left and has_right:
-            center = (left_shoulder + right_shoulder) / 2.0
-            scale = np.linalg.norm(left_shoulder - right_shoulder)
-            if scale < 1e-4:
-                scale = 1.0
-        elif has_left or has_right:
-            center = left_shoulder if has_left else right_shoulder
-            scale = 1.0
-        else:
-            # Fallback: dùng mũi (index 0) hoặc tâm khung hình (0.5, 0.5)
-            nose = pose[0, :2]
-            if np.abs(nose).sum() > 0:
-                center = nose
-            else:
-                center = np.array([0.5, 0.5], dtype=np.float32)
-            scale = 1.0
-
-        # Áp dụng chuẩn hóa cho x, y
-        for arr in [norm_lh, norm_rh, norm_pose]:
-            nonzero = np.abs(arr[:, :2]).sum(axis=-1) > 0
-            arr[nonzero, :2] = (arr[nonzero, :2] - center) / scale
-            # Chuẩn hóa độ sâu z theo cùng tỉ lệ scale vai
-            z_nonzero = np.abs(arr[:, 2]) > 0
-            arr[z_nonzero, 2] = arr[z_nonzero, 2] / scale
-
-        return norm_lh, norm_rh, norm_pose
 
     def extract_frame_with_results(
         self, frame: np.ndarray, is_bgr: bool = True
@@ -376,6 +354,8 @@ def process_directory(
     interpolate_hands: bool = True,
     max_gap_size: Optional[int] = None,
     boundary_mode: str = "zeros",
+    hand_origin: str = "wrist",
+    store_wrist_origin: bool = False,
 ) -> Dict[str, Any]:
     """
     Xử lý tiền xử lý hàng loạt: đọc toàn bộ video từ input_dir và lưu file .npy vào output_dir.
@@ -396,6 +376,7 @@ def process_directory(
     print(f"[*] Thu muc processed npy:  {out_dir.resolve()}")
     print(f"[*] Tong so video tim thay: {total_videos} (Xu ly: {len(video_files)})")
     print(f"[*] Kich thuoc vector:      {FEATURE_DIM} (21 LH x 3 + 21 RH x 3 + 25 Pose x 3)")
+    print(f"[*] Chuan hoa toa do:       hand_origin='{hand_origin}' (khoang cach 2 vai)")
     print(f"[*] Noi suy mat dau ban tay:{interpolate_hands} (boundary_mode='{boundary_mode}')")
     print("-" * 70)
 
@@ -413,6 +394,8 @@ def process_directory(
         interpolate_hands=interpolate_hands,
         max_gap_size=max_gap_size,
         boundary_mode=boundary_mode,
+        hand_origin=hand_origin,
+        store_wrist_origin=store_wrist_origin,
     ) as extractor:
         for idx, v_file in enumerate(video_files, 1):
             vid_id = v_file.stem
@@ -493,6 +476,7 @@ def main():
     parser.add_argument("--no_interpolate", action="store_true", help="Tat tinh nang noi suy frame mat dau ban tay")
     parser.add_argument("--max_gap_size", type=int, default=0, help="Gioi han so frame mat dau lien tiep de noi suy (0 la khong gioi han)")
     parser.add_argument("--boundary_mode", type=str, default="zeros", choices=["zeros", "nearest"], help="Che do xu ly bien dau/cuoi (zeros hoac nearest)")
+    parser.add_argument("--hand_origin", type=str, default="wrist", choices=["wrist", "shoulder"], help="Chuan hoa ban tay: dời gốc về cổ tay (wrist) hay vai (shoulder)")
     args = parser.parse_args()
 
     max_gap = args.max_gap_size if args.max_gap_size > 0 else None
@@ -506,7 +490,9 @@ def main():
         interpolate_hands=interpolate,
         max_gap_size=max_gap,
         boundary_mode=args.boundary_mode,
+        hand_origin=args.hand_origin,
     )
+
 
 
 

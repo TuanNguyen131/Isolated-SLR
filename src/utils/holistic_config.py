@@ -40,11 +40,14 @@ class HolisticConfig:
     include_visibility: bool = False
     normalize: bool = True
     fill_missing: str = "zeros"  # "zeros" hoặc "nan"
+    hand_origin: str = "wrist"  # "wrist" (dời gốc về cổ tay) hoặc "shoulder" (dời về vai)
+    store_wrist_origin: bool = False  # Lưu vị trí cổ tay tại landmark 0
     interpolate_hands: bool = True  # Nội suy các frame mất dấu bàn tay
     max_gap_size: Optional[int] = None  # Giới hạn số frame mất dấu liên tiếp (None = không giới hạn)
     boundary_mode: str = "zeros"  # "zeros" (zero-padding) hoặc "nearest"
     frame_stride: int = 1
     max_frames: int = 0  # 0 nghĩa là lấy toàn bộ frame
+
 
     @property
     def num_keypoints(self) -> int:
@@ -91,12 +94,15 @@ class HolisticConfig:
                 "include_visibility": self.include_visibility,
                 "normalize": self.normalize,
                 "fill_missing": self.fill_missing,
+                "hand_origin": self.hand_origin,
+                "store_wrist_origin": self.store_wrist_origin,
                 "interpolate_hands": self.interpolate_hands,
                 "max_gap_size": self.max_gap_size,
                 "boundary_mode": self.boundary_mode,
                 "frame_stride": self.frame_stride,
                 "max_frames": self.max_frames,
             },
+
         }
 
     @classmethod
