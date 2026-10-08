@@ -24,6 +24,8 @@ import cv2
 import numpy as np
 import mediapipe as mp
 
+from .interpolation import interpolate_vector201
+
 # Đảm bảo UTF-8 hoạt động chuẩn trên Windows Console
 if sys.platform == "win32":
     try:
@@ -74,6 +76,9 @@ class SignFeatureExtractor:
         min_detection_confidence: float = 0.5,
         min_tracking_confidence: float = 0.5,
         normalize: bool = True,
+        interpolate_hands: bool = True,
+        max_gap_size: Optional[int] = None,
+        boundary_mode: str = "zeros",
     ):
         """
         Khởi tạo MediaPipe Holistic.
@@ -85,6 +90,9 @@ class SignFeatureExtractor:
             min_detection_confidence: Ngưỡng tin cậy phát hiện ban đầu.
             min_tracking_confidence: Ngưỡng tin cậy bám vết khung hình.
             normalize: Bật chuẩn hóa vị trí (trung điểm vai) và tỉ lệ (khoảng cách vai).
+            interpolate_hands: Bật thuật toán nội suy và zero-padding cho frame mất dấu bàn tay.
+            max_gap_size: Số frame mất dấu liên tiếp tối đa được nội suy (None là toàn bộ gap nội tại).
+            boundary_mode: Cách xử lý vùng biên đầu/cuối video ("zeros" hoặc "nearest").
         """
         self.static_image_mode = static_image_mode
         self.model_complexity = model_complexity
@@ -92,6 +100,9 @@ class SignFeatureExtractor:
         self.min_detection_confidence = min_detection_confidence
         self.min_tracking_confidence = min_tracking_confidence
         self.normalize = normalize
+        self.interpolate_hands = interpolate_hands
+        self.max_gap_size = max_gap_size
+        self.boundary_mode = boundary_mode
 
         self.mp_holistic = mp.solutions.holistic
         self.mp_drawing = mp.solutions.drawing_utils
@@ -280,7 +291,17 @@ class SignFeatureExtractor:
         if len(sequence) == 0:
             return np.empty((0, FEATURE_DIM), dtype=np.float32)
 
-        return np.array(sequence, dtype=np.float32)
+        seq_arr = np.array(sequence, dtype=np.float32)
+
+        # Áp dụng thuật toán nội suy và zero-padding cho frame mất dấu bàn tay
+        if self.interpolate_hands and seq_arr.shape[0] > 1:
+            seq_arr, _ = interpolate_vector201(
+                seq_arr,
+                max_gap_size=self.max_gap_size,
+                boundary_mode=self.boundary_mode,
+            )
+
+        return seq_arr
 
     def draw_landmarks(self, frame_bgr: np.ndarray, results: Any) -> np.ndarray:
         """
@@ -352,6 +373,9 @@ def process_directory(
     limit: int = 0,
     skip_existing: bool = True,
     save_preview: bool = True,
+    interpolate_hands: bool = True,
+    max_gap_size: Optional[int] = None,
+    boundary_mode: str = "zeros",
 ) -> Dict[str, Any]:
     """
     Xử lý tiền xử lý hàng loạt: đọc toàn bộ video từ input_dir và lưu file .npy vào output_dir.
@@ -372,6 +396,7 @@ def process_directory(
     print(f"[*] Thu muc processed npy:  {out_dir.resolve()}")
     print(f"[*] Tong so video tim thay: {total_videos} (Xu ly: {len(video_files)})")
     print(f"[*] Kich thuoc vector:      {FEATURE_DIM} (21 LH x 3 + 21 RH x 3 + 25 Pose x 3)")
+    print(f"[*] Noi suy mat dau ban tay:{interpolate_hands} (boundary_mode='{boundary_mode}')")
     print("-" * 70)
 
     success_cnt = 0
@@ -381,7 +406,14 @@ def process_directory(
     preview_saved = False
     start_time = time.time()
 
-    with SignFeatureExtractor(static_image_mode=False, model_complexity=1, normalize=True) as extractor:
+    with SignFeatureExtractor(
+        static_image_mode=False,
+        model_complexity=1,
+        normalize=True,
+        interpolate_hands=interpolate_hands,
+        max_gap_size=max_gap_size,
+        boundary_mode=boundary_mode,
+    ) as extractor:
         for idx, v_file in enumerate(video_files, 1):
             vid_id = v_file.stem
             out_file = out_dir / f"{vid_id}.npy"
@@ -458,14 +490,24 @@ def main():
     parser.add_argument("--output_dir", "-o", type=str, default="data/processed_landmarks", help="Thu muc luu npy")
     parser.add_argument("--limit", "-l", type=int, default=0, help="Gioi han so video (0 la toan bo)")
     parser.add_argument("--skip_existing", action="store_true", default=True, help="Bo qua file npy da co")
+    parser.add_argument("--no_interpolate", action="store_true", help="Tat tinh nang noi suy frame mat dau ban tay")
+    parser.add_argument("--max_gap_size", type=int, default=0, help="Gioi han so frame mat dau lien tiep de noi suy (0 la khong gioi han)")
+    parser.add_argument("--boundary_mode", type=str, default="zeros", choices=["zeros", "nearest"], help="Che do xu ly bien dau/cuoi (zeros hoac nearest)")
     args = parser.parse_args()
+
+    max_gap = args.max_gap_size if args.max_gap_size > 0 else None
+    interpolate = not args.no_interpolate
 
     process_directory(
         input_dir=args.input_dir,
         output_dir=args.output_dir,
         limit=args.limit,
         skip_existing=args.skip_existing,
+        interpolate_hands=interpolate,
+        max_gap_size=max_gap,
+        boundary_mode=args.boundary_mode,
     )
+
 
 
 if __name__ == "__main__":

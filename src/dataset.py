@@ -11,6 +11,12 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 
+from .data.interpolation import (
+    interpolate_vector201,
+    interpolate_holistic_landmarks,
+    pad_or_truncate_sequence,
+)
+
 
 class WLASLDataset(Dataset):
     """
@@ -26,6 +32,8 @@ class WLASLDataset(Dataset):
         max_seq_len: int = 60,
         flatten: bool = True,
         only_available: bool = True,
+        interpolate_hands: bool = True,
+        boundary_mode: str = "zeros",
         transform: Optional[Callable] = None,
         h5_path: Optional[Union[str, Path]] = None,
     ):
@@ -35,6 +43,8 @@ class WLASLDataset(Dataset):
         self.num_classes = num_classes
         self.max_seq_len = max_seq_len
         self.flatten = flatten
+        self.interpolate_hands = interpolate_hands
+        self.boundary_mode = boundary_mode
         self.transform = transform
 
         if h5_path:
@@ -131,7 +141,25 @@ class WLASLDataset(Dataset):
         if landmarks is None or landmarks.size == 0:
             landmarks = np.zeros((1, 543, 3), dtype=np.float32)
 
-        # Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
+        # 4. Áp dụng thuật toán nội suy và zero-padding cho frame mất dấu bàn tay
+        if self.interpolate_hands and landmarks.shape[0] > 1:
+            try:
+                if landmarks.ndim == 2 and landmarks.shape[1] == 201:
+                    landmarks, _ = interpolate_vector201(
+                        landmarks,
+                        boundary_mode=self.boundary_mode,
+                    )
+                elif landmarks.ndim == 3:
+                    mode = "full" if landmarks.shape[1] == 543 else "hands_pose"
+                    landmarks, _ = interpolate_holistic_landmarks(
+                        landmarks,
+                        keypoint_mode=mode,
+                        boundary_mode=self.boundary_mode,
+                    )
+            except Exception:
+                pass
+
+        # 5. Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
         num_frames = landmarks.shape[0]
         if num_frames > self.max_seq_len:
             indices = np.linspace(0, num_frames - 1, self.max_seq_len, dtype=int)
@@ -171,6 +199,8 @@ def create_dataloader(
     num_workers: int = 0,
     max_seq_len: int = 60,
     flatten: bool = True,
+    interpolate_hands: bool = True,
+    boundary_mode: str = "zeros",
     h5_path: Optional[Union[str, Path]] = None,
 ) -> DataLoader:
     """Tạo DataLoader tiện lợi cho việc huấn luyện và kiểm thử."""
@@ -184,6 +214,8 @@ def create_dataloader(
         max_seq_len=max_seq_len,
         flatten=flatten,
         only_available=True,
+        interpolate_hands=interpolate_hands,
+        boundary_mode=boundary_mode,
         h5_path=h5_path,
     )
 
@@ -193,3 +225,4 @@ def create_dataloader(
         shuffle=shuffle,
         num_workers=num_workers,
     )
+

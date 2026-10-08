@@ -41,8 +41,18 @@ extraction:
   # Giá trị thay thế khi một bộ phận không xuất hiện trong khung hình: "zeros" hoặc "nan"
   fill_missing: "zeros"
 
+  # Tự động nội suy các frame mất dấu bàn tay bằng thuật toán nội suy thời gian
+  interpolate_hands: true
+
+  # Giới hạn số frame mất dấu liên tiếp tối đa được nội suy (null/0 = toàn bộ các gap nội tại)
+  max_gap_size: null
+
+  # Xử lý vùng biên đầu/cuối video: "zeros" (zero-padding cho frame chưa/đã hạ tay) hoặc "nearest"
+  boundary_mode: "zeros"
+
   # Tần suất lấy mẫu khung hình: 1 = lấy tất cả các frame, 2 = lấy xen kẽ mỗi 2 frame
   frame_stride: 1
 
   # Giới hạn số khung hình tối đa mỗi video (0 = giữ nguyên độ dài thực tế)
   max_frames: 0
+

@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Optional, Tuple, List, Union, Dict, Any
 
 from .holistic_config import HolisticConfig, UNIQUE_LIPS_INDICES
+from src.data.interpolation import interpolate_holistic_landmarks
 
 
 class MediaPipeHolisticExtractor:
@@ -263,6 +264,15 @@ class MediaPipeHolisticExtractor:
         # Áp dụng chuẩn hóa bất biến vị trí và tỉ lệ nếu bật cấu hình
         if self.config.normalize:
             seq = self.normalize_landmarks(seq)
+
+        # Áp dụng thuật toán nội suy và zero-padding cho frame mất dấu bàn tay
+        if getattr(self.config, "interpolate_hands", False) and seq.shape[0] > 1:
+            seq, _ = interpolate_holistic_landmarks(
+                seq,
+                keypoint_mode=self.config.keypoint_mode,
+                max_gap_size=getattr(self.config, "max_gap_size", None),
+                boundary_mode=getattr(self.config, "boundary_mode", "zeros"),
+            )
 
         return seq
 
