@@ -24,7 +24,7 @@ import cv2
 import numpy as np
 import mediapipe as mp
 
-from .interpolation import interpolate_vector201
+from .interpolation import interpolate_vector201, temporal_resample
 from .normalization import normalize_landmarks_wrist_shoulder
 
 # Đảm bảo UTF-8 hoạt động chuẩn trên Windows Console
@@ -80,6 +80,9 @@ class SignFeatureExtractor:
         interpolate_hands: bool = True,
         max_gap_size: Optional[int] = None,
         boundary_mode: str = "zeros",
+        temporal_resampling: bool = False,
+        target_seq_len: int = 30,
+        resample_kind: str = "linear",
         hand_origin: str = "wrist",
         store_wrist_origin: bool = False,
     ):
@@ -108,6 +111,9 @@ class SignFeatureExtractor:
         self.interpolate_hands = interpolate_hands
         self.max_gap_size = max_gap_size
         self.boundary_mode = boundary_mode
+        self.temporal_resampling = temporal_resampling
+        self.target_seq_len = target_seq_len
+        self.resample_kind = resample_kind
         self.hand_origin = hand_origin
         self.store_wrist_origin = store_wrist_origin
 
@@ -279,6 +285,14 @@ class SignFeatureExtractor:
                 boundary_mode=self.boundary_mode,
             )
 
+        # Cố định độ dài chuỗi theo thời gian (Temporal Resampling T=30 qua nội suy tuyến tính)
+        if self.temporal_resampling and seq_arr.shape[0] > 0:
+            seq_arr = temporal_resample(
+                seq_arr,
+                target_len=self.target_seq_len,
+                kind=self.resample_kind,
+            )
+
         return seq_arr
 
     def draw_landmarks(self, frame_bgr: np.ndarray, results: Any) -> np.ndarray:
@@ -354,6 +368,9 @@ def process_directory(
     interpolate_hands: bool = True,
     max_gap_size: Optional[int] = None,
     boundary_mode: str = "zeros",
+    temporal_resampling: bool = False,
+    target_seq_len: int = 30,
+    resample_kind: str = "linear",
     hand_origin: str = "wrist",
     store_wrist_origin: bool = False,
 ) -> Dict[str, Any]:
@@ -394,6 +411,9 @@ def process_directory(
         interpolate_hands=interpolate_hands,
         max_gap_size=max_gap_size,
         boundary_mode=boundary_mode,
+        temporal_resampling=temporal_resampling,
+        target_seq_len=target_seq_len,
+        resample_kind=resample_kind,
         hand_origin=hand_origin,
         store_wrist_origin=store_wrist_origin,
     ) as extractor:
@@ -476,6 +496,8 @@ def main():
     parser.add_argument("--no_interpolate", action="store_true", help="Tat tinh nang noi suy frame mat dau ban tay")
     parser.add_argument("--max_gap_size", type=int, default=0, help="Gioi han so frame mat dau lien tiep de noi suy (0 la khong gioi han)")
     parser.add_argument("--boundary_mode", type=str, default="zeros", choices=["zeros", "nearest"], help="Che do xu ly bien dau/cuoi (zeros hoac nearest)")
+    parser.add_argument("--resample_temporal", action="store_true", help="Bat co dinh chieu dai chuoi qua Temporal Resampling noi suy tuyen tinh")
+    parser.add_argument("--target_len", type=int, default=30, help="Do dai chuoi khung hinh mong muon (mac dinh: 30)")
     parser.add_argument("--hand_origin", type=str, default="wrist", choices=["wrist", "shoulder"], help="Chuan hoa ban tay: dời gốc về cổ tay (wrist) hay vai (shoulder)")
     args = parser.parse_args()
 
@@ -490,6 +512,8 @@ def main():
         interpolate_hands=interpolate,
         max_gap_size=max_gap,
         boundary_mode=args.boundary_mode,
+        temporal_resampling=args.resample_temporal,
+        target_seq_len=args.target_len,
         hand_origin=args.hand_origin,
     )
 

@@ -15,6 +15,7 @@ from .data.interpolation import (
     interpolate_vector201,
     interpolate_holistic_landmarks,
     pad_or_truncate_sequence,
+    temporal_resample,
 )
 from .data.normalization import (
     normalize_vector201,
@@ -33,7 +34,10 @@ class WLASLDataset(Dataset):
         landmarks_dir: Union[str, Path] = "data/landmarks",
         split: str = "train",
         num_classes: int = 100,
-        max_seq_len: int = 60,
+        max_seq_len: int = 30,
+        target_seq_len: int = 30,
+        temporal_resampling: bool = True,
+        resample_kind: str = "linear",
         flatten: bool = True,
         only_available: bool = True,
         interpolate_hands: bool = True,
@@ -48,6 +52,9 @@ class WLASLDataset(Dataset):
         self.split = split
         self.num_classes = num_classes
         self.max_seq_len = max_seq_len
+        self.target_seq_len = target_seq_len if target_seq_len is not None else max_seq_len
+        self.temporal_resampling = temporal_resampling
+        self.resample_kind = resample_kind
         self.flatten = flatten
         self.interpolate_hands = interpolate_hands
         self.boundary_mode = boundary_mode
@@ -185,19 +192,29 @@ class WLASLDataset(Dataset):
             except Exception:
                 pass
 
-        # 6. Chuẩn hóa độ dài chuỗi theo thời gian (temporal padding / truncation)
-        num_frames = landmarks.shape[0]
-        if num_frames > self.max_seq_len:
-            indices = np.linspace(0, num_frames - 1, self.max_seq_len, dtype=int)
-            landmarks = landmarks[indices]
-        elif num_frames < self.max_seq_len:
-            pad_len = self.max_seq_len - num_frames
-            padding = np.zeros((pad_len, *landmarks.shape[1:]), dtype=np.float32)
-            landmarks = np.concatenate([landmarks, padding], axis=0)
+        # 6. Chuẩn hóa độ dài chuỗi theo thời gian (Temporal Resampling T=30 qua nội suy tuyến tính)
+        if self.temporal_resampling:
+            target_t = self.target_seq_len or self.max_seq_len or 30
+            landmarks = temporal_resample(
+                landmarks,
+                target_len=target_t,
+                kind=self.resample_kind,
+            )
+            final_seq_len = target_t
+        else:
+            num_frames = landmarks.shape[0]
+            if num_frames > self.max_seq_len:
+                indices = np.linspace(0, num_frames - 1, self.max_seq_len, dtype=int)
+                landmarks = landmarks[indices]
+            elif num_frames < self.max_seq_len:
+                pad_len = self.max_seq_len - num_frames
+                padding = np.zeros((pad_len, *landmarks.shape[1:]), dtype=np.float32)
+                landmarks = np.concatenate([landmarks, padding], axis=0)
+            final_seq_len = self.max_seq_len
 
-        # Làm phẳng đặc trưng mỗi frame: (max_seq_len, num_keypoints * coord_dim)
+        # Làm phẳng đặc trưng mỗi frame: (final_seq_len, num_keypoints * coord_dim)
         if self.flatten:
-            landmarks = landmarks.reshape(self.max_seq_len, -1)
+            landmarks = landmarks.reshape(final_seq_len, -1)
 
         # Chuyển đổi thành PyTorch Tensors
         features_tensor = torch.from_numpy(landmarks).float()
@@ -223,7 +240,10 @@ def create_dataloader(
     batch_size: int = 16,
     shuffle: Optional[bool] = None,
     num_workers: int = 0,
-    max_seq_len: int = 60,
+    max_seq_len: int = 30,
+    target_seq_len: int = 30,
+    temporal_resampling: bool = True,
+    resample_kind: str = "linear",
     flatten: bool = True,
     interpolate_hands: bool = True,
     boundary_mode: str = "zeros",
@@ -240,6 +260,9 @@ def create_dataloader(
         landmarks_dir=landmarks_dir,
         split=split,
         max_seq_len=max_seq_len,
+        target_seq_len=target_seq_len,
+        temporal_resampling=temporal_resampling,
+        resample_kind=resample_kind,
         flatten=flatten,
         only_available=True,
         interpolate_hands=interpolate_hands,

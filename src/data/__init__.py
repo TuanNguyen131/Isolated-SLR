@@ -17,6 +17,7 @@ from .interpolation import (
     interpolate_vector201,
     interpolate_holistic_landmarks,
     pad_or_truncate_sequence,
+    temporal_resample,
     HandInterpolationPipeline,
 )
 from .normalization import (
@@ -43,6 +44,7 @@ __all__ = [
     "interpolate_vector201",
     "interpolate_holistic_landmarks",
     "pad_or_truncate_sequence",
+    "temporal_resample",
     "HandInterpolationPipeline",
     "compute_shoulder_reference",
     "compute_sequence_shoulder_reference",

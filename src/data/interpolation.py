@@ -21,6 +21,12 @@ Quy trình xử lý chuẩn hóa kết hợp:
 from typing import Optional, Tuple, Union, List, Dict, Any
 import numpy as np
 
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
 
 def detect_missing_frames(
     landmark_arr: np.ndarray,
@@ -431,23 +437,151 @@ def interpolate_holistic_landmarks(
     return out_seq, stats
 
 
+def temporal_resample(
+    sequence: Union[np.ndarray, Any],
+    target_len: int = 30,
+    kind: str = "linear",
+    axis: int = 0,
+) -> Union[np.ndarray, Any]:
+    """
+    Kỹ thuật Temporal Resampling: Cố định độ dài chuỗi thời gian về T = 30 khung hình
+    (hoặc target_len tùy chọn) bằng phương pháp nội suy tuyến tính (Linear Interpolation).
+
+    Trong bài toán nhận dạng ngôn ngữ ký hiệu (Isolated-SLR), các video cử chỉ có độ dài
+    rất khác nhau (ví dụ: từ 10 đến 80+ frames). Kỹ thuật Temporal Resampling giúp:
+    1. Đưa toàn bộ các chuỗi về cùng độ dài chuẩn T = 30 khung hình theo trục thời gian.
+    2. Bảo toàn toàn bộ quỹ đạo chuyển động liên tục của cử chỉ từ thời điểm bắt đầu
+       (t = 0) đến khi kết thúc (t = N - 1) mà không bị mất mát thông tin hay ngắt quãng.
+    3. Tránh việc đệm quá nhiều số 0 (Zero-Padding) làm loãng tín hiệu cử chỉ, cũng như
+       tránh bước nhảy thời gian gián đoạn do lấy mẫu bước nguyên (integer decimation).
+
+    Công thức nội suy tuyến tính dọc theo trục thời gian:
+    - Với N frames ban đầu và mong muốn T frames mới:
+      t_target[k] = k * (N - 1) / (T - 1),  với k = 0, 1, ..., T - 1
+    - Giá trị tại thời điểm liên tục t_target[k]:
+      low = floor(t), high = ceil(t), alpha = t - low
+      x(t) = (1 - alpha) * x[low] + alpha * x[high]
+
+    Hỗ trợ cả mảng NumPy ndarray và PyTorch Tensor với cấu trúc đa chiều
+    (ví dụ: (T, 201), (T, 543, 3), (T, 67, 3), (T, D), ...).
+
+    Args:
+        sequence: Dữ liệu chuỗi đầu vào dạng np.ndarray hoặc torch.Tensor có shape (T, ...).
+        target_len: Số lượng khung hình cố định mong muốn sau khi nội suy (Mặc định: 30).
+        kind: Phương pháp nội suy ("linear" cho nội suy tuyến tính, hoặc "nearest").
+        axis: Trục thời gian cần nội suy (mặc định axis=0).
+
+    Returns:
+        resampled_seq: Chuỗi có cùng kiểu dữ liệu với shape sau khi resample (target_len, ...).
+    """
+    if target_len <= 0:
+        raise ValueError(f"target_len phải là số nguyên dương lớn hơn 0, nhận được: {target_len}")
+
+    if kind not in ("linear", "nearest"):
+        raise ValueError(f"Phương pháp nội suy không hỗ trợ kind='{kind}'. Chỉ hỗ trợ 'linear' hoặc 'nearest'.")
+
+    # 1. Xử lý cho PyTorch Tensor
+    if HAS_TORCH and isinstance(sequence, torch.Tensor):
+        tensor = sequence
+        if axis != 0:
+            tensor = torch.movedim(tensor, axis, 0)
+
+        orig_len = tensor.shape[0]
+        if orig_len == 0:
+            out_shape = (target_len,) + tuple(tensor.shape[1:])
+            res = torch.zeros(out_shape, dtype=tensor.dtype, device=tensor.device)
+        elif orig_len == 1:
+            repeats = [target_len] + [1] * (tensor.dim() - 1)
+            res = tensor.repeat(*repeats)
+        elif orig_len == target_len:
+            res = tensor.clone()
+        else:
+            t_target = torch.linspace(
+                0.0, float(orig_len - 1), target_len,
+                dtype=torch.float32, device=tensor.device
+            )
+            if kind == "linear":
+                idx_low = torch.floor(t_target).long()
+                idx_high = torch.clamp(idx_low + 1, 0, orig_len - 1)
+                shape_view = (-1,) + (1,) * (tensor.dim() - 1)
+                alpha = (t_target - idx_low.float()).view(shape_view)
+                if tensor.is_floating_point():
+                    alpha = alpha.to(dtype=tensor.dtype)
+                    res = (1.0 - alpha) * tensor[idx_low] + alpha * tensor[idx_high]
+                else:
+                    res = (1.0 - alpha) * tensor[idx_low].float() + alpha * tensor[idx_high].float()
+                    res = res.to(dtype=tensor.dtype)
+            else:  # nearest
+                idx = torch.clamp(torch.round(t_target).long(), 0, orig_len - 1)
+                res = tensor[idx].clone()
+
+        if axis != 0:
+            res = torch.movedim(res, 0, axis)
+        return res
+
+    # 2. Xử lý cho NumPy ndarray
+    if isinstance(sequence, np.ndarray):
+        arr = sequence
+        if axis != 0:
+            arr = np.moveaxis(arr, axis, 0)
+
+        orig_len = arr.shape[0]
+        if orig_len == 0:
+            out_shape = (target_len,) + arr.shape[1:]
+            res = np.zeros(out_shape, dtype=arr.dtype)
+        elif orig_len == 1:
+            res = np.repeat(arr, target_len, axis=0)
+        elif orig_len == target_len:
+            res = arr.copy()
+        else:
+            t_target = np.linspace(0.0, float(orig_len - 1), target_len, dtype=np.float32)
+            if kind == "linear":
+                idx_low = np.floor(t_target).astype(int)
+                idx_high = np.clip(idx_low + 1, 0, orig_len - 1)
+                shape_view = (-1,) + (1,) * (arr.ndim - 1)
+                alpha = (t_target - idx_low).reshape(shape_view)
+                if np.issubdtype(arr.dtype, np.floating):
+                    alpha = alpha.astype(arr.dtype)
+                    res = (1.0 - alpha) * arr[idx_low] + alpha * arr[idx_high]
+                else:
+                    res = (1.0 - alpha) * arr[idx_low].astype(np.float32) + alpha * arr[idx_high].astype(np.float32)
+                    res = res.astype(arr.dtype)
+            else:  # nearest
+                idx = np.clip(np.round(t_target).astype(int), 0, orig_len - 1)
+                res = arr[idx].copy()
+
+        if axis != 0:
+            res = np.moveaxis(res, 0, axis)
+        return res
+
+    raise TypeError(f"Dữ liệu sequence phải là np.ndarray hoặc torch.Tensor, nhận được kiểu: {type(sequence)}")
+
+
 def pad_or_truncate_sequence(
     sequence: np.ndarray,
     max_seq_len: int = 60,
     padding_mode: str = "zeros",
+    method: str = "pad_truncate",
 ) -> np.ndarray:
     """
     Chuẩn hóa chiều dài chuỗi thời gian về độ dài cố định max_seq_len.
-    Áp dụng đệm số 0 (Zero-Padding) khi thiếu frame hoặc nội suy thời gian đều (uniform resampling).
+
+    Hỗ trợ 2 phương pháp:
+    1. method="pad_truncate" (mặc định tương thích ngược): Đệm số 0 khi thiếu và lấy mẫu đều nguyên khi thừa.
+    2. method="resample": Sử dụng kỹ thuật Temporal Resampling qua nội suy tuyến tính (Linear Interpolation).
 
     Args:
         sequence: Mảng numpy shape (T, ...) với T là số frames hiện tại.
-        max_seq_len: Độ dài frame cố định mong muốn (ví dụ: 60).
+        max_seq_len: Độ dài frame cố định mong muốn (ví dụ: 30 hoặc 60).
         padding_mode: Chế độ đệm ("zeros" để pad đuôi bằng mảng 0, "edge" lặp frame cuối).
+        method: Phương pháp chuẩn hóa chiều dài ("pad_truncate" hoặc "resample").
 
     Returns:
         padded_sequence: Mảng numpy shape (max_seq_len, ...).
     """
+    if method == "resample":
+        return temporal_resample(sequence, target_len=max_seq_len, kind="linear")
+
     num_frames = sequence.shape[0]
 
     if num_frames == max_seq_len:
@@ -476,7 +610,7 @@ class HandInterpolationPipeline:
     """
     Lớp pipeline đóng gói toàn bộ quy trình tiền xử lý:
     Nội suy frame mất dấu (Interpolation) -> Đệm số 0 vùng biên & bàn tay vắng mặt (Zero-Padding) ->
-    Cố định chiều dài chuỗi (Temporal sequence padding).
+    Cố định chiều dài chuỗi T = 30 khung hình (Temporal Resampling qua nội suy tuyến tính).
     """
 
     def __init__(
@@ -485,6 +619,9 @@ class HandInterpolationPipeline:
         max_gap_size: Optional[int] = None,
         boundary_mode: str = "zeros",
         max_seq_len: Optional[int] = 60,
+        temporal_resampling: bool = False,
+        target_seq_len: int = 30,
+        resample_kind: str = "linear",
         interpolate_pose: bool = False,
         eps: float = 1e-5,
     ):
@@ -492,6 +629,9 @@ class HandInterpolationPipeline:
         self.max_gap_size = max_gap_size
         self.boundary_mode = boundary_mode
         self.max_seq_len = max_seq_len
+        self.temporal_resampling = temporal_resampling
+        self.target_seq_len = target_seq_len
+        self.resample_kind = resample_kind
         self.interpolate_pose = interpolate_pose
         self.eps = eps
 
@@ -508,7 +648,7 @@ class HandInterpolationPipeline:
             keypoint_mode: Chế độ landmark nếu đầu vào là 3D ("full", "hands_pose", ...).
 
         Returns:
-            processed_seq: Mảng numpy đã xử lý nội suy và zero-padding.
+            processed_seq: Mảng numpy đã xử lý nội suy và cố định độ dài thời gian.
             stats: Thống kê quá trình xử lý.
         """
         if landmarks.ndim == 2 and landmarks.shape[1] == 201:
@@ -541,7 +681,17 @@ class HandInterpolationPipeline:
                 eps=self.eps,
             )
 
-        if self.max_seq_len is not None and self.max_seq_len > 0:
+        # 1. Ưu tiên kỹ thuật Temporal Resampling cố định T khung hình qua nội suy tuyến tính
+        if self.temporal_resampling:
+            t_len = self.target_seq_len if self.target_seq_len is not None else 30
+            processed = temporal_resample(
+                processed,
+                target_len=t_len,
+                kind=self.resample_kind,
+            )
+            stats["temporal_resampled_len"] = t_len
+        elif self.max_seq_len is not None and self.max_seq_len > 0:
+            # 2. Hoặc phương pháp pad / truncate truyền thống
             processed = pad_or_truncate_sequence(
                 processed,
                 max_seq_len=self.max_seq_len,
@@ -550,3 +700,4 @@ class HandInterpolationPipeline:
             stats["temporal_padded_len"] = self.max_seq_len
 
         return processed, stats
+

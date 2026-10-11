@@ -60,3 +60,14 @@ extraction:
   # Giới hạn số khung hình tối đa mỗi video (0 = giữ nguyên độ dài thực tế)
   max_frames: 0
 
+temporal_resampling:
+  # Cố định độ dài chuỗi qua nội suy tuyến tính (Linear Interpolation)
+  enabled: true
+
+  # Số lượng khung hình mục tiêu T (chuẩn cho mô hình tuần tự: 30 frames)
+  target_len: 30
+
+  # Phương pháp nội suy: "linear" (nội suy tuyến tính) hoặc "nearest"
+  kind: "linear"
+
+
