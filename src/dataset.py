@@ -21,6 +21,7 @@ from .data.normalization import (
     normalize_vector201,
     normalize_holistic_landmarks,
 )
+from .data.augmentation import CoordinateAugmentor
 
 
 class WLASLDataset(Dataset):
@@ -249,11 +250,22 @@ def create_dataloader(
     boundary_mode: str = "zeros",
     normalize_landmarks: bool = True,
     hand_origin: str = "wrist",
+    augment: bool = False,
+    augmentor: Optional[Callable] = None,
+    transform: Optional[Callable] = None,
     h5_path: Optional[Union[str, Path]] = None,
 ) -> DataLoader:
     """Tạo DataLoader tiện lợi cho việc huấn luyện và kiểm thử."""
     is_train = split == "train"
     shuffle = is_train if shuffle is None else shuffle
+
+    # Thiết lập pipeline data augmentation nếu được bật
+    data_transform = transform
+    if data_transform is None:
+        if augmentor is not None:
+            data_transform = augmentor
+        elif augment:
+            data_transform = CoordinateAugmentor()
 
     dataset = WLASLDataset(
         annotations_path=annotations_path,
@@ -269,6 +281,7 @@ def create_dataloader(
         boundary_mode=boundary_mode,
         normalize_landmarks=normalize_landmarks,
         hand_origin=hand_origin,
+        transform=data_transform,
         h5_path=h5_path,
     )
 

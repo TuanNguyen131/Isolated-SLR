@@ -70,4 +70,38 @@ temporal_resampling:
   # Phương pháp nội suy: "linear" (nội suy tuyến tính) hoặc "nearest"
   kind: "linear"
 
+augmentation:
+  # Bật Data Augmentation khi huấn luyện (Train Split)
+  enabled: true
+
+  # 1. Nhiễu Gaussian ngẫu nhiên (Gaussian Noise)
+  gaussian_noise:
+    enabled: true
+    sigma: 0.01
+    prob: 0.5
+
+  # 2. Xoay góc nhẹ trong mặt phẳng ảnh XY (Random Rotation)
+  rotation:
+    enabled: true
+    max_angle_deg: 10.0
+    axis: "z"
+    prob: 0.5
+
+  # 3. Co giãn tỉ lệ kích thước (Random Scaling)
+  scale:
+    enabled: true
+    min_scale: 0.9
+    max_scale: 1.1
+    prob: 0.5
+
+  # 4. Dịch chuyển vị trí nhẹ (Random Translation / Shift)
+  translation:
+    enabled: false
+    max_shift: 0.03
+    prob: 0.3
+
+  # Bảo toàn các điểm (0, 0, 0) của bàn tay vắng mặt
+  mask_zeros: true
+
+
 

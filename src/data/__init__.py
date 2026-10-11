@@ -30,6 +30,15 @@ from .normalization import (
     normalize_holistic_landmarks,
     CoordinateNormalizer,
 )
+from .augmentation import (
+    add_gaussian_noise,
+    rotate_landmarks,
+    scale_landmarks,
+    translate_landmarks,
+    dropout_landmarks,
+    CoordinateAugmentor,
+    SignAugmentor,
+)
 
 __all__ = [
     "SignFeatureExtractor",
@@ -54,6 +63,13 @@ __all__ = [
     "normalize_vector201",
     "normalize_holistic_landmarks",
     "CoordinateNormalizer",
+    "add_gaussian_noise",
+    "rotate_landmarks",
+    "scale_landmarks",
+    "translate_landmarks",
+    "dropout_landmarks",
+    "CoordinateAugmentor",
+    "SignAugmentor",
 ]
 
 
