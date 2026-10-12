@@ -19,7 +19,7 @@ from src.data.augmentation import (
     scale_landmarks,
     translate_landmarks,
     dropout_landmarks,
-    CoordinateAugmentor,
+    CoordinateAugmentor,    
     SignAugmentor,
 )
 from src.dataset import WLASLDataset, create_dataloader

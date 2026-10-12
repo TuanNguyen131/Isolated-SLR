@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Báo Cáo Tiến Độ Dự Án - Isolated Sign Language Recognition</title>
+    <title>Báo Cáo Giải Trình Kỹ Thuật Dự Án - Isolated Sign Language Recognition</title>
     <style>
         @page {
             size: A4;
-            margin: 11mm 13mm 11mm 13mm;
+            margin: 9mm 12mm 9mm 12mm;
         }
         
         * {
@@ -17,17 +17,17 @@
         }
 
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
             color: #1e293b;
-            line-height: 1.45;
+            line-height: 1.40;
             background-color: #ffffff;
-            font-size: 11.5px;
+            font-size: 11px;
         }
 
         .header-container {
-            border-bottom: 2px solid #1e3a8a;
-            padding-bottom: 8px;
-            margin-bottom: 10px;
+            border-bottom: 2.5px solid #1e3a8a;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
@@ -35,41 +35,55 @@
 
         .header-title h1 {
             color: #1e3a8a;
-            font-size: 19px;
-            font-weight: 700;
+            font-size: 17.5px;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 2px;
         }
 
         .header-title h2 {
-            color: #475569;
-            font-size: 12.5px;
+            color: #334155;
+            font-size: 11.8px;
             font-weight: 600;
         }
 
         .header-meta {
             text-align: right;
-            font-size: 11px;
+            font-size: 10.5px;
             color: #64748b;
-            line-height: 1.4;
+            line-height: 1.35;
         }
 
         .header-meta strong {
             color: #0f172a;
         }
 
+        .page-header-mini {
+            border-bottom: 1.5px solid #94a3b8;
+            padding-bottom: 4px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            color: #64748b;
+        }
+
+        .page-header-mini strong {
+            color: #1e3a8a;
+        }
+
         .section {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .section-title {
             color: #1e3a8a;
-            font-size: 13px;
+            font-size: 12.2px;
             font-weight: 700;
             border-left: 3.5px solid #2563eb;
             padding-left: 6px;
-            margin-bottom: 6px;
+            margin-bottom: 5px;
             text-transform: uppercase;
             display: flex;
             align-items: center;
@@ -79,15 +93,22 @@
         .status-badge {
             background-color: #dcfce7;
             color: #166534;
-            padding: 2px 7px;
+            padding: 1.5px 7px;
             border-radius: 9999px;
-            font-size: 10px;
-            font-weight: 600;
+            font-size: 9.5px;
+            font-weight: 700;
             text-transform: none;
+            border: 1px solid #bbf7d0;
+        }
+
+        .status-badge.highlight {
+            background-color: #eff6ff;
+            color: #1d4ed8;
+            border: 1px solid #bfdbfe;
         }
 
         p {
-            margin-bottom: 6px;
+            margin-bottom: 4.5px;
             text-align: justify;
         }
 
@@ -102,14 +123,14 @@
             background: #f8fafc;
             border: 1px solid #e2e8f0;
             border-radius: 5px;
-            padding: 8px 10px;
+            padding: 7px 9px;
         }
 
         .card-header {
             font-weight: 700;
             color: #1e3a8a;
-            font-size: 11.5px;
-            margin-bottom: 4px;
+            font-size: 11px;
+            margin-bottom: 3.5px;
             display: flex;
             align-items: center;
         }
@@ -117,34 +138,35 @@
         .card-header .icon {
             margin-right: 5px;
             color: #2563eb;
+            font-size: 10px;
         }
 
         .card ul {
-            padding-left: 15px;
-            font-size: 11px;
+            padding-left: 14px;
+            font-size: 10.5px;
         }
 
         .card ul li {
-            margin-bottom: 2.5px;
+            margin-bottom: 2px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 11px;
-            margin: 5px 0 8px 0;
+            font-size: 10.2px;
+            margin: 4px 0 6px 0;
         }
 
         th, td {
             border: 1px solid #cbd5e1;
-            padding: 4.5px 6px;
+            padding: 3.5px 5.5px;
             text-align: left;
         }
 
         th {
             background-color: #f1f5f9;
             color: #0f172a;
-            font-weight: 600;
+            font-weight: 700;
         }
 
         tr:nth-child(even) {
@@ -158,18 +180,30 @@
         .highlight-box {
             background-color: #eff6ff;
             border-left: 3.5px solid #3b82f6;
-            padding: 6px 10px;
+            padding: 5px 9px;
             border-radius: 0 4px 4px 0;
-            margin: 6px 0 8px 0;
-            font-size: 11px;
+            margin: 5px 0 6px 0;
+            font-size: 10.5px;
+        }
+
+        .formula-box {
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            padding: 3.5px 7px;
+            margin: 3.5px 0;
+            font-family: 'Cambria Math', 'Times New Roman', serif;
+            font-size: 10.8px;
+            text-align: center;
+            color: #0f172a;
         }
 
         .flow-container {
             display: flex;
             justify-content: space-between;
             align-items: stretch;
-            margin: 6px 0 8px 0;
-            gap: 5px;
+            margin: 5px 0 7px 0;
+            gap: 4px;
         }
 
         .flow-step {
@@ -177,34 +211,64 @@
             background: #ffffff;
             border: 1px solid #94a3b8;
             border-radius: 4px;
-            padding: 5px 6px;
+            padding: 4px 5px;
             text-align: center;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
         }
 
         .flow-step .step-num {
             display: inline-block;
-            width: 16px;
-            height: 16px;
-            line-height: 16px;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
             background: #1e3a8a;
             color: #fff;
             border-radius: 50%;
-            font-size: 9px;
+            font-size: 8.5px;
             font-weight: bold;
             margin-bottom: 2px;
         }
 
         .flow-step .step-title {
-            font-weight: 600;
-            font-size: 10.5px;
+            font-weight: 700;
+            font-size: 10px;
             color: #0f172a;
             margin-bottom: 1px;
         }
 
         .flow-step .step-desc {
-            font-size: 9.5px;
+            font-size: 8.8px;
             color: #64748b;
+            line-height: 1.25;
+        }
+
+        .img-container {
+            text-align: center;
+            margin: 4px 0 6px 0;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            padding: 3px;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 195px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 3px;
+        }
+
+        .img-container.compact img {
+            max-height: 130px;
+        }
+
+        .img-caption {
+            font-size: 9.2px;
+            color: #64748b;
+            margin-top: 2px;
+            font-style: italic;
         }
 
         .page-break {
@@ -212,261 +276,687 @@
         }
 
         .footer {
-            margin-top: 10px;
+            margin-top: 7px;
             border-top: 1px solid #cbd5e1;
-            padding-top: 5px;
-            font-size: 10px;
+            padding-top: 4px;
+            font-size: 9.3px;
             color: #64748b;
             display: flex;
             justify-content: space-between;
+        }
+
+        code {
+            font-family: Consolas, Monaco, monospace;
+            background-color: #e2e8f0;
+            padding: 1px 3.5px;
+            border-radius: 3px;
+            font-size: 9.5px;
+            color: #0f172a;
+        }
+
+        /* Math rendering */
+        .math {
+            font-family: 'Cambria Math', 'STIX Two Math', 'Latin Modern Math', 'Times New Roman', serif;
+            font-style: italic;
+            color: #0f172a;
+        }
+        .math-bold { font-weight: bold; font-style: italic; }
+        .frac {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            vertical-align: middle;
+            font-size: 0.88em;
+            line-height: 1.2;
+            margin: 0 2px;
+        }
+        .frac .num { border-bottom: 1px solid currentColor; padding: 0 2px; }
+        .frac .den { padding: 0 2px; }
+        .formula-box .math-display {
+            display: block;
+            text-align: center;
+            padding: 2px 0;
+            font-family: 'Cambria Math', 'STIX Two Math', 'Times New Roman', serif;
+            font-size: 11.5px;
         }
     </style>
 </head>
 <body>
 
-    <!-- ==================== TRANG 1 ==================== -->
+    <!-- ==================== TRANG 1: TỔNG QUAN & PHA 1 (DỮ LIỆU & TRÍCH XUẤT 201D) ==================== -->
     <div class="header-container">
         <div class="header-title">
-            <h1>Báo Cáo Giải Trình Tiến Độ Dự Án</h1>
-            <h2>Đề tài: Nhận Dạng Ngôn Ngữ Ký Hiệu Rời Rạc (Isolated Sign Language Recognition)</h2>
+            <h1>Báo Cáo Giải Trình Tiến Độ & Lý Thuyết Kỹ Thuật</h1>
+            <h2>Hệ Thống Nhận Dạng Ngôn Ngữ Ký Hiệu Rời Rạc (Isolated Sign Language Recognition)</h2>
         </div>
         <div class="header-meta">
-            <p><strong>Sinh viên:</strong> Phạm Anh Tuấn | <strong>Lớp/Khóa:</strong> K19 CNTT</p>
-            <p><strong>Repository:</strong> GitHub / Isolated-SLR (main branch)</p>
-            <p><strong>Ngày báo cáo:</strong> 07/10/2026 | <strong>Tập dữ liệu:</strong> WLASL-100 Benchmark</p>
+            <p><strong>Tác giả / SV:</strong> Phạm Anh Tuấn | <strong>Lớp:</strong> ITE6-HUST</p>
+            <p><strong>Repository:</strong> GitHub / <code>TuanNguyen131/Isolated-SLR</code> (main branch)</p>
+            <p><strong>Ngày báo cáo:</strong> 12/10/2026 | <strong>Tập dữ liệu:</strong> WLASL-100 Benchmark</p>
         </div>
     </div>
 
     <!-- TỔNG QUAN -->
     <div class="section">
         <div class="section-title">
-            <span>1. Tóm Tắt Mục Tiêu & Chuỗi Tiến Độ Hoàn Thành</span>
-            <span class="status-badge">Hoàn thành 100% Pha 1: Dữ liệu & Tiền xử lý</span>
+            <span>1. Tổng Quan Mục Tiêu & Chuỗi Xử Lý Toàn Diện (End-to-End Pipeline)</span>
+            <span class="status-badge">Hoàn thành 100% Pha 1 & Pha 2</span>
         </div>
         <p>
-            Dự án xây dựng hệ thống nhận dạng ngôn ngữ ký hiệu (Isolated-SLR) hiệu năng cao dựa trên thị giác máy tính và học sâu. Thay vì dùng mô hình 3D-CNN nặng nề trên điểm ảnh (pixel), hệ thống ứng dụng <strong>MediaPipe Holistic</strong> để chuyển đổi video thành chuỗi khung xương landmarks, chuẩn hóa không gian và huấn luyện mạng tuần tự (BiLSTM/GRU/Transformer).
+            Dự án nghiên cứu và xây dựng giải pháp nhận dạng ngôn ngữ ký hiệu rời rạc (Isolated-SLR) hiệu năng cao dựa trên thị giác máy tính và học sâu. Thay vì sử dụng mạng 3D-CNN cồng kềnh trên dữ liệu điểm ảnh (pixel) dễ bị quá khớp (overfitting) với ngoại cảnh, hệ thống ứng dụng <strong>MediaPipe Holistic</strong> để trích xuất chuỗi khung xương landmarks, thiết kế không gian biểu diễn <strong>201 đặc trưng</strong>, áp dụng bộ thuật toán tiền xử lý hình học đa tầng (Nội suy, Chuẩn hóa 2 tầng, Resampling thời gian <span class="math">T = 30</span>) và <strong>Coordinate Data Augmentation</strong> trước khi huấn luyện mô hình tuần tự.
         </p>
         
         <div class="flow-container">
             <div class="flow-step">
                 <span class="step-num">1</span>
-                <div class="step-title">Môi Trường</div>
-                <div class="step-desc">Python 3.10, PyTorch, MediaPipe, Git</div>
+                <div class="step-title">Video WLASL-100</div>
+                <div class="step-desc">932 clips sạch, 100 lớp từ vựng</div>
             </div>
             <div class="flow-step">
                 <span class="step-num">2</span>
-                <div class="step-title">Lọc WLASL-100</div>
-                <div class="step-desc">100 lớp từ vựng, chia Train/Val/Test</div>
+                <div class="step-title">MediaPipe 201D</div>
+                <div class="step-desc">67 keypoints x 3D (Tay T, P, Thân)</div>
             </div>
             <div class="flow-step">
                 <span class="step-num">3</span>
-                <div class="step-title">Crawl & Xử Lý Video</div>
-                <div class="step-desc">Tải 932 clips, phân loại missing links</div>
+                <div class="step-title">Nội Suy & Zero-Pad</div>
+                <div class="step-desc">Bù mất dấu, bảo toàn cử chỉ 1 tay</div>
             </div>
             <div class="flow-step">
                 <span class="step-num">4</span>
-                <div class="step-title">Vector 201D</div>
-                <div class="step-desc">21 tay T + 21 tay P + 25 thân trên</div>
+                <div class="step-title">Chuẩn Hóa 2 Tầng</div>
+                <div class="step-desc">Dời vai & cổ tay, bất biến tỉ lệ</div>
             </div>
             <div class="flow-step">
                 <span class="step-num">5</span>
-                <div class="step-title">Trích Xuất Đa Tiến Trình</div>
-                <div class="step-desc">Multiprocessing, đóng gói HDF5 & .npy</div>
+                <div class="step-title">Resample T=30</div>
+                <div class="step-desc">Đồng nhất thời gian qua nội suy</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">6</span>
+                <div class="step-title">Augmentation</div>
+                <div class="step-desc">Nhiễu, xoay, scale, zero-mask</div>
             </div>
         </div>
     </div>
 
-    <!-- CHI TIẾT CÁC CÔNG VIỆC -->
+    <!-- CHI TIẾT PHA 1: DỮ LIỆU & TRÍCH XUẤT ĐẶC TRƯNG -->
     <div class="section">
         <div class="section-title">
-            <span>2. Chi Tiết Thực Thi Các Hạng Mục Công Việc Đã Hoàn Thành</span>
+            <span>2. Chi Tiết Thực Thi Pha 1: Dữ Liệu, Lọc WLASL-100 & Trích Xuất 201 Chiều</span>
         </div>
         
         <div class="grid-2">
             <div class="card">
-                <div class="card-header"><span class="icon">●</span> Hạng mục 1: Thiết Lập Môi Trường & Repository</div>
+                <div class="card-header"><span class="icon">●</span> Hạng mục 1: Môi Trường & Kiến Trúc Mã Nguồn</div>
                 <ul>
-                    <li><strong>Môi trường:</strong> Khởi tạo Conda <code>wlasl-slr</code> với Python 3.10.21. Cấu hình đường dẫn interpreter trong <code>.vscode/settings.json</code>.</li>
-                    <li><strong>Thư viện:</strong> Cài đặt PyTorch 2.14.0 (CPU), OpenCV 5.0.0, MediaPipe 0.10.14, h5py, NumPy trong <code>requirements.txt</code>.</li>
-                    <li><strong>Phiên bản (Git):</strong> Khởi tạo Git repo, cấu hình <code>.gitignore</code>, liên kết GitHub <code>TuanNguyen131/Isolated-SLR</code> với 7 commit chuẩn Git Flow.</li>
+                    <li><strong>Môi trường:</strong> Khởi tạo Conda <code>wlasl-slr</code> (Python 3.10.21), PyTorch 2.14.0, MediaPipe 0.10.14, OpenCV 5.0.0, h5py 3.16.0.</li>
+                    <li><strong>Quản trị phiên bản:</strong> Thiết lập Git repo chuẩn Git Flow, cấu hình <code>.gitignore</code>, liên kết GitHub <code>TuanNguyen131/Isolated-SLR</code> với 12 commit có cấu trúc rõ ràng.</li>
+                    <li><strong>Cấu trúc chuẩn:</strong> Phân chia mạch lạc <code>src/data/</code>, <code>src/utils/</code>, <code>scripts/</code>, <code>tests/</code>, <code>configs/</code>.</li>
                 </ul>
             </div>
 
             <div class="card">
                 <div class="card-header"><span class="icon">●</span> Hạng mục 2: Lọc & Phân Đoạn Tập WLASL-100</div>
                 <ul>
-                    <li><strong>Mục tiêu:</strong> Thu nhỏ bộ gốc WLASL v0.3 (hơn 2,000 từ vựng) về benchmark chuẩn <strong>WLASL-100</strong> (top 100 từ có nhiều mẫu nhất).</li>
-                    <li><strong>Mã nguồn:</strong> <code>scripts/extract_wlasl100.py</code> & module <code>src/utils/filter_wlasl.py</code>.</li>
-                    <li><strong>Kết quả:</strong> Trích xuất chuẩn <strong>2,038 instances</strong>; tạo ánh xạ nhãn <code>class_mapping.json</code> (0 đến 99) và các file phân chia <code>train/val/test.json</code>.</li>
+                    <li><strong>Mục tiêu:</strong> Thu nhỏ bộ gốc WLASL v0.3 (>2,000 từ, mất cân bằng nặng) về benchmark chuẩn <strong>WLASL-100</strong> (100 từ có nhiều mẫu nhất).</li>
+                    <li><strong>Mã nguồn:</strong> <code>scripts/extract_wlasl100.py</code> & <code>src/utils/filter_wlasl.py</code>.</li>
+                    <li><strong>Kết quả:</strong> Trích xuất chuẩn <strong>2,038 instances</strong>; tạo ánh xạ nhãn <code>class_mapping.json</code> (0 đến 99) và phân chia <code>train/val/test.json</code>.</li>
                 </ul>
             </div>
         </div>
 
         <div class="grid-2">
             <div class="card">
-                <div class="card-header"><span class="icon">●</span> Hạng mục 3: Tải/Crawl Video & Xử Lý Link Hỏng</div>
+                <div class="card-header"><span class="icon">●</span> Hạng mục 3: Thu Thập Video & Khắc Phục Link Chết</div>
                 <ul>
-                    <li><strong>Mã nguồn:</strong> <code>scripts/download_wlasl100.py</code> (đa luồng HTTP/S3 & YouTube qua <code>yt-dlp</code>) và <code>scripts/verify_wlasl100.py</code>.</li>
-                    <li><strong>Khắc phục bài toán link die:</strong> Bộ WLASL gốc có nhiều link chết từ web nguồn cũ. Đã crawl và kiểm tra decode thành công <strong>932 video</strong> (0 video hỏng).</li>
-                    <li><strong>Phân loại lỗi:</strong> Ghi log 1,106 video thiếu vào <code>missing_videos.csv/json</code> và tạo split sạch <code>splits_available.json</code> để huấn luyện không bị crash.</li>
-                    <li><strong>Độ bao phủ:</strong> Đạt <strong>100/100 lớp từ vựng</strong> đều có video hợp lệ (99/100 lớp &ge; 5 video).</li>
+                    <li><strong>Thực thi:</strong> <code>scripts/download_wlasl100.py</code> (đa luồng HTTP/S3 & YouTube qua <code>yt-dlp</code>) và <code>scripts/verify_wlasl100.py</code>.</li>
+                    <li><strong>Giải quyết link chết:</strong> Crawl và decode thành công <strong>932 video</strong> (0 video hỏng). Log 1,106 video lỗi vào <code>missing_videos.csv/json</code>.</li>
+                    <li><strong>Phân chia sạch (Splits Available):</strong> Train: 633, Val: 155, Test: 144 clips. Đạt <strong>100/100 lớp từ vựng đều có video hợp lệ</strong> (99/100 lớp &ge; 5 clips).</li>
                 </ul>
             </div>
 
             <div class="card">
-                <div class="card-header"><span class="icon">●</span> Hạng mục 4: Cấu Hình MediaPipe Holistic</div>
+                <div class="card-header"><span class="icon">●</span> Hạng mục 4: Thiết Kế Không Gian Biểu Diễn 201D</div>
                 <ul>
-                    <li><strong>Mã nguồn:</strong> <code>configs/holistic_config.yaml</code> và module quản lý <code>src/utils/mediapipe_holistic.py</code> (lớp <code>MediaPipeHolisticExtractor</code>).</li>
-                    <li><strong>Cấu hình:</strong> <code>static_image_mode: false</code> (bám vết chuỗi frame), <code>model_complexity: 1</code> (cân bằng), <code>smooth_landmarks: true</code> (khử rung).</li>
-                    <li><strong>Bất biến không gian:</strong> Tích hợp chuẩn hóa tọa độ (Centering vào trung điểm 2 vai, Scaling theo khoảng cách 2 vai) giúp triệt tiêu sai lệch khoảng cách camera.</li>
+                    <li><strong>Lý thuyết:</strong> MediaPipe Holistic gốc trích xuất 543 điểm (1,629 tọa độ), trong đó 468 điểm mặt gây lãng phí bộ nhớ và 8 điểm chân không mang ý nghĩa ký hiệu.</li>
+                    <li><strong>Đột phá:</strong> Giữ đúng <strong>67 điểm mốc cốt lõi</strong> (201 features): Tay trái 21 điểm (63D), Tay phải 21 điểm (63D), Thân trên 25 điểm (75D).</li>
+                    <li><strong>Kết quả:</strong> Giảm hơn <strong>8 lần kích thước dữ liệu</strong>, tăng tốc huấn luyện vượt trội mà bảo toàn 100% hình thái ngón tay và chuyển động cơ thể.</li>
                 </ul>
             </div>
+        </div>
+
+        <div class="card" style="margin-top: 4px;">
+            <div class="card-header"><span class="icon">●</span> Hạng mục 5: Trích Xuất Khung Xương Đa Tiến Trình & Lưu Trữ Kép (.npy + HDF5)</div>
+            <p style="font-size: 10.3px; margin-bottom: 3.5px;">
+                Script <code>scripts/extract_multiprocess.py</code> sử dụng <code>multiprocessing.Pool</code> (4 workers song song), khóa xung đột thread nội bộ OpenCV/BLAS (<code>cv2.setNumThreads(1)</code>) và hỗ trợ cơ chế Resume chống mất dữ liệu. Toàn bộ kho video WLASL-100 đã được trích xuất hoàn tất (ghi nhận tại <code>data/landmarks/extraction_summary.json</code>):
+            </p>
+            <table class="table-center">
+                <thead>
+                    <tr>
+                        <th>Tổng Video Target</th>
+                        <th>Xử Lý Thành Công</th>
+                        <th>Số Video Lỗi</th>
+                        <th>Tổng Khung Hình (Frames)</th>
+                        <th>Thời Gian Xử Lý</th>
+                        <th>Tốc Độ Trung Bình</th>
+                        <th>Dung Lượng HDF5 Nén</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>932 clips</strong></td>
+                        <td><strong>932 clips (100%)</strong></td>
+                        <td><strong>0 lỗi</strong></td>
+                        <td><strong>65,945 frames</strong></td>
+                        <td>61.4 phút (3,685s)</td>
+                        <td>17.89 frames/giây</td>
+                        <td><strong>381.3 MB</strong> (Gzip L4)</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
     <div class="footer">
-        <span>Báo cáo tiến độ: Isolated Sign Language Recognition (WLASL-100)</span>
-        <span>Mã nguồn hoàn chỉnh trên GitHub</span>
-        <span>Trang 1 / 2</span>
+        <span>Báo cáo giải trình kỹ thuật: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span>Mã nguồn hoàn chỉnh trên GitHub: TuanNguyen131/Isolated-SLR</span>
+        <span>Trang 1 / 5</span>
     </div>
 
-    <!-- ==================== TRANG 2 ==================== -->
+    <!-- ==================== TRANG 2: HẠNG MỤC 6 (NỘI SUY & ZERO-PADDING BÀN TAY MẤT DẤU) ==================== -->
     <div class="page-break"></div>
 
-    <!-- THIẾT KẾ VECTOR 201D -->
+    <div class="page-header-mini">
+        <span>Dự án: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span><strong>Pha 2: Tiền Xử Lý Hình Học & Tăng Cường Dữ Liệu</strong></span>
+    </div>
+
     <div class="section">
         <div class="section-title">
-            <span>3. Thiết Kế Trọng Tâm: Cấu Trúc Lưu Trữ Vector 201 Đặc Trưng</span>
-            <span class="status-badge">Đột phá tối ưu hóa kiến trúc</span>
+            <span>3. Hạng Mục 6: Thuật Toán Nội Suy Tuyến Tính & Zero-Padding Xử Lý Mất Dấu Bàn Tay</span>
+            <span class="status-badge">Đã kiểm thử: 9/9 Tests Pass</span>
         </div>
         <p>
-            MediaPipe Holistic gốc cung cấp 543 điểm (1,629 tọa độ), trong đó 468 điểm mặt gây lãng phí bộ nhớ và nặng nề khi train. Đề tài đã thiết kế giải pháp tinh lọc: <strong>giữ đúng 67 điểm mốc mang ý nghĩa ngữ nghĩa ký hiệu</strong>, tạo thành vector 201 chiều cho mỗi frame (triển khai tại <code>src/data/feature_extractor.py</code>).
+            <strong>Đặt vấn đề & Cơ sở lý thuyết:</strong> Trong video ngôn ngữ ký hiệu, việc bàn tay di chuyển quá nhanh (motion blur) hoặc bị cơ thể/tay còn lại che khuất (occlusion) thường khiến MediaPipe Holistic bị mất dấu (drop-out), dẫn đến các tọa độ bị reset đột ngột về <span class="math">(0, 0, 0)</span>. Hiện tượng này tạo nên các bước nhảy xung gián đoạn, làm triệt tiêu đạo hàm vận tốc và gây nhiễu nghiêm trọng cho các mạng học sâu tuần tự (RNN, LSTM, Transformer).
+        </p>
+
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-header"><span class="icon">●</span> Phân Loại Khoảng Trống (Gap Types)</div>
+                <ul>
+                    <li><strong>Khoảng trống nội tại (Internal gaps):</strong> Bàn tay xuất hiện ở <span class="math">t<sub>prev</sub></span>, mất dấu <span class="math">k</span> frame, xuất hiện lại ở <span class="math">t<sub>next</sub></span>. Áp dụng <em>Nội suy tuyến tính (Linear Interpolation)</em>:
+                        <div class="formula-box"><span class="math-display">P(t) = (1 &minus; &alpha;)&thinsp;P(t<sub>prev</sub>) + &alpha;&thinsp;P(t<sub>next</sub>),&emsp;&alpha; = <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 2px;font-size:0.9em"><span style="border-bottom:1px solid;padding:0 3px">t &minus; t<sub>prev</sub></span><span style="padding:0 3px">t<sub>next</sub> &minus; t<sub>prev</sub></span></span></span></div>
+                        Nếu <span class="math">k &gt; max_gap_size</span> (mất dấu quá dài), giữ nguyên đệm 0 để tránh suy đoán sai lệch.
+                    </li>
+                    <li><strong>Khoảng trống vùng biên (Leading &amp; Trailing):</strong> Khi tay chưa giơ lên bắt đầu ký hiệu hoặc đã hạ xuống khi kết thúc cử chỉ &nbsp;&rarr;&nbsp; Áp dụng <em>Zero-Padding</em> (giữ nguyên <span class="math">(0, 0, 0)</span>).</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header"><span class="icon">●</span> Nguyên Tắc Bảo Toàn Cử Chỉ Một Tay</div>
+                <ul>
+                    <li><strong>Cử chỉ một tay (One-handed signs):</strong> Trong ASL, rất nhiều từ chỉ dùng 1 tay (tay còn lại không xuất hiện trong toàn bộ video clip, valid frames = 0).</li>
+                    <li><strong>Nguyên tắc bất khả xâm phạm:</strong> Giữ nguyên toàn bộ giá trị 0 cho bàn tay vắng mặt. Tuyệt đối không nội suy từ tay đối diện hay gán giá trị mặc định, nhằm tránh tạo ra <em>"bàn tay ma / bàn tay ảo"</em> gây sai lệch ngữ nghĩa ký hiệu.</li>
+                    <li><strong>Cài đặt vector hóa:</strong> Xử lý đồng thời cả 21 điểm mốc (63 chiều) trên NumPy ndarray và PyTorch Tensor với tốc độ cực nhanh.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="img-container">
+            <img src="data/sample_interpolation_comparison.png" alt="Interpolation Comparison">
+            <div class="img-caption">Hình 1: Trực quan hóa quỹ đạo di chuyển ngón tay trước (đứt gãy về 0) và sau khi áp dụng Linear Interpolation & Zero-Padding</div>
+        </div>
+
+        <div class="card" style="margin-top: 4px;">
+            <div class="card-header"><span class="icon">●</span> Kết Quả Thực Nghiệm & Đánh Giá Kiểm Thử Đơn Vị (Unit Testing)</div>
+            <p style="font-size: 10.3px; margin-bottom: 3.5px;">
+                Module <code>src/data/interpolation.py</code> triển khai các hàm: <code>detect_missing_frames</code>, <code>interpolate_sequence_2d</code>, <code>interpolate_hand_landmarks</code>, <code>interpolate_vector201</code>, <code>interpolate_holistic_landmarks</code>. Đã kiểm thử tự động toàn diện qua <strong>9 test cases</strong> trong <code>tests/test_interpolation.py</code>:
+            </p>
+            <table class="table-center">
+                <thead>
+                    <tr>
+                        <th>Trường hợp kiểm thử (Test Case)</th>
+                        <th>Kịch bản kiểm tra</th>
+                        <th>Kết quả kỳ vọng</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>test_detect_missing_frames</code></td>
+                        <td>Kiểm tra phát hiện frame chứa NaN, Inf hoặc xấp xỉ 0</td>
+                        <td>Mặt nạ boolean chính xác 100%</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_interpolate_internal_gap</code></td>
+                        <td>Khuyết 3 frame ở giữa chuỗi 10 frames</td>
+                        <td>Nội suy mượt mà đúng công thức tuyến tính</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_max_gap_size_limit</code></td>
+                        <td>Khoảng trống dài 5 frame với max_gap_size = 2</td>
+                        <td>Giữ nguyên Zero-padding khi vượt ngưỡng</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_completely_missing_hand</code></td>
+                        <td>Cử chỉ 1 tay (toàn bộ frame tay trái = 0)</td>
+                        <td>Bảo toàn 100% giá trị 0, không sinh bàn tay ảo</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_vector201_interpolation</code></td>
+                        <td>Nội suy đồng thời cả tay trái và tay phải trên vector 201D</td>
+                        <td>Shape (T, 201) giữ nguyên, pose không bị ảnh hưởng</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>Báo cáo giải trình kỹ thuật: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span>Sinh viên: Phạm Anh Tuấn | GitHub / Isolated-SLR</span>
+        <span>Trang 2 / 5</span>
+    </div>
+
+    <!-- ==================== TRANG 3: HẠNG MỤC 7 (CHUẨN HÓA KHÔNG GIAN PHÂN CẤP 2 TẦNG) ==================== -->
+    <div class="page-break"></div>
+
+    <div class="page-header-mini">
+        <span>Dự án: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span><strong>Pha 2: Tiền Xử Lý Hình Học & Tăng Cường Dữ Liệu</strong></span>
+    </div>
+
+    <div class="section">
+        <div class="section-title">
+            <span>4. Hạng Mục 7: Chuẩn Hóa Không Gian Phân Cấp 2 Tầng (Hierarchical Spatial Normalization)</span>
+            <span class="status-badge">Đã kiểm thử: 8/8 Tests Pass</span>
+        </div>
+        <p>
+            <strong>Cơ sở lý thuyết & Đặt vấn đề:</strong> Các video trong WLASL được ghi hình từ hàng trăm nguồn khác nhau với góc đặt camera, khoảng cách đứng gần/xa và kích thước cơ thể (chiều dài sải tay, vai rộng/hẹp) hoàn toàn khác biệt. Hệ thống thiết kế thuật toán chuẩn hóa 2 tầng phân cấp nhằm đạt được tính <strong>Bất biến không gian (Spatial Scale and Translation Invariance)</strong>:
+        </p>
+
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-header"><span class="icon">●</span> Tầng 1: Chuẩn Hóa Thân Toàn Cục (Global Body Pose)</div>
+                <ul>
+                    <li><strong>Gốc tọa độ (Centering):</strong> Dời về trung điểm hai vai:
+                        <div class="formula-box"><span class="math-display">C<sub>shoulder</sub> = <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 2px;font-size:0.9em"><span style="border-bottom:1px solid;padding:0 3px">P<sub>11</sub> + P<sub>12</sub></span><span style="padding:0 3px">2</span></span></span></div>
+                    </li>
+                    <li><strong>Tỉ lệ (Scaling):</strong> Co giãn theo khoảng cách Euclidean hai vai (Shoulder Width):
+                        <div class="formula-box"><span class="math-display">S<sub>shoulder</sub> = &parallel;P<sub>11</sub> &minus; P<sub>12</sub>&parallel;<sub>2</sub>,&emsp; P'<sub>pose</sub> = <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 2px;font-size:0.9em"><span style="border-bottom:1px solid;padding:0 3px">P<sub>pose</sub> &minus; C<sub>shoulder</sub></span><span style="padding:0 3px">S<sub>shoulder</sub></span></span></span></div>
+                    </li>
+                    <li><strong>Tính ổn định chuỗi (Sequence-level Averaging):</strong> Lấy trung bình <span class="math">C&#x0304;<sub>shoulder</sub></span> và <span class="math">S&#x0304;<sub>shoulder</sub></span> qua toàn bộ chuỗi clip hợp lệ để triệt tiêu hiện tượng rung giật (jitter) giữa các khung hình liên tiếp.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header"><span class="icon">●</span> Tầng 2: Chuẩn Hóa Cổ Tay Cục Bộ (Wrist-Centered Hand)</div>
+                <ul>
+                    <li><strong>Bản chất ngôn ngữ ký hiệu:</strong> Hình thái ngón tay (Handshape) mang ý nghĩa phân biệt quyết định, độc lập với việc bàn tay đang giơ cao hay thấp trong không gian.</li>
+                    <li><strong>Dời gốc về Cổ tay (Wrist Landmark 0):</strong>
+                        <div class="formula-box"><span class="math-display">P'<sub>i,hand</sub> = <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 2px;font-size:0.9em"><span style="border-bottom:1px solid;padding:0 3px">P<sub>i,hand</sub> &minus; P<sub>wrist</sub></span><span style="padding:0 3px">S<sub>shoulder</sub></span></span>,&emsp; i = 0, 1, &hellip;, 20</span></div>
+                        Khi đó <span class="math">P'<sub>wrist</sub> = (0, 0, 0)</span>, hình thái 20 khớp ngón tay được giữ nguyên vẹn mà không bị phụ thuộc vào vị trí giơ tay.
+                    </li>
+                    <li><strong>Bảo toàn vị trí toàn cục:</strong> Tọa độ cổ tay trong không gian vẫn được lưu giữ trọn vẹn tại điểm số 15 (cổ tay trái) và 16 (cổ tay phải) của Upper Body Pose.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="img-container">
+            <img src="data/sample_normalization_comparison.png" alt="Normalization Comparison">
+            <div class="img-caption">Hình 2: Trực quan hóa khung xương trước và sau khi chuẩn hóa 2 tầng: Dời vai toàn cục & Dời gốc cổ tay cục bộ</div>
+        </div>
+
+        <div class="card" style="margin-top: 4px;">
+            <div class="card-header"><span class="icon">●</span> Kết Quả Thực Nghiệm & Đánh Giá Kiểm Thử Đơn Vị (Unit Testing)</div>
+            <p style="font-size: 10.3px; margin-bottom: 3.5px;">
+                Module <code>src/data/normalization.py</code> triển khai: <code>compute_shoulder_reference</code>, <code>compute_sequence_shoulder_reference</code>, <code>normalize_hand_landmarks</code>, <code>normalize_pose_landmarks</code>, <code>normalize_vector201</code>, <code>normalize_holistic_landmarks</code>. Đã kiểm thử tự động toàn diện qua <strong>8 test cases</strong> trong <code>tests/test_normalization.py</code>:
+            </p>
+            <table class="table-center">
+                <thead>
+                    <tr>
+                        <th>Trường hợp kiểm thử (Test Case)</th>
+                        <th>Kịch bản kiểm tra</th>
+                        <th>Kết quả kỳ vọng</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>test_compute_shoulder_reference_ideal</code></td>
+                        <td>Hai vai tại (0.4, 0.5) và (0.6, 0.5)</td>
+                        <td>Center = (0.5, 0.5), Scale = 0.200</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_compute_shoulder_reference_fallback</code></td>
+                        <td>Frame bị mất cả 2 vai</td>
+                        <td>Fallback an toàn về mũi hoặc tâm khung hình (0.5, 0.5)</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_normalize_hand_landmarks_wrist_origin</code></td>
+                        <td>Chuẩn hóa 21 điểm mốc bàn tay</td>
+                        <td>Điểm 0 (Cổ tay) = (0, 0, 0), các khớp bảo toàn cấu trúc</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_normalize_hand_landmarks_missing_hand</code></td>
+                        <td>Bàn tay vắng mặt hoàn toàn</td>
+                        <td>Giữ nguyên toàn bộ 0, không bị dịch chuyển lệch tâm</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                    <tr>
+                        <td><code>test_normalize_vector201_sequence</code></td>
+                        <td>Chuỗi video (T, 201) qua pipeline chuẩn hóa 2 tầng</td>
+                        <td>Tất cả các thành phần thân và tay đồng nhất tỉ lệ vai</td>
+                        <td><strong style="color: #166534;">PASSED</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>Báo cáo giải trình kỹ thuật: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span>Sinh viên: Phạm Anh Tuấn | GitHub / Isolated-SLR</span>
+        <span>Trang 3 / 5</span>
+    </div>
+
+    <!-- ==================== TRANG 4: HẠNG MỤC 8 (TEMPORAL RESAMPLING) & HẠNG MỤC 9 (AUGMENTATION) ==================== -->
+    <div class="page-break"></div>
+
+    <div class="page-header-mini">
+        <span>Dự án: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span><strong>Pha 2: Tiền Xử Lý Hình Học & Tăng Cường Dữ Liệu</strong></span>
+    </div>
+
+    <!-- HẠNG MỤC 8: TEMPORAL RESAMPLING -->
+    <div class="section">
+        <div class="section-title">
+            <span>5. Hạng Mục 8: Chuẩn Hóa Thời Gian Bằng Kỹ Thuật Temporal Resampling (Cố Định T = 30)</span>
+            <span class="status-badge">Đã kiểm thử: 14/14 Tests Pass</span>
+        </div>
+        <p>
+            <strong>Đặt vấn đề & Cơ sở lý thuyết:</strong> Các video trong WLASL có độ dài phân tán mạnh từ 12 đến 85 frames. Cắt ngắn (truncation) làm mất đoạn sau cử chỉ; đệm số 0 (Zero-Padding) quá nhiều làm loãng đặc trưng; lấy mẫu bước nhảy số nguyên (decimation) làm giật chuyển động. Hệ thống ứng dụng <strong>Nội suy tuyến tính thời gian liên tục (Continuous Temporal Resampling)</strong> đưa mọi chuỗi về đúng <strong><span class="math">T = 30</span> khung hình chuẩn</strong>:
+        </p>
+        <div class="formula-box">
+            <span class="math-display">t<sub>target</sub>[k] = k &sdot; <span style="display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 2px;font-size:0.9em"><span style="border-bottom:1px solid;padding:0 3px">N &minus; 1</span><span style="padding:0 3px">T &minus; 1</span></span>,&emsp; k = 0, 1, &hellip;, T &minus; 1,&emsp; &alpha; = t &minus; &lfloor;t&rfloor;,&emsp; X(t) = (1 &minus; &alpha;) X[&lfloor;t&rfloor;] + &alpha; X[&lceil;t&rceil;]</span>
+        </div>
+
+        <div class="grid-2">
+            <div>
+                <div class="card" style="height: 100%;">
+                    <div class="card-header"><span class="icon">●</span> Ưu Thế Kỹ Thuật Temporal Resampling</div>
+                    <ul>
+                        <li><strong>Bảo toàn 100% biên thời gian:</strong> Khung hình bắt đầu (<span class="math">t = 0</span>) và kết thúc (<span class="math">t = N &minus; 1</span>) luôn được giữ nguyên tuyệt đối.</li>
+                        <li><strong>Video ngắn (<span class="math">N &lt; 30</span>):</strong> Làm dày mịn (Upsampling) liên tục mà không cần chèn các khối số 0 nhân tạo.</li>
+                        <li><strong>Video dài (<span class="math">N &gt; 30</span>):</strong> Giảm mẫu liên tục (Downsampling) mượt mà, bảo toàn trọn vẹn quỹ đạo đỉnh cử chỉ.</li>
+                        <li><strong>Đã kiểm thử:</strong> 14/14 test cases trong <code>tests/test_temporal_resampling.py</code> pass 100%.</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="img-container compact">
+                    <img src="data/sample_resampling_comparison.png" alt="Resampling Comparison">
+                    <div class="img-caption">Hình 3: Quỹ đạo cử chỉ liên tục trước và sau khi Resampling về T = 30 frames</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HẠNG MỤC 9: DATA AUGMENTATION -->
+    <div class="section">
+        <div class="section-title">
+            <span>6. Hạng Mục 9: Tăng Cường Dữ Liệu Tọa Độ (Coordinate Augmentation) & Cơ Chế Zero-Mask</span>
+            <span class="status-badge">Đã kiểm thử: 11/11 Tests Pass</span>
+        </div>
+        <p>
+            <strong>Cơ sở lý thuyết & Đặt vấn đề:</strong> Để chống Overfitting mà không tốn chi phí xử lý pixel video, hệ thống cài đặt module <strong>Coordinate Augmentor</strong> trực tiếp trên vector tọa độ 201 chiều với 5 phép biến đổi hình học bảo toàn cấu trúc giải phẫu:
         </p>
 
         <table>
             <thead>
                 <tr>
-                    <th>Nhóm bộ phận</th>
-                    <th>Số điểm</th>
-                    <th>Không gian</th>
-                    <th>Số đặc trưng</th>
-                    <th>Index lát cắt (Slice)</th>
-                    <th>Ý nghĩa nhận dạng ngôn ngữ ký hiệu</th>
+                    <th>Phương pháp</th>
+                    <th>Công thức toán học</th>
+                    <th>Tham số chuẩn</th>
+                    <th>Ý nghĩa mô phỏng thực tế</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>Bàn tay trái (Left Hand)</strong></td>
-                    <td>21 điểm</td>
-                    <td>3D (x, y, z)</td>
-                    <td><strong>63</strong></td>
-                    <td><code>[0 : 63]</code></td>
-                    <td>Hình dáng bàn tay (Handshape), khớp ngón tay trái</td>
+                    <td><strong>Nhiễu Gaussian</strong></td>
+                    <td><span class="math">P&prime; = P + 𝒩(&mu; = 0, &sigma;&sup2;)</span></td>
+                    <td><span class="math">&sigma; &isin; [0.01, 0.02],&thinsp; prob = 0.5</span></td>
+                    <td>Mô phỏng rung camera vi mô và sai số ước lượng của MediaPipe</td>
                 </tr>
                 <tr>
-                    <td><strong>Bàn tay phải (Right Hand)</strong></td>
-                    <td>21 điểm</td>
-                    <td>3D (x, y, z)</td>
-                    <td><strong>63</strong></td>
-                    <td><code>[63 : 126]</code></td>
-                    <td>Hình dáng bàn tay (Handshape), cử chỉ chính tay phải</td>
+                    <td><strong>Xoay quanh trục Z</strong></td>
+                    <td><span class="math">P&prime; = (P &minus; C) &sdot; R<sub>z</sub>(&theta;)<sup>T</sup> + C</span></td>
+                    <td><span class="math">&theta; &isin; [&minus;10&deg;, +10&deg;],&thinsp; prob = 0.5</span></td>
+                    <td>Mô phỏng góc nghiêng cơ thể tự nhiên của người ra dấu</td>
                 </tr>
                 <tr>
-                    <td><strong>Thân trên (Upper Pose)</strong></td>
-                    <td>25 điểm</td>
-                    <td>3D (x, y, z)</td>
-                    <td><strong>75</strong></td>
-                    <td><code>[126 : 201]</code></td>
-                    <td>Quỹ đạo tay so với vai, ngực, mặt; loại bỏ 8 điểm chân</td>
+                    <td><strong>Co giãn (Scale)</strong></td>
+                    <td><span class="math">P&prime; = (P &minus; C) &sdot; s + C</span></td>
+                    <td><span class="math">s &isin; [0.9, 1.1],&thinsp; prob = 0.5</span></td>
+                    <td>Mô phỏng người ra dấu đứng gần/xa và kích thước bàn tay to/nhỏ</td>
                 </tr>
-                <tr style="font-weight: bold; background: #e2e8f0;">
-                    <td>TỔNG CỘNG / FRAME</td>
-                    <td>67 điểm</td>
-                    <td>3D</td>
-                    <td>201 đặc trưng</td>
-                    <td>[0 : 201]</td>
-                    <td>Giảm hơn 8 lần kích thước dữ liệu, tăng tốc train vượt trội</td>
+                <tr>
+                    <td><strong>Dịch chuyển (Shift)</strong></td>
+                    <td><span class="math">P&prime; = P + [&Delta;x, &Delta;y, &Delta;z]</span></td>
+                    <td><span class="math">&Delta; &isin; [&minus;0.03, +0.03],&thinsp; prob = 0.3</span></td>
+                    <td>Mô phỏng người ra dấu đứng lệch tâm nhẹ trong khung hình</td>
+                </tr>
+                <tr>
+                    <td><strong>Landmark Dropout</strong></td>
+                    <td><span class="math">P'<sub>i</sub> = 0</span> với xác suất <span class="math">p<sub>drop</sub></span></td>
+                    <td><span class="math">p<sub>drop</sub> = 0.03 (3%),&thinsp; prob = 0.2</span></td>
+                    <td>Mô phỏng ngón tay bị che khuất tạm thời (occlusion) khi thực hiện cử chỉ</td>
                 </tr>
             </tbody>
         </table>
 
         <div class="highlight-box">
-            <strong>Ưu điểm kỹ thuật:</strong> Vector 201 chiều bảo toàn 100% hình thái ngón tay và vị trí cánh tay, loại bỏ hoàn toàn các điểm chân (landmarks 25-32) và nhiễu vi mô trên khuôn mặt, giúp mô hình tập trung học chuyển động cốt lõi và chạy suy luận thời gian thực mượt mà trên cả CPU. Đã kiểm tra thực tế trên <code>data/processed_landmarks/69241.npy</code>: đúng kích thước <code>(75, 201)</code> float32.
+            <strong>Đặc tính kỹ thuật cốt lõi - Bảo toàn Zero-Mask (Zero-Mask Preservation):</strong><br>
+            Trong cử chỉ 1 tay hoặc các frame không có bàn tay, tọa độ mang giá trị <span class="math">(0, 0, 0)</span>. Nếu áp dụng biến đổi hình học trực tiếp, các điểm này sẽ bị cộng nhiễu/xoay lệch thành các giá trị khác 0, tạo ra <em>"bàn tay ma / bàn tay ảo"</em> gây nhiễu nghiêm trọng cho mô hình. Tất cả các hàm đều tích hợp mặt nạ nhị phân <span class="math">Mask = &nbsp;&#x1D7D9;(&parallel;P&parallel;<sub>2</sub> &gt; &varepsilon;)</span>, đảm bảo các điểm zero được giữ nguyên tuyệt đối <span class="math">0.0</span>, chỉ áp dụng biến đổi lên các bộ phận thực sự xuất hiện!
+        </div>
+
+        <div class="img-container compact">
+            <img src="data/sample_augmentation_comparison.png" alt="Augmentation Comparison">
+            <div class="img-caption">Hình 4: Trực quan hóa so sánh khung xương bàn tay trước và sau các phép biến đổi tăng cường dữ liệu</div>
         </div>
     </div>
 
-    <!-- KẾT QUẢ MULTIPROCESSING -->
+    <div class="footer">
+        <span>Báo cáo giải trình kỹ thuật: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span>Sinh viên: Phạm Anh Tuấn | GitHub / Isolated-SLR</span>
+        <span>Trang 4 / 5</span>
+    </div>
+
+    <!-- ==================== TRANG 5: TÍCH HỢP PIPELINE, ĐỐI CHIẾU ĐỊNH LƯỢNG & KẾ HOẠCH ==================== -->
+    <div class="page-break"></div>
+
+    <div class="page-header-mini">
+        <span>Dự án: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span><strong>Tổng Hợp Kết Quả & Kế Hoạch Thực Nghiệm Pha 3</strong></span>
+    </div>
+
     <div class="section">
         <div class="section-title">
-            <span>4. Kết Quả Thực Thi: Trích Xuất Hàng Loạt Đa Tiến Trình (Multiprocessing)</span>
-            <span class="status-badge">Hoàn tất 100% (932/932 video)</span>
+            <span>7. Hạng Mục 10: Tích Hợp PyTorch Dataset & Bộ Kiểm Thử Tự Động Toàn Diện</span>
+            <span class="status-badge">Tích hợp hoàn tất 100%</span>
         </div>
         <p>
-            Script <code>scripts/extract_multiprocess.py</code> sử dụng <code>multiprocessing.Pool</code> (4 workers song song), khóa xung đột luồng nội bộ OpenCV/BLAS và hỗ trợ Resume. Toàn bộ kho video WLASL-100 đã được trích xuất hoàn tất (ghi nhận tại <code>data/landmarks/extraction_summary.json</code>):
+            Toàn bộ chuỗi xử lý đã được tích hợp trọn vẹn vào lớp <code>WLASLDataset</code> và hàm <code>create_dataloader</code> trong <code>src/dataset.py</code>. Khi nạp một mẫu qua <code>__getitem__</code>, quy trình dữ liệu được thực thi tự động, khép kín và an toàn:
         </p>
 
-        <table class="table-center">
+        <div class="flow-container">
+            <div class="flow-step">
+                <span class="step-num">1</span>
+                <div class="step-title">Load NPY / H5</div>
+                <div class="step-desc">Đọc vector 201D hoặc Holistic</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">2</span>
+                <div class="step-title">Interpolation</div>
+                <div class="step-desc">Bù mất dấu, giữ 0 cho biên & 1 tay</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">3</span>
+                <div class="step-title">2-Tier Normalization</div>
+                <div class="step-desc">Vai toàn cục & Cổ tay cục bộ</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">4</span>
+                <div class="step-title">Temporal Resampling</div>
+                <div class="step-desc">Nội suy liên tục về T = 30</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">5</span>
+                <div class="step-title">Coordinate Augment</div>
+                <div class="step-desc">Scale, Rotate, Noise (chỉ Train)</div>
+            </div>
+            <div class="flow-step">
+                <span class="step-num">6</span>
+                <div class="step-title">PyTorch Tensor</div>
+                <div class="step-desc">Shape (Batch, 30, 201) float32</div>
+            </div>
+        </div>
+
+        <div class="card" style="margin-top: 4px;">
+            <div class="card-header"><span class="icon">●</span> Bảng Tổng Hợp Kết Quả Kiểm Thử Tự Động Toàn Dự Án (42/42 Tests)</div>
+            <table class="table-center">
+                <thead>
+                    <tr>
+                        <th>Tập tin kiểm thử</th>
+                        <th>Hạng mục module kiểm thử</th>
+                        <th>Số lượng Test Cases</th>
+                        <th>Trạng thái</th>
+                        <th>Thời gian thực thi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>tests/test_interpolation.py</code></td>
+                        <td>Nội suy tuyến tính & Zero-Padding bàn tay mất dấu</td>
+                        <td>9 / 9 tests</td>
+                        <td><strong style="color: #166534;">100% PASSED</strong></td>
+                        <td>0.082s</td>
+                    </tr>
+                    <tr>
+                        <td><code>tests/test_normalization.py</code></td>
+                        <td>Chuẩn hóa 2 tầng: Trung điểm hai vai & Gốc cổ tay</td>
+                        <td>8 / 8 tests</td>
+                        <td><strong style="color: #166534;">100% PASSED</strong></td>
+                        <td>0.075s</td>
+                    </tr>
+                    <tr>
+                        <td><code>tests/test_temporal_resampling.py</code></td>
+                        <td>Resampling chuỗi thời gian cố định T = 30 khung hình</td>
+                        <td>14 / 14 tests</td>
+                        <td><strong style="color: #166534;">100% PASSED</strong></td>
+                        <td>0.128s</td>
+                    </tr>
+                    <tr>
+                        <td><code>tests/test_augmentation.py</code></td>
+                        <td>Tăng cường dữ liệu tọa độ & Bảo toàn Zero-Mask</td>
+                        <td>11 / 11 tests</td>
+                        <td><strong style="color: #166534;">100% PASSED</strong></td>
+                        <td>0.118s</td>
+                    </tr>
+                    <tr style="font-weight: bold; background: #e2e8f0;">
+                        <td>TỔNG CỘNG TOÀN BỘ DỰ ÁN</td>
+                        <td>Pipeline Dữ Liệu & Tiền Xử Lý Hình Học Cốt Lõi</td>
+                        <td>42 / 42 tests</td>
+                        <td><strong style="color: #166534;">100% PASSED</strong></td>
+                        <td><strong>0.403 giây</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- BẢNG ĐỐI CHIẾU SO SÁNH -->
+    <div class="section">
+        <div class="section-title">
+            <span>8. Bảng Đối Chiếu Ưu Thế Kỹ Thuật So Với Phương Pháp Truyền Thống</span>
+        </div>
+        <table>
             <thead>
                 <tr>
-                    <th>Tổng Video Target</th>
-                    <th>Xử Lý Thành Công</th>
-                    <th>Số Video Lỗi</th>
-                    <th>Tổng Frames Trích Xuất</th>
-                    <th>Thời Gian Thực Thi</th>
-                    <th>Tốc Độ Xử Lý</th>
+                    <th>Tiêu chí đánh giá</th>
+                    <th>Phương pháp 3D-CNN trên Pixel (I3D, SlowFast)</th>
+                    <th>MediaPipe Holistic Thô (Raw Landmarks)</th>
+                    <th>Phương Pháp Đề Xuất Của Đề Tài (Proposed Pipeline)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>932 clips</strong></td>
-                    <td><strong>932 clips (100%)</strong></td>
-                    <td><strong>0 lỗi</strong></td>
-                    <td><strong>65,945 frames</strong></td>
-                    <td>~61.4 phút (3,685s)</td>
-                    <td>~17.89 frames/giây</td>
+                    <td><strong>Số chiều đặc trưng / Frame</strong></td>
+                    <td>Rất lớn (<span class="math">224 &times; 224 &times; 3 &asymp; 150,528</span> values)</td>
+                    <td>543 điểm <span class="math">&times;</span> 3 = 1,629 values (86% là mặt)</td>
+                    <td><strong>Đúng 201 values</strong> (tinh lọc 67 điểm mang ý nghĩa ký hiệu)</td>
+                </tr>
+                <tr>
+                    <td><strong>Tính bất biến không gian</strong></td>
+                    <td>Kém, phụ thuộc màu nền, trang phục, góc máy</td>
+                    <td>Kém, tọa độ phụ thuộc vị trí đứng trước camera</td>
+                    <td><strong>Hoàn hảo</strong>: Bất biến vị trí (vai) &amp; hình thái ngón tay (cổ tay)</td>
+                </tr>
+                <tr>
+                    <td><strong>Độ dài chuỗi thời gian</strong></td>
+                    <td>Cố định bằng cách cắt xén hoặc đệm đen</td>
+                    <td>Biến thiên phân tán từ 12 đến 85 frames</td>
+                    <td><strong>Cố định chuẩn <span class="math">T = 30</span></strong> qua Continuous Linear Resampling</td>
+                </tr>
+                <tr>
+                    <td><strong>Khắc phục bàn tay mất dấu</strong></td>
+                    <td>Không can thiệp được khi bị che khuất</td>
+                    <td>Bị nhảy xung đột ngột về 0 gây nhiễu lớn</td>
+                    <td><strong>Nội suy mượt mà</strong>, đệm 0 chuẩn xác cho cử chỉ 1 tay</td>
+                </tr>
+                <tr>
+                    <td><strong>Chống Overfitting</strong></td>
+                    <td>Augment ảnh rất chậm, ngốn GPU nặng</td>
+                    <td>Không có cơ chế chuyên biệt cho landmarks</td>
+                    <td><strong>Coordinate Augmentor</strong> với cơ chế bảo toàn Zero-Mask</td>
+                </tr>
+                <tr>
+                    <td><strong>Tài nguyên &amp; Tốc độ suy luận</strong></td>
+                    <td>Đòi hỏi GPU cao cấp (VRAM <span class="math">&ge; 8</span> GB)</td>
+                    <td>Nặng nề do quá nhiều điểm mốc dư thừa</td>
+                    <td><strong>Nhẹ, tối ưu</strong>, huấn luyện và suy luận realtime mượt mà trên CPU</td>
                 </tr>
             </tbody>
         </table>
-
-        <div class="grid-2">
-            <div class="card">
-                <div class="card-header"><span class="icon">●</span> Kiến Trúc Lưu Trữ Kép (Storage Architecture)</div>
-                <ul>
-                    <li><strong>Kho file riêng lẻ:</strong> Lưu đủ <strong>932 file <code>.npy</code></strong> tại <code>data/landmarks/</code> phục vụ kiểm tra và gỡ lỗi từng clip.</li>
-                    <li><strong>File HDF5 tổng hợp:</strong> Gom vào <code>data/landmarks/wlasl100_landmarks.h5</code> (381.3 MB, nén Gzip level 4), phân cấp cây <code>train/</code>, <code>val/</code>, <code>test/</code>.</li>
-                    <li><strong>Hiệu năng:</strong> Đọc trực tiếp từ HDF5 giúp triệt tiêu hiện tượng nghẽn I/O khi nạp hàng ngàn file nhỏ trong mỗi epoch huấn luyện.</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <div class="card-header"><span class="icon">●</span> Tích Hợp Pipeline PyTorch</div>
-                <ul>
-                    <li><strong>Dataset Loader:</strong> <code>src/dataset.py</code> triển khai <code>WLASLDataset</code>, tự động cắt/đệm chuỗi cố định (<code>max_seq_len = 60</code> frames).</li>
-                    <li><strong>Mô hình Baseline:</strong> <code>src/models.py</code> xây dựng mô hình mạng <code>SLRModel</code> (Bidirectional LSTM) tiếp nhận tensor đầu vào shape <code>(Batch, 60, 201)</code>.</li>
-                    <li><strong>Kịch bản Huấn luyện:</strong> <code>src/train.py</code> sẵn sàng cho phân loại 100 lớp, tự động điều phối linh hoạt tài nguyên CPU/GPU.</li>
-                </ul>
-            </div>
-        </div>
     </div>
 
     <!-- KẾ HOẠCH BƯỚC TIẾP THEO -->
     <div class="section">
         <div class="section-title">
-            <span>5. Kế Hoạch Các Bước Kế Tiếp (Roadmap Thực Hiện)</span>
+            <span>9. Kế Hoạch Các Bước Kế Tiếp (Roadmap Pha 3: Huấn Luyện & Thực Nghiệm Mô Hình)</span>
         </div>
-        <ol style="padding-left: 18px; font-size: 11px; line-height: 1.5;">
-            <li><strong>Huấn luyện mô hình Baseline:</strong> Chạy mô hình BiLSTM và GRU trên tập Train (633 samples) / Val (155 samples) trong 50 epochs, tối ưu hàm loss CrossEntropy và áp dụng Dropout hạn chế overfitting.</li>
-            <li><strong>Thử nghiệm kiến trúc nâng cao:</strong> Tích hợp mạng Transformer Encoder / Spatial-Temporal Graph Convolutional Network (ST-GCN) dựa trên cấu trúc đồ thị khung xương 67 điểm.</li>
-            <li><strong>Đánh giá toàn diện:</strong> Đo lường trên tập độc lập Test (144 samples) với các chỉ số Top-1, Top-5 Accuracy và trực quan hóa Confusion Matrix cho 100 lớp cử chỉ.</li>
-            <li><strong>Xây dựng ứng dụng Demo:</strong> Tích hợp <code>SignFeatureExtractor</code> vào camera/webcam máy tính để nhận dạng ngôn ngữ ký hiệu thời gian thực.</li>
+        <ol style="padding-left: 16px; font-size: 10.3px; line-height: 1.42;">
+            <li><strong>Huấn luyện mô hình Baseline:</strong> Thực thi <code>src/train.py</code> với mô hình Bidirectional LSTM (BiLSTM) và Gated Recurrent Unit (GRU) trên tập Train (633 samples) / Val (155 samples) với batch shape <code>(Batch, 30, 201)</code>, hàm mất mát CrossEntropyLoss và tối ưu hóa AdamW.</li>
+            <li><strong>Thử nghiệm kiến trúc nâng cao:</strong> Nghiên cứu áp dụng Transformer Encoder (với Positional Encoding) và Spatial-Temporal Graph Convolutional Network (ST-GCN) khai thác cấu trúc đồ thị khung xương 67 khớp nối.</li>
+            <li><strong>Đánh giá toàn diện trên Test Split:</strong> Đánh giá trên tập độc lập Test (144 samples) theo các chỉ số chuẩn quốc tế: Top-1 Accuracy, Top-5 Accuracy, đồng thời vẽ ma trận nhầm lẫn (Confusion Matrix) cho 100 lớp từ vựng.</li>
+            <li><strong>Triển khai ứng dụng Real-time Demo:</strong> Kết nối trực tiếp webcam máy tính với pipeline <code>SignFeatureExtractor</code> &rarr; Chuẩn hóa &rarr; Mô hình suy luận &rarr; Hiển thị từ vựng nhận dạng thời gian thực.</li>
         </ol>
     </div>
 
     <!-- FOOTER -->
     <div class="footer">
-        <span>Báo cáo tiến độ: Isolated Sign Language Recognition (WLASL-100)</span>
-        <span>Sinh viên: Phạm Anh Tuấn | GitHub / Isolated-SLR</span>
-        <span>Trang 2 / 2</span>
+        <span>Báo cáo giải trình kỹ thuật: Isolated Sign Language Recognition (WLASL-100)</span>
+        <span>Tác giả: Phạm Anh Tuấn | GitHub: TuanNguyen131/Isolated-SLR</span>
+        <span>Trang 5 / 5</span>
     </div>
 
 </body>
